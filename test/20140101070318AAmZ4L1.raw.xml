@@ -9,7 +9,7 @@
     document.documentElement.className += " JsEnabled";
     document.documentElement.className = document.documentElement.className.replace("NoJs","");
   </script>
-  <link rel="stylesheet" href="https://s.yimg.com/os/stencil/3.0.1/desktop/styles-ltr.css"/> 
+  <link rel="stylesheet" href="https://s.yimg.com/os/stencil/3.0.1/desktop/styles-ltr.css"/>
   <link rel="stylesheet" href="https://s.yimg.com/zz/combo?kx/yucs/uh3s/atomic/88/css/atomic-min.css&amp;kx/yucs/uh_common/meta/3/css/meta-min.css&amp;kx/yucs/uh3/get-the-app/151/css/get_the_app-min.css&amp;kx/yucs/uhc/yset-search/130/css/generic_yset_search-min.css&amp;kx/yucs/uh3s/trending-now/53/css/trending_now-min.css&amp;kx/yucs/uh3s/uh/410/css/uh-gs-grid-min.css&amp;tr/v321173/css/gallery-carousel-min.css&amp;tr/v321173/css/yanew-stencil-min.css&amp;tr/v321173/css/stencil-grid-min.css"/>
   <!--[if lt IE 9]>
   <style type="text/css">
@@ -210,7 +210,7 @@ padding-right: 310px;&#13;
 </div>
 </div>
 
-      
+
     </div>
     <div id="ya-left-rail" class="Col1 Pos-a Start-0 Z-9 Stack">
       <div class="ya-left-rail-sticker" data-plugin="sticker">
@@ -222,8 +222,8 @@ padding-right: 310px;&#13;
  </li>
   </ul>
   </div>
-  
-   <div class="Hpx-13"/> 
+
+   <div class="Hpx-13"/>
   <div id="ya-pinned-cat" class="Mb-30 D-n" aria-hidden="true" data-ya-track="1" data-ya-mod="pinnav" role="navigation">
     <ul id="ya-pinned-cat-list">
     </ul>
@@ -451,10 +451,10 @@ padding-right: 310px;&#13;
         </ul>
       </div>    </li>
   </ul>
-  
+
   <div class="Hpx-30"/>
 </div>
-  
+
       </div>
     </div>
     <div itemscope="" itemtype="https://schema.org/Question" id="ya-center-rail" class="Col2 Pos-a Bxz-bb Start-0">
@@ -464,15 +464,15 @@ padding-right: 310px;&#13;
 
 
     <a href="/dir/index?sid=396545469&amp;link=list" class="Clr-b" title="Travel" data-ylk="slk:cat;catId:396545469;isLeaf:"> Travel</a>
-     <i class="shared-sprite rightbeak Hpx-20 Wpx-10 D-ib Va-m"/> 
+     <i class="shared-sprite rightbeak Hpx-20 Wpx-10 D-ib Va-m"/>
 
 
     <a href="/dir/index?sid=396545529&amp;link=list" class="Clr-b" title="Ireland" data-ylk="slk:cat;catId:396545529;isLeaf:"> Ireland</a>
-     <i class="shared-sprite rightbeak Hpx-20 Wpx-10 D-ib Va-m"/> 
+     <i class="shared-sprite rightbeak Hpx-20 Wpx-10 D-ib Va-m"/>
 
 
     <a href="/dir/index?sid=396546127&amp;link=list" class="Clr-b" title="Waterford" data-ylk="slk:cat;catId:396546127;isLeaf:1"> Waterford</a>
-    
+
 
 
     </div>
@@ -499,7 +499,7 @@ padding-right: 310px;&#13;
 
 
 <div class="Fz-13 Fw-n Mb-10">
-    
+
     <span itemprop="text" class="ya-q-text">i heard the Romans called it that because of all the Irish raiders coming from the Irish sea to Britian and France Gaul . <br/>
   <br/>
 <a href="http://www.google.ie/url?sa=i&amp;source=images&amp;cd=&amp;docid=V6kD1iihL3RSqM&amp;tbnid=Pql9bhne4o65lM:&amp;ved=0CAgQjRw&amp;url=http%3A%2F%2Fwww.ancestraljourneys.org%2Fceltictribeswales.shtml&amp;ei=5S3EUtT1K6yp7QaXwICYDw&amp;psig=AFQjCNEba0T2Q-xNutNfaGd9886YGp9QNg&amp;ust=1388674917830226" rel="nofollow" class="Clr-b">http://www.google.ie/url?sa=i&amp;source=ima...</a></span>
@@ -686,9 +686,9 @@ Your spelling is as bad as your trolling. </span>
         </div>
 
         <div class="Pt-15">
-            
+
             <a href="/activity/questions?show=G5Z4KQF6SJTHJSMOH4PZV3RU2E&amp;t=g" class="uname Clr-b" data-ylk="slk:usract">greenorlagh</a>
-            
+
             <span class="Clr-88"> · 3 years ago </span>
         </div>
         <div class="ya-err-holder"/>
@@ -726,22 +726,22 @@ Your spelling is as bad as your trolling. </span>
                 </div>
 <div class="ya-input-box Mstart-58 D-n" role="region" aria-hidden="true" aria-live="polite">
     <form autocomplete="off">
-    
+
     <div class="Bdx-gr Mb-10 ">
         <div>
             <textarea placeholder="Add a comment" class="M-0 Fl-start Bd-0 W-100 Pt-10 Px-10 Bsz-b Maw-100P ya-input-box-main-ta textarea-ie7-fix Hpx-100" data-max-length="300"/>
-            
-            
+
+
         </div>
         <div id="answer-mm-preview" aria-hidden="true" class="D-n Bgc-w Bdtd-lg P-14 Bfc">
         </div>
         <div class="Bfc Bdtx-1g Bgc-fc P-10">
-            
-            
-            
+
+
+
             <div class="Fl-end">
                 <span role="button" tabindex="0" class="Cur-p Ol-n btn-primary Px-13 Py-6 ya-submit">Submit</span>
-                
+
             </div>
         </div>
     </div>
@@ -804,7 +804,7 @@ In any town in Ireland, ask where is the Dublin road  -  and you will be directe
 
 
             <div class="Pt-15">
-                
+
                 <a href="/activity/questions?show=HGYZPBHULKN7E6QTXBTOBIZWZ4&amp;t=g" class="uname Clr-b" data-ylk="slk:usract">bluebell</a>
                 <span class="Clr-88"> · 3 years ago </span>
             </div>
@@ -846,22 +846,22 @@ In any town in Ireland, ask where is the Dublin road  -  and you will be directe
                 </div>
 <div class="ya-input-box Mstart-58 D-n" role="region" aria-hidden="true" aria-live="polite">
     <form autocomplete="off">
-    
+
     <div class=" Mb-10 Bdx-1b">
         <div>
             <textarea placeholder="Add a comment" class="M-0 Fl-start Bd-0 W-100 Pt-10 Px-10 Bsz-b Maw-100P ya-input-box-main-ta textarea-ie7-fix Hpx-100" data-max-length="300"/>
-            
-            
+
+
         </div>
         <div id="answer-mm-preview" aria-hidden="true" class="D-n Bgc-w Bdtd-lg P-14 Bfc">
         </div>
         <div class="Bfc Bdtx-1g Bgc-fc P-10">
-            
-            
-            
+
+
+
             <div class="Fl-end">
                 <span role="button" tabindex="0" class="Cur-p Ol-n btn-primary Px-13 Py-6 ya-submit">Submit</span>
-                
+
             </div>
         </div>
     </div>
@@ -924,7 +924,7 @@ I liked your theory about the Irish raiders, sounds as plausible as anything.  I
 
 
             <div class="Pt-15">
-                
+
                 <a href="/activity/questions?show=RAACT4P7L6USKXBYMPWM7HEE6E&amp;t=g" class="uname Clr-b" data-ylk="slk:usract">Dangermanmi6</a>
                 <span class="Clr-88"> · 3 years ago </span>
             </div>
@@ -966,22 +966,22 @@ I liked your theory about the Irish raiders, sounds as plausible as anything.  I
                 </div>
 <div class="ya-input-box Mstart-58 D-n" role="region" aria-hidden="true" aria-live="polite">
     <form autocomplete="off">
-    
+
     <div class=" Mb-10 Bdx-1b">
         <div>
             <textarea placeholder="Add a comment" class="M-0 Fl-start Bd-0 W-100 Pt-10 Px-10 Bsz-b Maw-100P ya-input-box-main-ta textarea-ie7-fix Hpx-100" data-max-length="300"/>
-            
-            
+
+
         </div>
         <div id="answer-mm-preview" aria-hidden="true" class="D-n Bgc-w Bdtd-lg P-14 Bfc">
         </div>
         <div class="Bfc Bdtx-1g Bgc-fc P-10">
-            
-            
-            
+
+
+
             <div class="Fl-end">
                 <span role="button" tabindex="0" class="Cur-p Ol-n btn-primary Px-13 Py-6 ya-submit">Submit</span>
-                
+
             </div>
         </div>
     </div>
@@ -1038,7 +1038,7 @@ I liked your theory about the Irish raiders, sounds as plausible as anything.  I
 
 
             <div class="Pt-15">
-                
+
                 <a href="/activity/questions?show=GRTWM3QFXI5OAXDFOR2IOV2FLU&amp;t=g" class="uname Clr-b" data-ylk="slk:usract">Martin</a>
                 <span class="Clr-88"> · 3 years ago </span>
             </div>
@@ -1080,22 +1080,22 @@ I liked your theory about the Irish raiders, sounds as plausible as anything.  I
                 </div>
 <div class="ya-input-box Mstart-58 D-n" role="region" aria-hidden="true" aria-live="polite">
     <form autocomplete="off">
-    
+
     <div class=" Mb-10 Bdx-1b">
         <div>
             <textarea placeholder="Add a comment" class="M-0 Fl-start Bd-0 W-100 Pt-10 Px-10 Bsz-b Maw-100P ya-input-box-main-ta textarea-ie7-fix Hpx-100" data-max-length="300"/>
-            
-            
+
+
         </div>
         <div id="answer-mm-preview" aria-hidden="true" class="D-n Bgc-w Bdtd-lg P-14 Bfc">
         </div>
         <div class="Bfc Bdtx-1g Bgc-fc P-10">
-            
-            
-            
+
+
+
             <div class="Fl-end">
                 <span role="button" tabindex="0" class="Cur-p Ol-n btn-primary Px-13 Py-6 ya-submit">Submit</span>
-                
+
             </div>
         </div>
     </div>
@@ -1152,7 +1152,7 @@ I liked your theory about the Irish raiders, sounds as plausible as anything.  I
 
 
             <div class="Pt-15">
-                
+
                 <a href="/activity/questions?show=54FVUMZKNI7OQAXLPHTZ6MAZDA&amp;t=g" class="uname Clr-b" data-ylk="slk:usract">Wendy</a>
                 <span class="Clr-88"> · 2 months ago </span>
             </div>
@@ -1194,22 +1194,22 @@ I liked your theory about the Irish raiders, sounds as plausible as anything.  I
                 </div>
 <div class="ya-input-box Mstart-58 D-n" role="region" aria-hidden="true" aria-live="polite">
     <form autocomplete="off">
-    
+
     <div class=" Mb-10 Bdx-1b">
         <div>
             <textarea placeholder="Add a comment" class="M-0 Fl-start Bd-0 W-100 Pt-10 Px-10 Bsz-b Maw-100P ya-input-box-main-ta textarea-ie7-fix Hpx-100" data-max-length="300"/>
-            
-            
+
+
         </div>
         <div id="answer-mm-preview" aria-hidden="true" class="D-n Bgc-w Bdtd-lg P-14 Bfc">
         </div>
         <div class="Bfc Bdtx-1g Bgc-fc P-10">
-            
-            
-            
+
+
+
             <div class="Fl-end">
                 <span role="button" tabindex="0" class="Cur-p Ol-n btn-primary Px-13 Py-6 ya-submit">Submit</span>
-                
+
             </div>
         </div>
     </div>
@@ -1276,19 +1276,19 @@ I liked your theory about the Irish raiders, sounds as plausible as anything.  I
             <div class="ya-answer-box-prompt Mih-30 Bdx-1b Bgc-w Clr-888 Va-m P-10 Hpx-30 Cur-p" tabindex="0" role="button">Add your answer</div>
 <div class="ya-input-box  D-n" role="region" aria-hidden="true" aria-live="polite">
     <form autocomplete="off">
-    
+
     <div class=" Mb-10 Bdx-1b">
         <div>
             <textarea aria-label="Add your answer" placeholder="Add your answer" class="M-0 Fl-start Bd-0 W-100 Pt-10 Px-10 Bsz-b Maw-100P ya-input-box-main-ta textarea-ie7-fix Hpx-90"/>
             <textarea aria-label="What's your Source (Optional)" placeholder="What's your Source (Optional)" class="M-0 Fl-start Bd-0 W-100 Pt-10 Px-10 Bsz-b Maw-100P Bdtd-lg D-n ya-input-box-source-ta textarea-ie7-fix Hpx-50" maxlength="500"/>
-            
+
         </div>
         <div id="answer-mm-preview" aria-hidden="true" class="D-n Bgc-w Bdtd-lg P-14 Bfc">
         </div>
         <div class="Bfc Bdtx-1g Bgc-fc P-10">
-            
+
             <div role="button" tabindex="0" class="Fl-start Lh-20 Cur-p Whs-nw Ol-n Mt-5 Mend-10 ya-input-box-source-btn"><i class="shared-sprite btn-source-icon D-ib Hpx-20 Wpx-20 Mend-5 Va-t "/><span class="D-ib">Source</span></div>
-            
+
             <div class="Fl-end">
                 <span role="button" tabindex="0" class="Cur-p Ol-n btn-primary Px-13 Py-6 ya-submit">Submit</span>
                 <span role="button" tabindex="0" class="Cur-p Ol-n btn-default Px-13 Py-6 ya-cancel">Cancel</span>
@@ -1364,7 +1364,7 @@ I liked your theory about the Irish raiders, sounds as plausible as anything.  I
 
         <div class="ya-rac-err-holder"/>
     </div>
-</div>        <div class="Pb-70 Bdtx-1g"/>  
+</div>        <div class="Pb-70 Bdtx-1g"/>
     </div>
   <div id="ya-right-rail" class="Col3 Pos-a End-0 Z-9 Stack">
       <div id="ColWrap" class="ya-right-rail-sticker" data-plugin="sticker">
@@ -1388,7 +1388,7 @@ I liked your theory about the Irish raiders, sounds as plausible as anything.  I
                 <div id="mm-preview"/>
 		<div class="util-bar Py-5 Px-10 Hpx-25 Bgc-lgr Lh-20 Bdtd-ldg">
 			<div class="ask-details Maw-75 W-100 Va-m Fl-n Cur-p D-ib Mt-3 Whs-nw Ov-h Ol-n" role="button" tabindex="0">
-				<div class="Bgc-t Bgr-n Va-m Fl-start shared-sprite ask-details-icon D-ib Mend-5 Wpx-20 Hpx-20"/> 
+				<div class="Bgc-t Bgr-n Va-m Fl-start shared-sprite ask-details-icon D-ib Mend-5 Wpx-20 Hpx-20"/>
 				<div class="D-ib Fz-12">Details</div>
 			</div>
 			<div class="ask-details-disabled Maw-75 W-100 Va-m Fl-n Cur-p D-ib Mt-3 D-n Clr-ce Ol-n" role="button" aria-disabled="true" tabindex="0">
@@ -1567,7 +1567,7 @@ I liked your theory about the Irish raiders, sounds as plausible as anything.  I
             <a href="/rss/question?qid=20140101070318AAmZ4L1" class="unselected Fz-11 Fw-300">RSS</a>
         </li>
     </ul>
-</div>      
+</div>
       </div>
     </div>
   </div>
@@ -1602,7 +1602,7 @@ I liked your theory about the Irish raiders, sounds as plausible as anything.  I
 <script>
   window.onload = function() {
     YUI(yuicfg).use( 'get','ya-rapid','ya-new-logout','ya-cookie','gallery-zui-placeholder','yaft2-report','stencil-modules','ya-flyout','ya-question-details','ya-question-actions','ya-profile-card','ya-qn-sort','ya-ans-actions','ya-answer-box','ya-askWidget','ya-ask-widget-controller','ya-existingQuestionsWidget','ya-textAreaWidget','ya-uploadWidget','ya-trending','ya-gossip' , function(Y) {
-      
+
     Y.YA.Flyout.register();
     var questionActions = new Y.YA.Q.QuestionActions({
       'node': '#ya-question-detail',
@@ -1778,7 +1778,7 @@ LREC2: {wcpx: 1, hcpx: 1, dest: 'tgtLREC2', clean: 'boxLREC2' ,fdb: { "on": 1 } 
     var yaCookie = new Y.YA.Cookie.Lib(cfg);
 
     Y.YA.LO({'loginURL' : ANSWERS.loginURL,'joinURL' : ANSWERS.joinURL,'yu' : ANSWERS.yi,'si' : ANSWERS.si});
-    
+
     if (!ANSWERS.isStencilEnabled) {
       var leftNavDocBottom = new Y.YA.Dock.Bottom({node: '#ya-left-rail','leftDependent': '#ya-center-two-col'});
     }
