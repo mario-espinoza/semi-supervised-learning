@@ -1,0 +1,780 @@
+
+ svmlin (v1.0)   
+
+Reading file: tags_training.txt
+  Label Vector Statistics:
+      Labeled = 10425 (Positive = 6428  Negative = 3997)
+      Unlabeled = 18747
+Reading file: title_training.txt
+  Input Data Matrix Statistics:
+      Examples: 29172
+      Features: 33471 (including bias feature)
+      Non-zeros:  352619 (including bias features)
+      Average sparsity: 12.0876 non-zero features per example.
+Reading took 0.230831 secs. 
+
+Transductive L2-SVM (TSVM)
+
+Initializing weights, unknown labels
+L2_SVM_MFN Iteration# 1 (10425 active examples,  objective_value = 0.5)
+ CGLS converged in 10 iteration(s) and 0.007821 seconds.
+ LINE_SEARCH delta = 1.05621
+L2_SVM_MFN Iteration# 2 (9914 active examples,  objective_value = 0.357065)
+ CGLS converged in 47 iteration(s) and 0.031926 seconds.
+ LINE_SEARCH delta = 0.916656
+L2_SVM_MFN Iteration# 3 (10257 active examples,  objective_value = 0.328375)
+ CGLS converged in 35 iteration(s) and 0.02512 seconds.
+ LINE_SEARCH delta = 1.00339
+L2_SVM_MFN Iteration# 4 (10231 active examples,  objective_value = 0.327466)
+ CGLS converged in 14 iteration(s) and 0.00999 seconds.
+  epsilon = 0.01 case converged (speedup heuristic 2). Continuing with epsilon=1e-06
+L2_SVM_MFN Iteration# 5 (10231 active examples,  objective_value = 0.327466)
+ CGLS converged in 79 iteration(s) and 0.055099 seconds.
+ LINE_SEARCH delta = 1.00078
+L2_SVM_MFN Iteration# 6 (10229 active examples,  objective_value = 0.327465)
+ CGLS converged in 51 iteration(s) and 0.03494 seconds.
+L2_SVM_MFN converged (optimality) in 6 iteration(s) and 0.168829 seconds. 
+
+L2_SVM_MFN Iteration# 1 (29172 active examples,  objective_value = 0.500005)
+ CGLS converged in 10 iteration(s) and 0.019526 seconds.
+ LINE_SEARCH delta = 1.05473
+L2_SVM_MFN Iteration# 2 (28113 active examples,  objective_value = 0.357071)
+ CGLS converged in 47 iteration(s) and 0.084136 seconds.
+ LINE_SEARCH delta = 0.916346
+L2_SVM_MFN Iteration# 3 (28698 active examples,  objective_value = 0.328384)
+ CGLS converged in 36 iteration(s) and 0.064461 seconds.
+ LINE_SEARCH delta = 1.00337
+L2_SVM_MFN Iteration# 4 (28611 active examples,  objective_value = 0.327469)
+ CGLS converged in 15 iteration(s) and 0.02706 seconds.
+ LINE_SEARCH delta = 1.00134
+L2_SVM_MFN Iteration# 5 (28608 active examples,  objective_value = 0.327468)
+ CGLS converged in 1 iteration(s) and 0.002694 seconds.
+  epsilon = 0.01 case converged (speedup heuristic 2). Continuing with epsilon=1e-06
+L2_SVM_MFN Iteration# 6 (28608 active examples,  objective_value = 0.327468)
+ CGLS converged in 70 iteration(s) and 0.124347 seconds.
+ LINE_SEARCH delta = 0.99978
+L2_SVM_MFN Iteration# 7 (28609 active examples,  objective_value = 0.327468)
+ CGLS converged in 38 iteration(s) and 0.067571 seconds.
+L2_SVM_MFN converged (optimality) in 7 iteration(s) and 0.401039 seconds. 
+
+
+****** lambda0 increased to 0.0015% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28609 active examples,  objective_value = 0.327469)
+ CGLS converged in 37 iteration(s) and 0.066065 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.066493 seconds. 
+
+
+****** lambda0 increased to 0.00225% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28609 active examples,  objective_value = 0.327471)
+ CGLS converged in 39 iteration(s) and 0.0696 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.070042 seconds. 
+
+
+****** lambda0 increased to 0.003375% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28609 active examples,  objective_value = 0.327474)
+ CGLS converged in 45 iteration(s) and 0.080243 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.080665 seconds. 
+
+
+****** lambda0 increased to 0.0050625% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28609 active examples,  objective_value = 0.327479)
+ CGLS converged in 46 iteration(s) and 0.081132 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.081538 seconds. 
+
+
+****** lambda0 increased to 0.00759375% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28609 active examples,  objective_value = 0.327486)
+ CGLS converged in 49 iteration(s) and 0.08733 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.08774 seconds. 
+
+
+****** lambda0 increased to 0.0113906% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28609 active examples,  objective_value = 0.327496)
+ CGLS converged in 52 iteration(s) and 0.092022 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.092435 seconds. 
+
+
+****** lambda0 increased to 0.0170859% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28609 active examples,  objective_value = 0.327512)
+ CGLS converged in 56 iteration(s) and 0.098182 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.09859 seconds. 
+
+
+****** lambda0 increased to 0.0256289% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28609 active examples,  objective_value = 0.327535)
+ CGLS converged in 57 iteration(s) and 0.100429 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.100835 seconds. 
+
+
+****** lambda0 increased to 0.0384434% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28609 active examples,  objective_value = 0.32757)
+ CGLS converged in 59 iteration(s) and 0.103649 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.104056 seconds. 
+
+
+****** lambda0 increased to 0.057665% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28609 active examples,  objective_value = 0.327622)
+ CGLS converged in 64 iteration(s) and 0.112444 seconds.
+ LINE_SEARCH delta = 0.999989
+L2_SVM_MFN Iteration# 2 (28608 active examples,  objective_value = 0.327622)
+ CGLS converged in 3 iteration(s) and 0.006248 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.121469 seconds. 
+
+
+****** lambda0 increased to 0.0864976% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28608 active examples,  objective_value = 0.327701)
+ CGLS converged in 66 iteration(s) and 0.116054 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.116569 seconds. 
+
+****** lambda_0 = 0.000864976 iteration = 1 ************************************
+Optimizing unknown labels. switched 1 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28608 active examples,  objective_value = 0.327701)
+ CGLS converged in 42 iteration(s) and 0.074238 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.074664 seconds. 
+
+
+****** lambda0 increased to 0.129746% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28608 active examples,  objective_value = 0.327819)
+ CGLS converged in 69 iteration(s) and 0.121856 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.122266 seconds. 
+
+
+****** lambda0 increased to 0.19462% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28608 active examples,  objective_value = 0.327996)
+ CGLS converged in 72 iteration(s) and 0.126268 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.126684 seconds. 
+
+****** lambda_0 = 0.0019462 iteration = 1 ************************************
+Optimizing unknown labels. switched 1 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28608 active examples,  objective_value = 0.327996)
+ CGLS converged in 49 iteration(s) and 0.086505 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.086918 seconds. 
+
+
+****** lambda0 increased to 0.291929% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28608 active examples,  objective_value = 0.328261)
+ CGLS converged in 76 iteration(s) and 0.133629 seconds.
+ LINE_SEARCH delta = 1.00008
+L2_SVM_MFN Iteration# 2 (28607 active examples,  objective_value = 0.32826)
+ CGLS converged in 30 iteration(s) and 0.053463 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.189876 seconds. 
+
+****** lambda_0 = 0.00291929 iteration = 1 ************************************
+Optimizing unknown labels. switched 1 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28607 active examples,  objective_value = 0.32826)
+ CGLS converged in 52 iteration(s) and 0.091532 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.091947 seconds. 
+
+
+****** lambda0 increased to 0.437894% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28607 active examples,  objective_value = 0.328658)
+ CGLS converged in 76 iteration(s) and 0.137541 seconds.
+ LINE_SEARCH delta = 1.00002
+L2_SVM_MFN Iteration# 2 (28604 active examples,  objective_value = 0.328657)
+ CGLS converged in 31 iteration(s) and 0.054972 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.195276 seconds. 
+
+****** lambda_0 = 0.00437894 iteration = 1 ************************************
+Optimizing unknown labels. switched 1 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28604 active examples,  objective_value = 0.328657)
+ CGLS converged in 56 iteration(s) and 0.098926 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.099344 seconds. 
+
+
+****** lambda0 increased to 0.656841% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28604 active examples,  objective_value = 0.329252)
+ CGLS converged in 81 iteration(s) and 0.142161 seconds.
+ LINE_SEARCH delta = 1.00001
+L2_SVM_MFN Iteration# 2 (28596 active examples,  objective_value = 0.329251)
+ CGLS converged in 22 iteration(s) and 0.039346 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.184251 seconds. 
+
+****** lambda_0 = 0.00656841 iteration = 1 ************************************
+Optimizing unknown labels. switched 5 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28596 active examples,  objective_value = 0.329251)
+ CGLS converged in 63 iteration(s) and 0.112451 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.112884 seconds. 
+
+
+****** lambda0 increased to 0.985261% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28596 active examples,  objective_value = 0.330142)
+ CGLS converged in 81 iteration(s) and 0.141967 seconds.
+ LINE_SEARCH delta = 1.00008
+L2_SVM_MFN Iteration# 2 (28589 active examples,  objective_value = 0.33014)
+ CGLS converged in 46 iteration(s) and 0.080697 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.225387 seconds. 
+
+****** lambda_0 = 0.00985261 iteration = 1 ************************************
+Optimizing unknown labels. switched 2 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28589 active examples,  objective_value = 0.33014)
+ CGLS converged in 61 iteration(s) and 0.106545 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN Iteration# 2 (28588 active examples,  objective_value = 0.33014)
+ CGLS converged in 13 iteration(s) and 0.023435 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.132086 seconds. 
+
+
+****** lambda0 increased to 1.47789% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28588 active examples,  objective_value = 0.331471)
+ CGLS converged in 86 iteration(s) and 0.150786 seconds.
+ LINE_SEARCH delta = 1.00038
+L2_SVM_MFN Iteration# 2 (28572 active examples,  objective_value = 0.331467)
+ CGLS converged in 55 iteration(s) and 0.096193 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.249726 seconds. 
+
+****** lambda_0 = 0.0147789 iteration = 1 ************************************
+Optimizing unknown labels. switched 3 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28572 active examples,  objective_value = 0.331467)
+ CGLS converged in 68 iteration(s) and 0.119341 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.119776 seconds. 
+
+
+****** lambda0 increased to 2.21684% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28572 active examples,  objective_value = 0.333453)
+ CGLS converged in 88 iteration(s) and 0.154453 seconds.
+ LINE_SEARCH delta = 1.00106
+L2_SVM_MFN Iteration# 2 (28548 active examples,  objective_value = 0.333446)
+ CGLS converged in 62 iteration(s) and 0.109252 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN Iteration# 3 (28549 active examples,  objective_value = 0.333446)
+ CGLS converged in 3 iteration(s) and 0.006203 seconds.
+L2_SVM_MFN converged (optimality) in 3 iteration(s) and 0.27441 seconds. 
+
+****** lambda_0 = 0.0221684 iteration = 1 ************************************
+Optimizing unknown labels. switched 7 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28549 active examples,  objective_value = 0.333446)
+ CGLS converged in 72 iteration(s) and 0.126831 seconds.
+ LINE_SEARCH delta = 0.9999
+L2_SVM_MFN Iteration# 2 (28549 active examples,  objective_value = 0.333446)
+ CGLS converged in 30 iteration(s) and 0.053159 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.182279 seconds. 
+
+****** lambda_0 = 0.0221684 iteration = 2 ************************************
+Optimizing unknown labels. switched 1 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28549 active examples,  objective_value = 0.333446)
+ CGLS converged in 66 iteration(s) and 0.115665 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.116084 seconds. 
+
+
+****** lambda0 increased to 3.32526% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28549 active examples,  objective_value = 0.336402)
+ CGLS converged in 92 iteration(s) and 0.160453 seconds.
+ LINE_SEARCH delta = 1.00134
+L2_SVM_MFN Iteration# 2 (28516 active examples,  objective_value = 0.336386)
+ CGLS converged in 60 iteration(s) and 0.10473 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.267906 seconds. 
+
+****** lambda_0 = 0.0332526 iteration = 1 ************************************
+Optimizing unknown labels. switched 8 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28516 active examples,  objective_value = 0.336386)
+ CGLS converged in 77 iteration(s) and 0.134856 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.13527 seconds. 
+
+****** lambda_0 = 0.0332526 iteration = 2 ************************************
+Optimizing unknown labels. switched 2 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28516 active examples,  objective_value = 0.336386)
+ CGLS converged in 75 iteration(s) and 0.137122 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.137547 seconds. 
+
+
+****** lambda0 increased to 4.98789% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28516 active examples,  objective_value = 0.340771)
+ CGLS converged in 95 iteration(s) and 0.166583 seconds.
+ LINE_SEARCH delta = 1.00092
+L2_SVM_MFN Iteration# 2 (28465 active examples,  objective_value = 0.340736)
+ CGLS converged in 67 iteration(s) and 0.118381 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.287718 seconds. 
+
+****** lambda_0 = 0.0498789 iteration = 1 ************************************
+Optimizing unknown labels. switched 13 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28465 active examples,  objective_value = 0.340736)
+ CGLS converged in 84 iteration(s) and 0.146625 seconds.
+ LINE_SEARCH delta = 0.998835
+L2_SVM_MFN Iteration# 2 (28466 active examples,  objective_value = 0.340735)
+ CGLS converged in 53 iteration(s) and 0.093408 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.242256 seconds. 
+
+****** lambda_0 = 0.0498789 iteration = 2 ************************************
+Optimizing unknown labels. switched 4 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28466 active examples,  objective_value = 0.340735)
+ CGLS converged in 77 iteration(s) and 0.135547 seconds.
+ LINE_SEARCH delta = 0.999999
+L2_SVM_MFN Iteration# 2 (28467 active examples,  objective_value = 0.340734)
+ CGLS converged in 7 iteration(s) and 0.015665 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.153421 seconds. 
+
+
+****** lambda0 increased to 7.48183% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28467 active examples,  objective_value = 0.347206)
+ CGLS converged in 100 iteration(s) and 0.178661 seconds.
+ LINE_SEARCH delta = 1.00189
+L2_SVM_MFN Iteration# 2 (28407 active examples,  objective_value = 0.347131)
+ CGLS converged in 71 iteration(s) and 0.127706 seconds.
+ LINE_SEARCH delta = 0.999998
+L2_SVM_MFN Iteration# 3 (28408 active examples,  objective_value = 0.347131)
+ CGLS converged in 7 iteration(s) and 0.013736 seconds.
+L2_SVM_MFN converged (optimality) in 3 iteration(s) and 0.324776 seconds. 
+
+****** lambda_0 = 0.0748183 iteration = 1 ************************************
+Optimizing unknown labels. switched 20 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28408 active examples,  objective_value = 0.34713)
+ CGLS converged in 88 iteration(s) and 0.158648 seconds.
+ LINE_SEARCH delta = 1.00001
+L2_SVM_MFN Iteration# 2 (28410 active examples,  objective_value = 0.347126)
+ CGLS converged in 39 iteration(s) and 0.069818 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.230812 seconds. 
+
+****** lambda_0 = 0.0748183 iteration = 2 ************************************
+Optimizing unknown labels. switched 3 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28410 active examples,  objective_value = 0.347126)
+ CGLS converged in 83 iteration(s) and 0.144702 seconds.
+ LINE_SEARCH delta = 0.999974
+L2_SVM_MFN Iteration# 2 (28410 active examples,  objective_value = 0.347126)
+ CGLS converged in 24 iteration(s) and 0.042658 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.189649 seconds. 
+
+****** lambda_0 = 0.0748183 iteration = 3 ************************************
+Optimizing unknown labels. switched 2 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28410 active examples,  objective_value = 0.347126)
+ CGLS converged in 77 iteration(s) and 0.13386 seconds.
+ LINE_SEARCH delta = 0.999973
+L2_SVM_MFN Iteration# 2 (28410 active examples,  objective_value = 0.347125)
+ CGLS converged in 28 iteration(s) and 0.049602 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.18564 seconds. 
+
+
+****** lambda0 increased to 11.2227% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28410 active examples,  objective_value = 0.356602)
+ CGLS converged in 101 iteration(s) and 0.175939 seconds.
+ LINE_SEARCH delta = 1.00341
+L2_SVM_MFN Iteration# 2 (28297 active examples,  objective_value = 0.356446)
+ CGLS converged in 77 iteration(s) and 0.134878 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.313611 seconds. 
+
+****** lambda_0 = 0.112227 iteration = 1 ************************************
+Optimizing unknown labels. switched 25 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28297 active examples,  objective_value = 0.356443)
+ CGLS converged in 93 iteration(s) and 0.162043 seconds.
+ LINE_SEARCH delta = 1.00003
+L2_SVM_MFN Iteration# 2 (28293 active examples,  objective_value = 0.356432)
+ CGLS converged in 46 iteration(s) and 0.080949 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.245312 seconds. 
+
+****** lambda_0 = 0.112227 iteration = 2 ************************************
+Optimizing unknown labels. switched 5 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28293 active examples,  objective_value = 0.356432)
+ CGLS converged in 83 iteration(s) and 0.143823 seconds.
+L2_SVM_MFN converged (optimality) in 1 iteration(s) and 0.144265 seconds. 
+
+****** lambda_0 = 0.112227 iteration = 3 ************************************
+Optimizing unknown labels. switched 3 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28293 active examples,  objective_value = 0.35643)
+ CGLS converged in 86 iteration(s) and 0.149146 seconds.
+ LINE_SEARCH delta = 1.00002
+L2_SVM_MFN Iteration# 2 (28291 active examples,  objective_value = 0.356429)
+ CGLS converged in 39 iteration(s) and 0.068244 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.219634 seconds. 
+
+****** lambda_0 = 0.112227 iteration = 4 ************************************
+Optimizing unknown labels. switched 1 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28291 active examples,  objective_value = 0.356429)
+ CGLS converged in 77 iteration(s) and 0.133838 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN Iteration# 2 (28292 active examples,  objective_value = 0.356429)
+ CGLS converged in 7 iteration(s) and 0.012983 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.149102 seconds. 
+
+
+****** lambda0 increased to 16.8341% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28292 active examples,  objective_value = 0.370159)
+ CGLS converged in 106 iteration(s) and 0.185086 seconds.
+ LINE_SEARCH delta = 1.00472
+L2_SVM_MFN Iteration# 2 (28159 active examples,  objective_value = 0.369842)
+ CGLS converged in 83 iteration(s) and 0.15061 seconds.
+ LINE_SEARCH delta = 1.00002
+L2_SVM_MFN Iteration# 3 (28158 active examples,  objective_value = 0.369842)
+ CGLS converged in 24 iteration(s) and 0.044172 seconds.
+L2_SVM_MFN converged (optimality) in 3 iteration(s) and 0.384467 seconds. 
+
+****** lambda_0 = 0.168341 iteration = 1 ************************************
+Optimizing unknown labels. switched 29 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28158 active examples,  objective_value = 0.369835)
+ CGLS converged in 98 iteration(s) and 0.172985 seconds.
+ LINE_SEARCH delta = 0.999414
+L2_SVM_MFN Iteration# 2 (28156 active examples,  objective_value = 0.369809)
+ CGLS converged in 64 iteration(s) and 0.110923 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN Iteration# 3 (28157 active examples,  objective_value = 0.369809)
+ CGLS converged in 3 iteration(s) and 0.006059 seconds.
+L2_SVM_MFN converged (optimality) in 3 iteration(s) and 0.294074 seconds. 
+
+****** lambda_0 = 0.168341 iteration = 2 ************************************
+Optimizing unknown labels. switched 11 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28157 active examples,  objective_value = 0.369808)
+ CGLS converged in 93 iteration(s) and 0.160263 seconds.
+ LINE_SEARCH delta = 0.999895
+L2_SVM_MFN Iteration# 2 (28158 active examples,  objective_value = 0.369797)
+ CGLS converged in 56 iteration(s) and 0.096333 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.258846 seconds. 
+
+****** lambda_0 = 0.168341 iteration = 3 ************************************
+Optimizing unknown labels. switched 3 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28158 active examples,  objective_value = 0.369797)
+ CGLS converged in 88 iteration(s) and 0.151585 seconds.
+ LINE_SEARCH delta = 1.00404
+L2_SVM_MFN Iteration# 2 (28158 active examples,  objective_value = 0.369794)
+ CGLS converged in 66 iteration(s) and 0.114593 seconds.
+ LINE_SEARCH delta = 1.00004
+L2_SVM_MFN Iteration# 3 (28157 active examples,  objective_value = 0.369794)
+ CGLS converged in 22 iteration(s) and 0.038463 seconds.
+L2_SVM_MFN converged (optimality) in 3 iteration(s) and 0.308604 seconds. 
+
+****** lambda_0 = 0.168341 iteration = 4 ************************************
+Optimizing unknown labels. switched 3 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28157 active examples,  objective_value = 0.369794)
+ CGLS converged in 89 iteration(s) and 0.153367 seconds.
+ LINE_SEARCH delta = 1.00004
+L2_SVM_MFN Iteration# 2 (28156 active examples,  objective_value = 0.36979)
+ CGLS converged in 54 iteration(s) and 0.09423 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.249833 seconds. 
+
+
+****** lambda0 increased to 25.2512% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28156 active examples,  objective_value = 0.389387)
+ CGLS converged in 110 iteration(s) and 0.189638 seconds.
+ LINE_SEARCH delta = 1.00766
+L2_SVM_MFN Iteration# 2 (27945 active examples,  objective_value = 0.388769)
+ CGLS converged in 88 iteration(s) and 0.150149 seconds.
+ LINE_SEARCH delta = 1.00002
+L2_SVM_MFN Iteration# 3 (27940 active examples,  objective_value = 0.388768)
+ CGLS converged in 38 iteration(s) and 0.065805 seconds.
+L2_SVM_MFN converged (optimality) in 3 iteration(s) and 0.410209 seconds. 
+
+****** lambda_0 = 0.252512 iteration = 1 ************************************
+Optimizing unknown labels. switched 26 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (27940 active examples,  objective_value = 0.388762)
+ CGLS converged in 102 iteration(s) and 0.173813 seconds.
+ LINE_SEARCH delta = 0.999535
+L2_SVM_MFN Iteration# 2 (27941 active examples,  objective_value = 0.388718)
+ CGLS converged in 68 iteration(s) and 0.116646 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.292789 seconds. 
+
+****** lambda_0 = 0.252512 iteration = 2 ************************************
+Optimizing unknown labels. switched 10 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (27941 active examples,  objective_value = 0.388714)
+ CGLS converged in 100 iteration(s) and 0.171569 seconds.
+ LINE_SEARCH delta = 0.999958
+L2_SVM_MFN Iteration# 2 (27943 active examples,  objective_value = 0.388692)
+ CGLS converged in 58 iteration(s) and 0.103929 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.277809 seconds. 
+
+****** lambda_0 = 0.252512 iteration = 3 ************************************
+Optimizing unknown labels. switched 5 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (27943 active examples,  objective_value = 0.388692)
+ CGLS converged in 95 iteration(s) and 0.162732 seconds.
+ LINE_SEARCH delta = 1.00023
+L2_SVM_MFN Iteration# 2 (27937 active examples,  objective_value = 0.388683)
+ CGLS converged in 56 iteration(s) and 0.096462 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.261453 seconds. 
+
+****** lambda_0 = 0.252512 iteration = 4 ************************************
+Optimizing unknown labels. switched 1 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (27937 active examples,  objective_value = 0.388682)
+ CGLS converged in 92 iteration(s) and 0.157921 seconds.
+ LINE_SEARCH delta = 0.999507
+L2_SVM_MFN Iteration# 2 (27939 active examples,  objective_value = 0.388679)
+ CGLS converged in 55 iteration(s) and 0.094465 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.254648 seconds. 
+
+****** lambda_0 = 0.252512 iteration = 5 ************************************
+Optimizing unknown labels. switched 1 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (27939 active examples,  objective_value = 0.388678)
+ CGLS converged in 87 iteration(s) and 0.149292 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN Iteration# 2 (27939 active examples,  objective_value = 0.388677)
+ CGLS converged in 22 iteration(s) and 0.038553 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.190013 seconds. 
+
+****** lambda_0 = 0.252512 iteration = 6 ************************************
+Optimizing unknown labels. switched 1 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (27939 active examples,  objective_value = 0.388677)
+ CGLS converged in 87 iteration(s) and 0.148927 seconds.
+ LINE_SEARCH delta = 0.999508
+L2_SVM_MFN Iteration# 2 (27937 active examples,  objective_value = 0.388676)
+ CGLS converged in 53 iteration(s) and 0.09129 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.242467 seconds. 
+
+
+****** lambda0 increased to 37.8768% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (27937 active examples,  objective_value = 0.416161)
+ CGLS converged in 119 iteration(s) and 0.204433 seconds.
+ LINE_SEARCH delta = 1.01307
+L2_SVM_MFN Iteration# 2 (27552 active examples,  objective_value = 0.415021)
+ CGLS converged in 93 iteration(s) and 0.157079 seconds.
+ LINE_SEARCH delta = 1.00028
+L2_SVM_MFN Iteration# 3 (27545 active examples,  objective_value = 0.415019)
+ CGLS converged in 55 iteration(s) and 0.093871 seconds.
+L2_SVM_MFN converged (optimality) in 3 iteration(s) and 0.46006 seconds. 
+
+****** lambda_0 = 0.378768 iteration = 1 ************************************
+Optimizing unknown labels. switched 24 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (27545 active examples,  objective_value = 0.415006)
+ CGLS converged in 106 iteration(s) and 0.179411 seconds.
+ LINE_SEARCH delta = 0.999437
+L2_SVM_MFN Iteration# 2 (27547 active examples,  objective_value = 0.414921)
+ CGLS converged in 75 iteration(s) and 0.126652 seconds.
+ LINE_SEARCH delta = 1.00016
+L2_SVM_MFN Iteration# 3 (27546 active examples,  objective_value = 0.414921)
+ CGLS converged in 32 iteration(s) and 0.054561 seconds.
+L2_SVM_MFN converged (optimality) in 3 iteration(s) and 0.364821 seconds. 
+
+****** lambda_0 = 0.378768 iteration = 2 ************************************
+Optimizing unknown labels. switched 9 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (27546 active examples,  objective_value = 0.414916)
+ CGLS converged in 105 iteration(s) and 0.178332 seconds.
+ LINE_SEARCH delta = 0.997618
+L2_SVM_MFN Iteration# 2 (27546 active examples,  objective_value = 0.414883)
+ CGLS converged in 74 iteration(s) and 0.127162 seconds.
+ LINE_SEARCH delta = 0.999938
+L2_SVM_MFN Iteration# 3 (27547 active examples,  objective_value = 0.414883)
+ CGLS converged in 28 iteration(s) and 0.049415 seconds.
+L2_SVM_MFN converged (optimality) in 3 iteration(s) and 0.359106 seconds. 
+
+****** lambda_0 = 0.378768 iteration = 3 ************************************
+Optimizing unknown labels. switched 3 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (27547 active examples,  objective_value = 0.414881)
+ CGLS converged in 100 iteration(s) and 0.176117 seconds.
+ LINE_SEARCH delta = 0.999519
+L2_SVM_MFN Iteration# 2 (27550 active examples,  objective_value = 0.414865)
+ CGLS converged in 63 iteration(s) and 0.111987 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.290505 seconds. 
+
+****** lambda_0 = 0.378768 iteration = 4 ************************************
+Optimizing unknown labels. switched 3 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (27550 active examples,  objective_value = 0.414864)
+ CGLS converged in 102 iteration(s) and 0.18057 seconds.
+ LINE_SEARCH delta = 0.999828
+L2_SVM_MFN Iteration# 2 (27549 active examples,  objective_value = 0.41485)
+ CGLS converged in 56 iteration(s) and 0.099713 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.282685 seconds. 
+
+
+****** lambda0 increased to 56.8151% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (27549 active examples,  objective_value = 0.452589)
+ CGLS converged in 126 iteration(s) and 0.220985 seconds.
+ LINE_SEARCH delta = 1.01842
+L2_SVM_MFN Iteration# 2 (27018 active examples,  objective_value = 0.450586)
+ CGLS converged in 105 iteration(s) and 0.181279 seconds.
+ LINE_SEARCH delta = 1.00025
+L2_SVM_MFN Iteration# 3 (27004 active examples,  objective_value = 0.45058)
+ CGLS converged in 60 iteration(s) and 0.102894 seconds.
+L2_SVM_MFN converged (optimality) in 3 iteration(s) and 0.510152 seconds. 
+
+****** lambda_0 = 0.568151 iteration = 1 ************************************
+Optimizing unknown labels. switched 17 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (27004 active examples,  objective_value = 0.450564)
+ CGLS converged in 112 iteration(s) and 0.190594 seconds.
+ LINE_SEARCH delta = 0.996687
+L2_SVM_MFN Iteration# 2 (27004 active examples,  objective_value = 0.45046)
+ CGLS converged in 84 iteration(s) and 0.142624 seconds.
+ LINE_SEARCH delta = 1.00145
+L2_SVM_MFN Iteration# 3 (27003 active examples,  objective_value = 0.450459)
+ CGLS converged in 44 iteration(s) and 0.075564 seconds.
+L2_SVM_MFN converged (optimality) in 3 iteration(s) and 0.413161 seconds. 
+
+****** lambda_0 = 0.568151 iteration = 2 ************************************
+Optimizing unknown labels. switched 8 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (27003 active examples,  objective_value = 0.450453)
+ CGLS converged in 110 iteration(s) and 0.18951 seconds.
+ LINE_SEARCH delta = 0.999824
+L2_SVM_MFN Iteration# 2 (27000 active examples,  objective_value = 0.45039)
+ CGLS converged in 74 iteration(s) and 0.124512 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.316473 seconds. 
+
+****** lambda_0 = 0.568151 iteration = 3 ************************************
+Optimizing unknown labels. switched 4 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (27000 active examples,  objective_value = 0.450389)
+ CGLS converged in 106 iteration(s) and 0.179545 seconds.
+ LINE_SEARCH delta = 0.999696
+L2_SVM_MFN Iteration# 2 (27001 active examples,  objective_value = 0.450366)
+ CGLS converged in 74 iteration(s) and 0.125267 seconds.
+ LINE_SEARCH delta = 0.999891
+L2_SVM_MFN Iteration# 3 (27002 active examples,  objective_value = 0.450366)
+ CGLS converged in 18 iteration(s) and 0.031147 seconds.
+L2_SVM_MFN converged (optimality) in 3 iteration(s) and 0.340429 seconds. 
+
+****** lambda_0 = 0.568151 iteration = 4 ************************************
+Optimizing unknown labels. switched 2 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (27002 active examples,  objective_value = 0.450366)
+ CGLS converged in 105 iteration(s) and 0.177177 seconds.
+ LINE_SEARCH delta = 0.99773
+L2_SVM_MFN Iteration# 2 (27004 active examples,  objective_value = 0.450355)
+ CGLS converged in 69 iteration(s) and 0.116882 seconds.
+ LINE_SEARCH delta = 1.0002
+L2_SVM_MFN Iteration# 3 (27003 active examples,  objective_value = 0.450355)
+ CGLS converged in 14 iteration(s) and 0.024402 seconds.
+L2_SVM_MFN converged (optimality) in 3 iteration(s) and 0.322858 seconds. 
+
+****** lambda_0 = 0.568151 iteration = 5 ************************************
+Optimizing unknown labels. switched 2 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (27003 active examples,  objective_value = 0.450352)
+ CGLS converged in 104 iteration(s) and 0.176675 seconds.
+ LINE_SEARCH delta = 0.998134
+L2_SVM_MFN Iteration# 2 (27008 active examples,  objective_value = 0.450336)
+ CGLS converged in 69 iteration(s) and 0.117917 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.29702 seconds. 
+
+****** lambda_0 = 0.568151 iteration = 6 ************************************
+Optimizing unknown labels. switched 2 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (27008 active examples,  objective_value = 0.450335)
+ CGLS converged in 105 iteration(s) and 0.17864 seconds.
+ LINE_SEARCH delta = 0.999689
+L2_SVM_MFN Iteration# 2 (27006 active examples,  objective_value = 0.450313)
+ CGLS converged in 65 iteration(s) and 0.110458 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.291503 seconds. 
+
+
+****** lambda0 increased to 85.2227% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (27006 active examples,  objective_value = 0.500884)
+ CGLS converged in 137 iteration(s) and 0.25587 seconds.
+ LINE_SEARCH delta = 1.02286
+L2_SVM_MFN Iteration# 2 (26290 active examples,  objective_value = 0.497554)
+ CGLS converged in 111 iteration(s) and 0.184285 seconds.
+ LINE_SEARCH delta = 1.00043
+L2_SVM_MFN Iteration# 3 (26275 active examples,  objective_value = 0.49754)
+ CGLS converged in 74 iteration(s) and 0.123153 seconds.
+L2_SVM_MFN converged (optimality) in 3 iteration(s) and 0.568331 seconds. 
+
+****** lambda_0 = 0.852227 iteration = 1 ************************************
+Optimizing unknown labels. switched 8 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (26275 active examples,  objective_value = 0.497527)
+ CGLS converged in 119 iteration(s) and 0.196832 seconds.
+ LINE_SEARCH delta = 0.99775
+L2_SVM_MFN Iteration# 2 (26268 active examples,  objective_value = 0.497445)
+ CGLS converged in 89 iteration(s) and 0.148667 seconds.
+ LINE_SEARCH delta = 1.00001
+L2_SVM_MFN Iteration# 3 (26267 active examples,  objective_value = 0.497445)
+ CGLS converged in 22 iteration(s) and 0.037149 seconds.
+L2_SVM_MFN converged (optimality) in 3 iteration(s) and 0.387119 seconds. 
+
+****** lambda_0 = 0.852227 iteration = 2 ************************************
+Optimizing unknown labels. switched 3 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (26267 active examples,  objective_value = 0.497441)
+ CGLS converged in 112 iteration(s) and 0.187639 seconds.
+ LINE_SEARCH delta = 0.999774
+L2_SVM_MFN Iteration# 2 (26260 active examples,  objective_value = 0.497412)
+ CGLS converged in 80 iteration(s) and 0.141562 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.331934 seconds. 
+
+****** lambda_0 = 0.852227 iteration = 3 ************************************
+Optimizing unknown labels. switched 1 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (26260 active examples,  objective_value = 0.497412)
+ CGLS converged in 110 iteration(s) and 0.18771 seconds.
+ LINE_SEARCH delta = 1.00042
+L2_SVM_MFN Iteration# 2 (26270 active examples,  objective_value = 0.4974)
+ CGLS converged in 79 iteration(s) and 0.136426 seconds.
+L2_SVM_MFN converged (optimality) in 2 iteration(s) and 0.3269 seconds. 
+
+
+****** lambda0 increased to 100% of lambda_u = 1 ************************
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (26270 active examples,  objective_value = 0.520367)
+ CGLS converged in 132 iteration(s) and 0.230859 seconds.
+ LINE_SEARCH delta = 1.00938
+L2_SVM_MFN Iteration# 2 (25963 active examples,  objective_value = 0.519681)
+ CGLS converged in 105 iteration(s) and 0.176893 seconds.
+ LINE_SEARCH delta = 1.00003
+L2_SVM_MFN Iteration# 3 (25960 active examples,  objective_value = 0.51968)
+ CGLS converged in 53 iteration(s) and 0.088022 seconds.
+L2_SVM_MFN converged (optimality) in 3 iteration(s) and 0.501215 seconds. 
+
+****** lambda_0 = 1 iteration = 1 ************************************
+Optimizing unknown labels. switched 1 labels.
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (25960 active examples,  objective_value = 0.51968)
+ CGLS converged in 116 iteration(s) and 0.190207 seconds.
+ LINE_SEARCH delta = 1.00138
+L2_SVM_MFN Iteration# 2 (25957 active examples,  objective_value = 0.519659)
+ CGLS converged in 87 iteration(s) and 0.142515 seconds.
+ LINE_SEARCH delta = 1.00034
+L2_SVM_MFN Iteration# 3 (25954 active examples,  objective_value = 0.519659)
+ CGLS converged in 47 iteration(s) and 0.078043 seconds.
+L2_SVM_MFN converged (optimality) in 3 iteration(s) and 0.4153 seconds. 
+
+Total Number of Switches = 285
+Objective Value = 0.518047
+Transductive L2_SVM_MFN took 17.7164 seconds.
+
+Writing Weights to file: title_training.txt.weights
+Writing Outputs to file: title_training.txt.outputs

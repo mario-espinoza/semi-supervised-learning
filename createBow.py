@@ -1,40 +1,33 @@
 from collections import Counter
 import collections, re
 
-folder='./oldRuns/'
+folder='./output/'
 sources = ['title','body','titleBody']
-bagofwords=[]
+bagOfWords=[]
+
 
 for source in sources:
+	print 'read text {}'.format(source);
 	with open(folder+'{}.txt'.format(source), 'r') as f:
 		lines = f.readlines();
-    	for line in enumerate(lines):
-    		print line
-    		words = collections.Counter(re.findall(r'\w+', text.lower()))
-    		bagofwords.append(words)
+		for i,line in enumerate(lines):
+			words = collections.Counter(re.findall(r'\w+', line.strip().lower()));
+			bagOfWords.append(words);
+	print 'here'
+	sumbags = sum(bagOfWords, collections.Counter());
+	mostCommon = sumbags.most_common();
 
-    	sumbags = sum(bagsofwords, collections.Counter())
-	    mostCommon = sumbags.most_common()
-	    # print 'Dimensions: {}'.format(len(sumbags))
-	    # print 'Sumbags: {}'.format(sumbags)
-	    print 'Most common: {}'.format(mostCommon)
-
-	    with open(source+'BOW.txt','w+') as bagFile:
-	    	for word,count in mostCommon:
-	        	bagFile.write('{}:{}\n'.format(word,count))
-  
-	    with open(source+'SVM.txt','w+') as completefile:
-	        for v in enumerate(bagsofwords):
-	            dic=dict(v)
-	            # print 'dic: {}'.format(dic)
-	            # print 'class: {}'.format(classes[i])
-	            fileLine=''
-	            for index, (word,count) in enumerate(mostCommon):
-	                # print 'index: {}'.format(index)
-	                # print 'word: {}'.format(word)
-	                # print 'count: {}'.format(count)
-
-	                if dic.get(word) > 0:
-	                    feat = '{}:{} '.format(index+1,dic[word])
-	                    fileLine+=feat
-	            completefile.write(fileLine+'\n')
+	print 'writing BOW';
+	with open('{}BOW.txt'.format(source),'w+') as bagFile:
+		for word,count in mostCommon:
+			bagFile.write('{}:{}\n'.format(word,count));
+	print 'writing Vector';
+	with open('{}SVM.txt'.format(source),'w+') as completefile:
+		for v in enumerate(bagOfWords):
+			dic=dict(v);
+			fileLine='';
+			for index, (word,count) in enumerate(mostCommon):
+				if dic.get(word) > 0:
+					feat = '{}:{} '.format(index+1,dic[word]);
+					fileLine+=feat;
+			completefile.write(fileLine+'\n');

@@ -1,0 +1,2794 @@
+
+ svmlin (v1.0)   
+
+Reading file: labels_train.txt
+  Label Vector Statistics:
+      Labeled = 10425 (Positive = 6428  Negative = 3997)
+      Unlabeled = 18747
+Reading file: title_train.txt
+  Input Data Matrix Statistics:
+      Examples: 29172
+      Features: 33471 (including bias feature)
+      Non-zeros:  352619 (including bias features)
+      Average sparsity: 12.0876 non-zero features per example.
+Reading took 0.608833 secs. 
+
+Deterministic Annealing Semi-supervised L2-SVM (DAS3VM)
+
+Initializing weights, p
+L2_SVM_MFN Iteration# 1 (29172 active examples,  objective_value = 1)
+ CGLS converged in 10 iteration(s) and 0.019777 seconds.
+ LINE_SEARCH delta = 1.00858
+L2_SVM_MFN Iteration# 2 (29063 active examples,  objective_value = 0.854066)
+ CGLS converged in 63 iteration(s) and 0.11313 seconds.
+ LINE_SEARCH delta = 0.983865
+L2_SVM_MFN Iteration# 3 (29142 active examples,  objective_value = 0.812626)
+ CGLS converged in 43 iteration(s) and 0.077762 seconds.
+ LINE_SEARCH delta = 1.00041
+L2_SVM_MFN Iteration# 4 (29140 active examples,  objective_value = 0.812448)
+ CGLS converged in 3 iteration(s) and 0.006824 seconds.
+  epsilon = 0.01 case converged (speedup heuristic 2). Continuing with epsilon=1e-06
+L2_SVM_MFN Iteration# 5 (29140 active examples,  objective_value = 0.812448)
+ CGLS converged in 103 iteration(s) and 0.18751 seconds.
+L2_SVM_MFN converged in 5 iteration(s) and 0.417647 seconds. 
+
+Optimizing p.  root (nu) = 5.12908 B(nu) = -7.53975e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29140 active examples,  objective_value = 0.806731)
+ CGLS converged in 136 iteration(s) and 0.253026 seconds.
+ LINE_SEARCH delta = 1.00113
+L2_SVM_MFN Iteration# 2 (29128 active examples,  objective_value = 0.806526)
+ CGLS converged in 100 iteration(s) and 0.177338 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.434865 seconds. 
+
+***** outer_iter = 1  T = 10  inner_iter = 1  kl = 0.000824404  cost = 0.60953 *****
+Optimizing p.  root (nu) = 5.12896 B(nu) = 9.5811e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29128 active examples,  objective_value = 0.806081)
+ CGLS converged in 111 iteration(s) and 0.196156 seconds.
+ LINE_SEARCH delta = 1.00003
+L2_SVM_MFN Iteration# 2 (29125 active examples,  objective_value = 0.80608)
+ CGLS converged in 56 iteration(s) and 0.099931 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.300436 seconds. 
+
+***** outer_iter = 1  T = 10  inner_iter = 2  kl = 5.14277e-06  cost = 0.609221 *****
+Optimizing p.  root (nu) = 5.12894 B(nu) = -4.98235e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29125 active examples,  objective_value = 0.80604)
+ CGLS converged in 90 iteration(s) and 0.159781 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.16105 seconds. 
+
+***** outer_iter = 1  T = 10  inner_iter = 3  kl = 5.10364e-08  cost = 0.609191 *****
+***** Finished outer_iter = 1 T = 10  Entropy = 0.933109 ***
+Optimizing p.  root (nu) = 3.06982 B(nu) = 2.08397e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29125 active examples,  objective_value = 0.802726)
+ CGLS converged in 131 iteration(s) and 0.230801 seconds.
+ LINE_SEARCH delta = 1.00051
+L2_SVM_MFN Iteration# 2 (29122 active examples,  objective_value = 0.802664)
+ CGLS converged in 88 iteration(s) and 0.156077 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.391196 seconds. 
+
+***** outer_iter = 2  T = 6.66667  inner_iter = 1  kl = 0.000239139  cost = 0.607216 *****
+Optimizing p.  root (nu) = 3.07007 B(nu) = 3.98309e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29122 active examples,  objective_value = 0.802282)
+ CGLS converged in 109 iteration(s) and 0.192672 seconds.
+ LINE_SEARCH delta = 1.00009
+L2_SVM_MFN Iteration# 2 (29122 active examples,  objective_value = 0.802281)
+ CGLS converged in 53 iteration(s) and 0.094549 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.291609 seconds. 
+
+***** outer_iter = 2  T = 6.66667  inner_iter = 2  kl = 3.52205e-06  cost = 0.60695 *****
+Optimizing p.  root (nu) = 3.0701 B(nu) = 2.75335e-14
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29122 active examples,  objective_value = 0.802229)
+ CGLS converged in 92 iteration(s) and 0.163489 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.164782 seconds. 
+
+***** outer_iter = 2  T = 6.66667  inner_iter = 3  kl = 8.00588e-08  cost = 0.606911 *****
+***** Finished outer_iter = 2 T = 6.66667  Entropy = 0.93173 ***
+Optimizing p.  root (nu) = 1.70143 B(nu) = 7.93722e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29122 active examples,  objective_value = 0.796879)
+ CGLS converged in 133 iteration(s) and 0.239864 seconds.
+ LINE_SEARCH delta = 1.00164
+L2_SVM_MFN Iteration# 2 (29117 active examples,  objective_value = 0.796729)
+ CGLS converged in 100 iteration(s) and 0.178577 seconds.
+ LINE_SEARCH delta = 1.00041
+L2_SVM_MFN converged in 2 iterations and 0.425227 seconds. 
+
+***** outer_iter = 3  T = 4.44444  inner_iter = 1  kl = 0.000578358  cost = 0.603767 *****
+Optimizing p.  root (nu) = 1.70261 B(nu) = -9.27828e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29116 active examples,  objective_value = 0.795778)
+ CGLS converged in 120 iteration(s) and 0.212059 seconds.
+ LINE_SEARCH delta = 1.00051
+L2_SVM_MFN Iteration# 2 (29115 active examples,  objective_value = 0.795771)
+ CGLS converged in 75 iteration(s) and 0.133256 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.349681 seconds. 
+
+***** outer_iter = 3  T = 4.44444  inner_iter = 2  kl = 1.94229e-05  cost = 0.603115 *****
+Optimizing p.  root (nu) = 1.70285 B(nu) = -7.83983e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29115 active examples,  objective_value = 0.795577)
+ CGLS converged in 105 iteration(s) and 0.191633 seconds.
+ LINE_SEARCH delta = 1.00014
+L2_SVM_MFN converged in 1 iterations and 0.195524 seconds. 
+
+***** outer_iter = 3  T = 4.44444  inner_iter = 3  kl = 9.94973e-07  cost = 0.602967 *****
+***** Finished outer_iter = 3 T = 4.44444  Entropy = 0.928115 ***
+Optimizing p.  root (nu) = 0.797332 B(nu) = -2.24047e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29114 active examples,  objective_value = 0.786611)
+ CGLS converged in 137 iteration(s) and 0.242613 seconds.
+ LINE_SEARCH delta = 1.00376
+L2_SVM_MFN Iteration# 2 (29094 active examples,  objective_value = 0.786229)
+ CGLS converged in 106 iteration(s) and 0.187682 seconds.
+ LINE_SEARCH delta = 1.00011
+L2_SVM_MFN converged in 2 iterations and 0.436963 seconds. 
+
+***** outer_iter = 4  T = 2.96296  inner_iter = 1  kl = 0.00145315  cost = 0.597694 *****
+Optimizing p.  root (nu) = 0.801182 B(nu) = 2.02551e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29093 active examples,  objective_value = 0.783774)
+ CGLS converged in 129 iteration(s) and 0.228263 seconds.
+ LINE_SEARCH delta = 1.00088
+L2_SVM_MFN Iteration# 2 (29087 active examples,  objective_value = 0.783737)
+ CGLS converged in 88 iteration(s) and 0.155398 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.387934 seconds. 
+
+***** outer_iter = 4  T = 2.96296  inner_iter = 2  kl = 0.000110176  cost = 0.596034 *****
+Optimizing p.  root (nu) = 0.802404 B(nu) = 7.29665e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29087 active examples,  objective_value = 0.78298)
+ CGLS converged in 118 iteration(s) and 0.208232 seconds.
+ LINE_SEARCH delta = 1.00036
+L2_SVM_MFN Iteration# 2 (29087 active examples,  objective_value = 0.782975)
+ CGLS converged in 72 iteration(s) and 0.128924 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.341466 seconds. 
+
+***** outer_iter = 4  T = 2.96296  inner_iter = 3  kl = 1.24419e-05  cost = 0.59547 *****
+Optimizing p.  root (nu) = 0.802828 B(nu) = 3.71811e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29087 active examples,  objective_value = 0.782724)
+ CGLS converged in 108 iteration(s) and 0.19585 seconds.
+ LINE_SEARCH delta = 1.00001
+L2_SVM_MFN converged in 1 iterations and 0.199742 seconds. 
+
+***** outer_iter = 4  T = 2.96296  inner_iter = 4  kl = 1.66609e-06  cost = 0.595269 *****
+Optimizing p.  root (nu) = 0.802985 B(nu) = 8.11319e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29087 active examples,  objective_value = 0.782636)
+ CGLS converged in 101 iteration(s) and 0.200207 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.201448 seconds. 
+
+***** outer_iter = 4  T = 2.96296  inner_iter = 5  kl = 2.46602e-07  cost = 0.595195 *****
+***** Finished outer_iter = 4 T = 2.96296  Entropy = 0.917522 ***
+Optimizing p.  root (nu) = 0.211249 B(nu) = 4.79774e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29087 active examples,  objective_value = 0.766998)
+ CGLS converged in 144 iteration(s) and 0.270962 seconds.
+ LINE_SEARCH delta = 1.00578
+L2_SVM_MFN Iteration# 2 (29053 active examples,  objective_value = 0.766016)
+ CGLS converged in 111 iteration(s) and 0.217316 seconds.
+ LINE_SEARCH delta = 1.0004
+L2_SVM_MFN Iteration# 3 (29053 active examples,  objective_value = 0.766015)
+ CGLS converged in 64 iteration(s) and 0.128863 seconds.
+L2_SVM_MFN converged in 3 iteration(s) and 0.625271 seconds. 
+
+***** outer_iter = 5  T = 1.97531  inner_iter = 1  kl = 0.00375387  cost = 0.586284 *****
+Optimizing p.  root (nu) = 0.222125 B(nu) = 7.51567e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29053 active examples,  objective_value = 0.759711)
+ CGLS converged in 136 iteration(s) and 0.272523 seconds.
+ LINE_SEARCH delta = 1.00351
+L2_SVM_MFN Iteration# 2 (29040 active examples,  objective_value = 0.759523)
+ CGLS converged in 104 iteration(s) and 0.239862 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.518099 seconds. 
+
+***** outer_iter = 5  T = 1.97531  inner_iter = 2  kl = 0.000592267  cost = 0.582345 *****
+Optimizing p.  root (nu) = 0.227071 B(nu) = -4.58905e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29040 active examples,  objective_value = 0.75674)
+ CGLS converged in 126 iteration(s) and 0.267548 seconds.
+ LINE_SEARCH delta = 1.00192
+L2_SVM_MFN Iteration# 2 (29033 active examples,  objective_value = 0.756694)
+ CGLS converged in 94 iteration(s) and 0.180621 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.452871 seconds. 
+
+***** outer_iter = 5  T = 1.97531  inner_iter = 3  kl = 0.000131925  cost = 0.580452 *****
+Optimizing p.  root (nu) = 0.229473 B(nu) = 6.72828e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29033 active examples,  objective_value = 0.755388)
+ CGLS converged in 122 iteration(s) and 0.234817 seconds.
+ LINE_SEARCH delta = 1.00026
+L2_SVM_MFN Iteration# 2 (29029 active examples,  objective_value = 0.755375)
+ CGLS converged in 76 iteration(s) and 0.15276 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.391962 seconds. 
+
+***** outer_iter = 5  T = 1.97531  inner_iter = 4  kl = 3.47132e-05  cost = 0.579501 *****
+Optimizing p.  root (nu) = 0.230707 B(nu) = -7.76879e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29029 active examples,  objective_value = 0.754732)
+ CGLS converged in 118 iteration(s) and 0.219718 seconds.
+ LINE_SEARCH delta = 1.00006
+L2_SVM_MFN Iteration# 2 (29028 active examples,  objective_value = 0.754729)
+ CGLS converged in 66 iteration(s) and 0.131188 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.355639 seconds. 
+
+***** outer_iter = 5  T = 1.97531  inner_iter = 5  kl = 1.01947e-05  cost = 0.579007 *****
+Optimizing p.  root (nu) = 0.231368 B(nu) = 6.39599e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29028 active examples,  objective_value = 0.754401)
+ CGLS converged in 109 iteration(s) and 0.202787 seconds.
+ LINE_SEARCH delta = 1.00009
+L2_SVM_MFN Iteration# 2 (29028 active examples,  objective_value = 0.754399)
+ CGLS converged in 57 iteration(s) and 0.1047 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.312484 seconds. 
+
+***** outer_iter = 5  T = 1.97531  inner_iter = 6  kl = 3.24196e-06  cost = 0.578742 *****
+Optimizing p.  root (nu) = 0.231735 B(nu) = -2.46492e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29028 active examples,  objective_value = 0.754226)
+ CGLS converged in 103 iteration(s) and 0.195613 seconds.
+ LINE_SEARCH delta = 1.00011
+L2_SVM_MFN converged in 1 iterations and 0.199687 seconds. 
+
+***** outer_iter = 5  T = 1.97531  inner_iter = 7  kl = 1.09436e-06  cost = 0.578597 *****
+Optimizing p.  root (nu) = 0.231944 B(nu) = 8.65015e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29027 active examples,  objective_value = 0.754132)
+ CGLS converged in 98 iteration(s) and 0.191154 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 1 iterations and 0.19515 seconds. 
+
+***** outer_iter = 5  T = 1.97531  inner_iter = 8  kl = 3.86727e-07  cost = 0.578515 *****
+***** Finished outer_iter = 5 T = 1.97531  Entropy = 0.882351 ***
+Optimizing p.  root (nu) = -0.143097 B(nu) = 4.10654e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (29027 active examples,  objective_value = 0.726229)
+ CGLS converged in 150 iteration(s) and 0.300052 seconds.
+ LINE_SEARCH delta = 1.01477
+L2_SVM_MFN Iteration# 2 (28940 active examples,  objective_value = 0.72387)
+ CGLS converged in 121 iteration(s) and 0.232072 seconds.
+ LINE_SEARCH delta = 1.00018
+L2_SVM_MFN Iteration# 3 (28938 active examples,  objective_value = 0.723864)
+ CGLS converged in 72 iteration(s) and 0.142506 seconds.
+L2_SVM_MFN converged in 3 iteration(s) and 0.683309 seconds. 
+
+***** outer_iter = 6  T = 1.31687  inner_iter = 1  kl = 0.00979343  cost = 0.564805 *****
+Optimizing p.  root (nu) = -0.117696 B(nu) = -6.26021e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28938 active examples,  objective_value = 0.709678)
+ CGLS converged in 139 iteration(s) and 0.260254 seconds.
+ LINE_SEARCH delta = 1.00787
+L2_SVM_MFN Iteration# 2 (28890 active examples,  objective_value = 0.708987)
+ CGLS converged in 110 iteration(s) and 0.201143 seconds.
+ LINE_SEARCH delta = 0.999979
+L2_SVM_MFN Iteration# 3 (28890 active examples,  objective_value = 0.708986)
+ CGLS converged in 48 iteration(s) and 0.098846 seconds.
+L2_SVM_MFN converged in 3 iteration(s) and 0.567891 seconds. 
+
+***** outer_iter = 6  T = 1.31687  inner_iter = 2  kl = 0.00256067  cost = 0.557675 *****
+Optimizing p.  root (nu) = -0.104611 B(nu) = -2.40441e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28890 active examples,  objective_value = 0.70143)
+ CGLS converged in 136 iteration(s) and 0.327279 seconds.
+ LINE_SEARCH delta = 1.0056
+L2_SVM_MFN Iteration# 2 (28865 active examples,  objective_value = 0.701181)
+ CGLS converged in 107 iteration(s) and 0.196254 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.527993 seconds. 
+
+***** outer_iter = 6  T = 1.31687  inner_iter = 3  kl = 0.000861777  cost = 0.553671 *****
+Optimizing p.  root (nu) = -0.0972761 B(nu) = 4.00153e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28865 active examples,  objective_value = 0.696947)
+ CGLS converged in 129 iteration(s) and 0.245145 seconds.
+ LINE_SEARCH delta = 1.00111
+L2_SVM_MFN Iteration# 2 (28861 active examples,  objective_value = 0.696842)
+ CGLS converged in 92 iteration(s) and 0.169108 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.418746 seconds. 
+
+***** outer_iter = 6  T = 1.31687  inner_iter = 4  kl = 0.000342395  cost = 0.551281 *****
+Optimizing p.  root (nu) = -0.0928656 B(nu) = 2.31115e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28861 active examples,  objective_value = 0.694353)
+ CGLS converged in 127 iteration(s) and 0.232994 seconds.
+ LINE_SEARCH delta = 1.0006
+L2_SVM_MFN Iteration# 2 (28857 active examples,  objective_value = 0.694303)
+ CGLS converged in 88 iteration(s) and 0.165503 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.402992 seconds. 
+
+***** outer_iter = 6  T = 1.31687  inner_iter = 5  kl = 0.000154778  cost = 0.549799 *****
+Optimizing p.  root (nu) = -0.0900579 B(nu) = -5.60015e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28857 active examples,  objective_value = 0.692772)
+ CGLS converged in 122 iteration(s) and 0.229046 seconds.
+ LINE_SEARCH delta = 1.00018
+L2_SVM_MFN Iteration# 2 (28854 active examples,  objective_value = 0.692746)
+ CGLS converged in 84 iteration(s) and 0.173121 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.40648 seconds. 
+
+***** outer_iter = 6  T = 1.31687  inner_iter = 6  kl = 7.7357e-05  cost = 0.548849 *****
+Optimizing p.  root (nu) = -0.0881822 B(nu) = 2.84788e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28854 active examples,  objective_value = 0.691764)
+ CGLS converged in 122 iteration(s) and 0.229105 seconds.
+ LINE_SEARCH delta = 1.00079
+L2_SVM_MFN Iteration# 2 (28852 active examples,  objective_value = 0.69175)
+ CGLS converged in 83 iteration(s) and 0.157113 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.390797 seconds. 
+
+***** outer_iter = 6  T = 1.31687  inner_iter = 7  kl = 4.17748e-05  cost = 0.548211 *****
+Optimizing p.  root (nu) = -0.0868755 B(nu) = 5.68332e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28852 active examples,  objective_value = 0.691096)
+ CGLS converged in 117 iteration(s) and 0.225993 seconds.
+ LINE_SEARCH delta = 1.00006
+L2_SVM_MFN Iteration# 2 (28850 active examples,  objective_value = 0.691088)
+ CGLS converged in 61 iteration(s) and 0.14289 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.373516 seconds. 
+
+***** outer_iter = 6  T = 1.31687  inner_iter = 8  kl = 2.39666e-05  cost = 0.547763 *****
+Optimizing p.  root (nu) = -0.0859355 B(nu) = 3.36415e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28850 active examples,  objective_value = 0.690638)
+ CGLS converged in 116 iteration(s) and 0.238377 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN Iteration# 2 (28850 active examples,  objective_value = 0.690633)
+ CGLS converged in 25 iteration(s) and 0.047438 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.290466 seconds. 
+
+***** outer_iter = 6  T = 1.31687  inner_iter = 9  kl = 1.44129e-05  cost = 0.547445 *****
+Optimizing p.  root (nu) = -0.0852438 B(nu) = 3.20535e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28850 active examples,  objective_value = 0.690315)
+ CGLS converged in 111 iteration(s) and 0.201645 seconds.
+ LINE_SEARCH delta = 1.0001
+L2_SVM_MFN Iteration# 2 (28850 active examples,  objective_value = 0.690311)
+ CGLS converged in 63 iteration(s) and 0.117658 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.323587 seconds. 
+
+***** outer_iter = 6  T = 1.31687  inner_iter = 10  kl = 8.99017e-06  cost = 0.547216 *****
+Optimizing p.  root (nu) = -0.0847223 B(nu) = -3.16523e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28850 active examples,  objective_value = 0.690081)
+ CGLS converged in 110 iteration(s) and 0.211837 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN Iteration# 2 (28850 active examples,  objective_value = 0.690079)
+ CGLS converged in 54 iteration(s) and 0.111748 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.327817 seconds. 
+
+***** outer_iter = 6  T = 1.31687  inner_iter = 11  kl = 5.79144e-06  cost = 0.547044 *****
+Optimizing p.  root (nu) = -0.084322 B(nu) = 1.81721e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28850 active examples,  objective_value = 0.689909)
+ CGLS converged in 108 iteration(s) and 0.206993 seconds.
+ LINE_SEARCH delta = 1.00001
+L2_SVM_MFN Iteration# 2 (28850 active examples,  objective_value = 0.689907)
+ CGLS converged in 53 iteration(s) and 0.102709 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.314312 seconds. 
+
+***** outer_iter = 6  T = 1.31687  inner_iter = 12  kl = 3.83774e-06  cost = 0.546918 *****
+Optimizing p.  root (nu) = -0.0840105 B(nu) = 8.61342e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28850 active examples,  objective_value = 0.689779)
+ CGLS converged in 106 iteration(s) and 0.198242 seconds.
+ LINE_SEARCH delta = 1.00005
+L2_SVM_MFN converged in 1 iterations and 0.202052 seconds. 
+
+***** outer_iter = 6  T = 1.31687  inner_iter = 13  kl = 2.60816e-06  cost = 0.546821 *****
+Optimizing p.  root (nu) = -0.0837647 B(nu) = 4.52418e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28849 active examples,  objective_value = 0.689681)
+ CGLS converged in 107 iteration(s) and 0.190213 seconds.
+ LINE_SEARCH delta = 0.99992
+L2_SVM_MFN converged in 1 iterations and 0.194271 seconds. 
+
+***** outer_iter = 6  T = 1.31687  inner_iter = 14  kl = 1.81272e-06  cost = 0.546747 *****
+Optimizing p.  root (nu) = -0.0835689 B(nu) = -2.05003e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28849 active examples,  objective_value = 0.689604)
+ CGLS converged in 104 iteration(s) and 0.198083 seconds.
+ LINE_SEARCH delta = 1.00001
+L2_SVM_MFN converged in 1 iterations and 0.202056 seconds. 
+
+***** outer_iter = 6  T = 1.31687  inner_iter = 15  kl = 1.2838e-06  cost = 0.546687 *****
+Optimizing p.  root (nu) = -0.0834112 B(nu) = -4.09837e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28849 active examples,  objective_value = 0.689545)
+ CGLS converged in 101 iteration(s) and 0.201477 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.202824 seconds. 
+
+***** outer_iter = 6  T = 1.31687  inner_iter = 16  kl = 9.23078e-07  cost = 0.54664 *****
+***** Finished outer_iter = 6 T = 1.31687  Entropy = 0.763424 ***
+Optimizing p.  root (nu) = -0.313017 B(nu) = -9.70006e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28849 active examples,  objective_value = 0.647746)
+ CGLS converged in 148 iteration(s) and 0.295919 seconds.
+ LINE_SEARCH delta = 1.0256
+L2_SVM_MFN Iteration# 2 (28688 active examples,  objective_value = 0.64416)
+ CGLS converged in 123 iteration(s) and 0.22525 seconds.
+ LINE_SEARCH delta = 1.00027
+L2_SVM_MFN Iteration# 3 (28683 active examples,  objective_value = 0.644142)
+ CGLS converged in 83 iteration(s) and 0.153458 seconds.
+L2_SVM_MFN converged in 3 iteration(s) and 0.682011 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 1  kl = 0.0208592  cost = 0.533424 *****
+Optimizing p.  root (nu) = -0.276207 B(nu) = -4.58269e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28683 active examples,  objective_value = 0.626165)
+ CGLS converged in 137 iteration(s) and 0.268888 seconds.
+ LINE_SEARCH delta = 1.0111
+L2_SVM_MFN Iteration# 2 (28615 active examples,  objective_value = 0.625273)
+ CGLS converged in 110 iteration(s) and 0.205849 seconds.
+ LINE_SEARCH delta = 1.00007
+L2_SVM_MFN Iteration# 3 (28613 active examples,  objective_value = 0.625271)
+ CGLS converged in 55 iteration(s) and 0.097241 seconds.
+L2_SVM_MFN converged in 3 iteration(s) and 0.580468 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 2  kl = 0.00504681  cost = 0.527917 *****
+Optimizing p.  root (nu) = -0.259604 B(nu) = 8.5576e-13
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28613 active examples,  objective_value = 0.617164)
+ CGLS converged in 134 iteration(s) and 0.2342 seconds.
+ LINE_SEARCH delta = 1.00431
+L2_SVM_MFN Iteration# 2 (28578 active examples,  objective_value = 0.616846)
+ CGLS converged in 102 iteration(s) and 0.17835 seconds.
+ LINE_SEARCH delta = 1.00085
+L2_SVM_MFN converged in 2 iterations and 0.419205 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 3  kl = 0.00158338  cost = 0.525173 *****
+Optimizing p.  root (nu) = -0.251238 B(nu) = -2.0321e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28577 active examples,  objective_value = 0.612771)
+ CGLS converged in 130 iteration(s) and 0.226526 seconds.
+ LINE_SEARCH delta = 1.00182
+L2_SVM_MFN Iteration# 2 (28554 active examples,  objective_value = 0.612618)
+ CGLS converged in 95 iteration(s) and 0.166938 seconds.
+ LINE_SEARCH delta = 0.999999
+L2_SVM_MFN converged in 2 iterations and 0.400399 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 4  kl = 0.000680558  cost = 0.52356 *****
+Optimizing p.  root (nu) = -0.246294 B(nu) = 8.1241e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28555 active examples,  objective_value = 0.610302)
+ CGLS converged in 129 iteration(s) and 0.225932 seconds.
+ LINE_SEARCH delta = 1.00059
+L2_SVM_MFN Iteration# 2 (28549 active examples,  objective_value = 0.610211)
+ CGLS converged in 89 iteration(s) and 0.155418 seconds.
+ LINE_SEARCH delta = 1.00001
+L2_SVM_MFN converged in 2 iterations and 0.388184 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 5  kl = 0.000373147  cost = 0.522482 *****
+Optimizing p.  root (nu) = -0.243006 B(nu) = -7.2972e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28549 active examples,  objective_value = 0.608743)
+ CGLS converged in 124 iteration(s) and 0.223833 seconds.
+ LINE_SEARCH delta = 1.00089
+L2_SVM_MFN Iteration# 2 (28543 active examples,  objective_value = 0.608682)
+ CGLS converged in 88 iteration(s) and 0.155826 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.383912 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 6  kl = 0.000238706  cost = 0.521726 *****
+Optimizing p.  root (nu) = -0.240659 B(nu) = -6.44522e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28543 active examples,  objective_value = 0.607667)
+ CGLS converged in 124 iteration(s) and 0.216628 seconds.
+ LINE_SEARCH delta = 1.00009
+L2_SVM_MFN Iteration# 2 (28538 active examples,  objective_value = 0.607624)
+ CGLS converged in 81 iteration(s) and 0.141257 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.362232 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 7  kl = 0.00016678  cost = 0.521155 *****
+Optimizing p.  root (nu) = -0.238913 B(nu) = -2.49326e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28538 active examples,  objective_value = 0.606882)
+ CGLS converged in 122 iteration(s) and 0.214001 seconds.
+ LINE_SEARCH delta = 1.00005
+L2_SVM_MFN Iteration# 2 (28536 active examples,  objective_value = 0.60685)
+ CGLS converged in 81 iteration(s) and 0.142185 seconds.
+ LINE_SEARCH delta = 1.00001
+L2_SVM_MFN converged in 2 iterations and 0.362989 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 8  kl = 0.000120564  cost = 0.520722 *****
+Optimizing p.  root (nu) = -0.237567 B(nu) = -2.29993e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28536 active examples,  objective_value = 0.606289)
+ CGLS converged in 121 iteration(s) and 0.213082 seconds.
+ LINE_SEARCH delta = 1.00071
+L2_SVM_MFN Iteration# 2 (28536 active examples,  objective_value = 0.606265)
+ CGLS converged in 80 iteration(s) and 0.139596 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.356957 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 9  kl = 8.89752e-05  cost = 0.52038 *****
+Optimizing p.  root (nu) = -0.236476 B(nu) = -5.35244e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28536 active examples,  objective_value = 0.605827)
+ CGLS converged in 119 iteration(s) and 0.208152 seconds.
+ LINE_SEARCH delta = 0.998404
+L2_SVM_MFN Iteration# 2 (28532 active examples,  objective_value = 0.605808)
+ CGLS converged in 83 iteration(s) and 0.146834 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.359243 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 10  kl = 6.77336e-05  cost = 0.520115 *****
+Optimizing p.  root (nu) = -0.235583 B(nu) = 6.97309e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28532 active examples,  objective_value = 0.605458)
+ CGLS converged in 120 iteration(s) and 0.209155 seconds.
+ LINE_SEARCH delta = 0.999939
+L2_SVM_MFN Iteration# 2 (28533 active examples,  objective_value = 0.605444)
+ CGLS converged in 74 iteration(s) and 0.129735 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.343241 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 11  kl = 5.21346e-05  cost = 0.519905 *****
+Optimizing p.  root (nu) = -0.234841 B(nu) = 7.29451e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28533 active examples,  objective_value = 0.605161)
+ CGLS converged in 115 iteration(s) and 0.201934 seconds.
+ LINE_SEARCH delta = 0.999953
+L2_SVM_MFN Iteration# 2 (28534 active examples,  objective_value = 0.60515)
+ CGLS converged in 62 iteration(s) and 0.114363 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.320708 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 12  kl = 4.04053e-05  cost = 0.519729 *****
+Optimizing p.  root (nu) = -0.234208 B(nu) = 1.90177e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28534 active examples,  objective_value = 0.604918)
+ CGLS converged in 112 iteration(s) and 0.198367 seconds.
+ LINE_SEARCH delta = 0.999796
+L2_SVM_MFN Iteration# 2 (28538 active examples,  objective_value = 0.604909)
+ CGLS converged in 74 iteration(s) and 0.131209 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.333824 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 13  kl = 3.176e-05  cost = 0.519579 *****
+Optimizing p.  root (nu) = -0.233671 B(nu) = -2.79287e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28538 active examples,  objective_value = 0.604718)
+ CGLS converged in 112 iteration(s) and 0.194731 seconds.
+ LINE_SEARCH delta = 0.999942
+L2_SVM_MFN Iteration# 2 (28536 active examples,  objective_value = 0.604711)
+ CGLS converged in 68 iteration(s) and 0.118915 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.317931 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 14  kl = 2.53165e-05  cost = 0.519452 *****
+Optimizing p.  root (nu) = -0.233211 B(nu) = -3.33522e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28536 active examples,  objective_value = 0.60455)
+ CGLS converged in 111 iteration(s) and 0.193803 seconds.
+ LINE_SEARCH delta = 0.999846
+L2_SVM_MFN Iteration# 2 (28539 active examples,  objective_value = 0.604544)
+ CGLS converged in 68 iteration(s) and 0.119645 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.317761 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 15  kl = 2.06026e-05  cost = 0.51934 *****
+Optimizing p.  root (nu) = -0.232817 B(nu) = 2.70055e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28539 active examples,  objective_value = 0.604408)
+ CGLS converged in 111 iteration(s) and 0.196857 seconds.
+ LINE_SEARCH delta = 0.999867
+L2_SVM_MFN Iteration# 2 (28541 active examples,  objective_value = 0.604403)
+ CGLS converged in 66 iteration(s) and 0.125959 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.327125 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 16  kl = 1.73142e-05  cost = 0.519237 *****
+Optimizing p.  root (nu) = -0.232482 B(nu) = 6.74418e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28541 active examples,  objective_value = 0.604285)
+ CGLS converged in 111 iteration(s) and 0.196098 seconds.
+ LINE_SEARCH delta = 0.999785
+L2_SVM_MFN Iteration# 2 (28542 active examples,  objective_value = 0.60428)
+ CGLS converged in 70 iteration(s) and 0.127617 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.32829 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 17  kl = 1.53178e-05  cost = 0.519147 *****
+Optimizing p.  root (nu) = -0.232196 B(nu) = 5.8642e-13
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28542 active examples,  objective_value = 0.604176)
+ CGLS converged in 111 iteration(s) and 0.199902 seconds.
+ LINE_SEARCH delta = 1.00008
+L2_SVM_MFN Iteration# 2 (28539 active examples,  objective_value = 0.604171)
+ CGLS converged in 61 iteration(s) and 0.110201 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.314603 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 18  kl = 1.44107e-05  cost = 0.519069 *****
+Optimizing p.  root (nu) = -0.231942 B(nu) = -5.56263e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28539 active examples,  objective_value = 0.604076)
+ CGLS converged in 111 iteration(s) and 0.199679 seconds.
+ LINE_SEARCH delta = 0.99898
+L2_SVM_MFN Iteration# 2 (28538 active examples,  objective_value = 0.604072)
+ CGLS converged in 71 iteration(s) and 0.133313 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.337401 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 19  kl = 1.36466e-05  cost = 0.519006 *****
+Optimizing p.  root (nu) = -0.231702 B(nu) = 8.83869e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28538 active examples,  objective_value = 0.603986)
+ CGLS converged in 110 iteration(s) and 0.193643 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN Iteration# 2 (28538 active examples,  objective_value = 0.603983)
+ CGLS converged in 54 iteration(s) and 0.09537 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.293372 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 20  kl = 1.16355e-05  cost = 0.518955 *****
+Optimizing p.  root (nu) = -0.231477 B(nu) = 8.12747e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28538 active examples,  objective_value = 0.603907)
+ CGLS converged in 108 iteration(s) and 0.188592 seconds.
+ LINE_SEARCH delta = 1.00001
+L2_SVM_MFN Iteration# 2 (28538 active examples,  objective_value = 0.603905)
+ CGLS converged in 60 iteration(s) and 0.105171 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.298218 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 21  kl = 8.8928e-06  cost = 0.518909 *****
+Optimizing p.  root (nu) = -0.231275 B(nu) = 3.04716e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28538 active examples,  objective_value = 0.60384)
+ CGLS converged in 108 iteration(s) and 0.188505 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN Iteration# 2 (28537 active examples,  objective_value = 0.603838)
+ CGLS converged in 45 iteration(s) and 0.079794 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.272615 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 22  kl = 6.7775e-06  cost = 0.518868 *****
+Optimizing p.  root (nu) = -0.2311 B(nu) = -5.99645e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28537 active examples,  objective_value = 0.603782)
+ CGLS converged in 107 iteration(s) and 0.188144 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN Iteration# 2 (28536 active examples,  objective_value = 0.60378)
+ CGLS converged in 61 iteration(s) and 0.108499 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.301096 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 23  kl = 5.39666e-06  cost = 0.518832 *****
+Optimizing p.  root (nu) = -0.230948 B(nu) = -5.94365e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28536 active examples,  objective_value = 0.603732)
+ CGLS converged in 106 iteration(s) and 0.185822 seconds.
+ LINE_SEARCH delta = 0.999954
+L2_SVM_MFN Iteration# 2 (28535 active examples,  objective_value = 0.603731)
+ CGLS converged in 57 iteration(s) and 0.100351 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.29058 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 24  kl = 4.44283e-06  cost = 0.518801 *****
+Optimizing p.  root (nu) = -0.230814 B(nu) = -9.4898e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28535 active examples,  objective_value = 0.603689)
+ CGLS converged in 108 iteration(s) and 0.190545 seconds.
+ LINE_SEARCH delta = 0.999942
+L2_SVM_MFN Iteration# 2 (28534 active examples,  objective_value = 0.603688)
+ CGLS converged in 56 iteration(s) and 0.10029 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.295604 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 25  kl = 3.72128e-06  cost = 0.518774 *****
+Optimizing p.  root (nu) = -0.230697 B(nu) = -8.93888e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28534 active examples,  objective_value = 0.603651)
+ CGLS converged in 107 iteration(s) and 0.189592 seconds.
+ LINE_SEARCH delta = 1.00002
+L2_SVM_MFN converged in 1 iterations and 0.193575 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 26  kl = 3.14666e-06  cost = 0.518751 *****
+Optimizing p.  root (nu) = -0.230593 B(nu) = -2.31528e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28534 active examples,  objective_value = 0.603617)
+ CGLS converged in 103 iteration(s) and 0.181242 seconds.
+ LINE_SEARCH delta = 1.00021
+L2_SVM_MFN converged in 1 iterations and 0.18504 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 27  kl = 2.68047e-06  cost = 0.518731 *****
+Optimizing p.  root (nu) = -0.2305 B(nu) = -9.98669e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28535 active examples,  objective_value = 0.603587)
+ CGLS converged in 103 iteration(s) and 0.181393 seconds.
+ LINE_SEARCH delta = 0.999999
+L2_SVM_MFN converged in 1 iterations and 0.18534 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 28  kl = 2.30567e-06  cost = 0.518713 *****
+Optimizing p.  root (nu) = -0.230414 B(nu) = -8.23415e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28535 active examples,  objective_value = 0.60356)
+ CGLS converged in 101 iteration(s) and 0.177288 seconds.
+ LINE_SEARCH delta = 1.00004
+L2_SVM_MFN converged in 1 iterations and 0.181021 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 29  kl = 2.00077e-06  cost = 0.518697 *****
+Optimizing p.  root (nu) = -0.230333 B(nu) = 4.41145e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28534 active examples,  objective_value = 0.603536)
+ CGLS converged in 100 iteration(s) and 0.176251 seconds.
+ LINE_SEARCH delta = 0.999922
+L2_SVM_MFN converged in 1 iterations and 0.180122 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 30  kl = 1.73409e-06  cost = 0.518682 *****
+Optimizing p.  root (nu) = -0.230257 B(nu) = -6.6806e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28533 active examples,  objective_value = 0.603514)
+ CGLS converged in 100 iteration(s) and 0.17569 seconds.
+ LINE_SEARCH delta = 0.999993
+L2_SVM_MFN converged in 1 iterations and 0.179646 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 31  kl = 1.47866e-06  cost = 0.518668 *****
+Optimizing p.  root (nu) = -0.230184 B(nu) = 8.55267e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28534 active examples,  objective_value = 0.603495)
+ CGLS converged in 99 iteration(s) and 0.173971 seconds.
+ LINE_SEARCH delta = 0.999966
+L2_SVM_MFN converged in 1 iterations and 0.17793 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 32  kl = 1.22711e-06  cost = 0.518655 *****
+Optimizing p.  root (nu) = -0.230114 B(nu) = 8.69741e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28534 active examples,  objective_value = 0.603477)
+ CGLS converged in 100 iteration(s) and 0.176212 seconds.
+ LINE_SEARCH delta = 1.00005
+L2_SVM_MFN converged in 1 iterations and 0.180054 seconds. 
+
+***** outer_iter = 7  T = 0.877915  inner_iter = 33  kl = 9.95506e-07  cost = 0.518643 *****
+***** Finished outer_iter = 7 T = 0.877915  Entropy = 0.532211 ***
+Optimizing p.  root (nu) = -0.37397 B(nu) = -4.45181e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28534 active examples,  objective_value = 0.567278)
+ CGLS converged in 139 iteration(s) and 0.249407 seconds.
+ LINE_SEARCH delta = 1.02017
+L2_SVM_MFN Iteration# 2 (28376 active examples,  objective_value = 0.565073)
+ CGLS converged in 117 iteration(s) and 0.204425 seconds.
+ LINE_SEARCH delta = 1.00018
+L2_SVM_MFN Iteration# 3 (28377 active examples,  objective_value = 0.565065)
+ CGLS converged in 70 iteration(s) and 0.124495 seconds.
+L2_SVM_MFN converged in 3 iteration(s) and 0.585729 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 1  kl = 0.0253845  cost = 0.513073 *****
+Optimizing p.  root (nu) = -0.340451 B(nu) = 5.71553e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28377 active examples,  objective_value = 0.555846)
+ CGLS converged in 131 iteration(s) and 0.228637 seconds.
+ LINE_SEARCH delta = 1.00293
+L2_SVM_MFN Iteration# 2 (28355 active examples,  objective_value = 0.555511)
+ CGLS converged in 95 iteration(s) and 0.165837 seconds.
+ LINE_SEARCH delta = 1.00001
+L2_SVM_MFN converged in 2 iterations and 0.40145 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 2  kl = 0.00332026  cost = 0.511407 *****
+Optimizing p.  root (nu) = -0.329165 B(nu) = 5.92777e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28354 active examples,  objective_value = 0.552457)
+ CGLS converged in 126 iteration(s) and 0.21972 seconds.
+ LINE_SEARCH delta = 1.00066
+L2_SVM_MFN Iteration# 2 (28344 active examples,  objective_value = 0.552338)
+ CGLS converged in 92 iteration(s) and 0.160762 seconds.
+ LINE_SEARCH delta = 1.0001
+L2_SVM_MFN converged in 2 iterations and 0.387453 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 3  kl = 0.000862199  cost = 0.510568 *****
+Optimizing p.  root (nu) = -0.32414 B(nu) = 6.41456e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28343 active examples,  objective_value = 0.550965)
+ CGLS converged in 123 iteration(s) and 0.214916 seconds.
+ LINE_SEARCH delta = 1.00024
+L2_SVM_MFN Iteration# 2 (28338 active examples,  objective_value = 0.5509)
+ CGLS converged in 90 iteration(s) and 0.161432 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 2 iterations and 0.383211 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 4  kl = 0.000405721  cost = 0.510065 *****
+Optimizing p.  root (nu) = -0.321351 B(nu) = 6.63534e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28338 active examples,  objective_value = 0.550126)
+ CGLS converged in 122 iteration(s) and 0.223312 seconds.
+ LINE_SEARCH delta = 1.00032
+L2_SVM_MFN Iteration# 2 (28330 active examples,  objective_value = 0.550085)
+ CGLS converged in 87 iteration(s) and 0.151516 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.379309 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 5  kl = 0.000243678  cost = 0.509725 *****
+Optimizing p.  root (nu) = -0.319539 B(nu) = -5.09102e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28330 active examples,  objective_value = 0.549585)
+ CGLS converged in 120 iteration(s) and 0.210247 seconds.
+ LINE_SEARCH delta = 0.999405
+L2_SVM_MFN Iteration# 2 (28334 active examples,  objective_value = 0.549557)
+ CGLS converged in 82 iteration(s) and 0.143831 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.35844 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 6  kl = 0.000162882  cost = 0.50948 *****
+Optimizing p.  root (nu) = -0.318214 B(nu) = -2.62459e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28334 active examples,  objective_value = 0.549204)
+ CGLS converged in 120 iteration(s) and 0.210975 seconds.
+ LINE_SEARCH delta = 0.999884
+L2_SVM_MFN Iteration# 2 (28336 active examples,  objective_value = 0.549182)
+ CGLS converged in 76 iteration(s) and 0.139995 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.355396 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 7  kl = 0.000119267  cost = 0.509284 *****
+Optimizing p.  root (nu) = -0.31719 B(nu) = -1.66048e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28336 active examples,  objective_value = 0.548913)
+ CGLS converged in 120 iteration(s) and 0.212545 seconds.
+ LINE_SEARCH delta = 0.999728
+L2_SVM_MFN Iteration# 2 (28339 active examples,  objective_value = 0.548895)
+ CGLS converged in 75 iteration(s) and 0.132064 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.349336 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 8  kl = 9.54842e-05  cost = 0.509127 *****
+Optimizing p.  root (nu) = -0.316428 B(nu) = -6.8214e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28339 active examples,  objective_value = 0.548683)
+ CGLS converged in 112 iteration(s) and 0.197302 seconds.
+ LINE_SEARCH delta = 0.999998
+L2_SVM_MFN Iteration# 2 (28339 active examples,  objective_value = 0.548669)
+ CGLS converged in 69 iteration(s) and 0.121074 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.323032 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 9  kl = 7.52733e-05  cost = 0.509008 *****
+Optimizing p.  root (nu) = -0.315845 B(nu) = -4.94249e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28339 active examples,  objective_value = 0.548502)
+ CGLS converged in 116 iteration(s) and 0.203089 seconds.
+ LINE_SEARCH delta = 0.999793
+L2_SVM_MFN Iteration# 2 (28339 active examples,  objective_value = 0.548491)
+ CGLS converged in 75 iteration(s) and 0.131562 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.339094 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 10  kl = 5.77894e-05  cost = 0.508908 *****
+Optimizing p.  root (nu) = -0.315358 B(nu) = -8.93823e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28339 active examples,  objective_value = 0.548356)
+ CGLS converged in 111 iteration(s) and 0.194 seconds.
+ LINE_SEARCH delta = 1.00007
+L2_SVM_MFN Iteration# 2 (28338 active examples,  objective_value = 0.548347)
+ CGLS converged in 69 iteration(s) and 0.121589 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.320034 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 11  kl = 4.73179e-05  cost = 0.508829 *****
+Optimizing p.  root (nu) = -0.314943 B(nu) = 3.3179e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28338 active examples,  objective_value = 0.548233)
+ CGLS converged in 111 iteration(s) and 0.194475 seconds.
+ LINE_SEARCH delta = 0.999926
+L2_SVM_MFN Iteration# 2 (28338 active examples,  objective_value = 0.548225)
+ CGLS converged in 62 iteration(s) and 0.108969 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.307868 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 12  kl = 4.09341e-05  cost = 0.508765 *****
+Optimizing p.  root (nu) = -0.314573 B(nu) = -2.72969e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28338 active examples,  objective_value = 0.548127)
+ CGLS converged in 111 iteration(s) and 0.194072 seconds.
+ LINE_SEARCH delta = 0.999806
+L2_SVM_MFN Iteration# 2 (28337 active examples,  objective_value = 0.548119)
+ CGLS converged in 68 iteration(s) and 0.118892 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.317369 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 13  kl = 3.71057e-05  cost = 0.508707 *****
+Optimizing p.  root (nu) = -0.314231 B(nu) = -5.10084e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28337 active examples,  objective_value = 0.548032)
+ CGLS converged in 110 iteration(s) and 0.192077 seconds.
+ LINE_SEARCH delta = 0.999715
+L2_SVM_MFN Iteration# 2 (28340 active examples,  objective_value = 0.548024)
+ CGLS converged in 69 iteration(s) and 0.121034 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.31757 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 14  kl = 3.4945e-05  cost = 0.508655 *****
+Optimizing p.  root (nu) = -0.313918 B(nu) = 7.42825e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28340 active examples,  objective_value = 0.547946)
+ CGLS converged in 111 iteration(s) and 0.197465 seconds.
+ LINE_SEARCH delta = 0.998458
+L2_SVM_MFN Iteration# 2 (28337 active examples,  objective_value = 0.54794)
+ CGLS converged in 75 iteration(s) and 0.130707 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.332592 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 15  kl = 3.18921e-05  cost = 0.508619 *****
+Optimizing p.  root (nu) = -0.313613 B(nu) = -4.86471e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28337 active examples,  objective_value = 0.547871)
+ CGLS converged in 111 iteration(s) and 0.199445 seconds.
+ LINE_SEARCH delta = 0.99972
+L2_SVM_MFN Iteration# 2 (28336 active examples,  objective_value = 0.547865)
+ CGLS converged in 74 iteration(s) and 0.129555 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.333441 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 16  kl = 2.84153e-05  cost = 0.508586 *****
+Optimizing p.  root (nu) = -0.313277 B(nu) = -4.37164e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28336 active examples,  objective_value = 0.547802)
+ CGLS converged in 110 iteration(s) and 0.192294 seconds.
+ LINE_SEARCH delta = 0.999928
+L2_SVM_MFN Iteration# 2 (28338 active examples,  objective_value = 0.547795)
+ CGLS converged in 63 iteration(s) and 0.110154 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.306898 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 17  kl = 2.86751e-05  cost = 0.508541 *****
+Optimizing p.  root (nu) = -0.312925 B(nu) = 1.13236e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28338 active examples,  objective_value = 0.547732)
+ CGLS converged in 111 iteration(s) and 0.195146 seconds.
+ LINE_SEARCH delta = 0.999716
+L2_SVM_MFN Iteration# 2 (28336 active examples,  objective_value = 0.547725)
+ CGLS converged in 67 iteration(s) and 0.118034 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.317564 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 18  kl = 3.13175e-05  cost = 0.508491 *****
+Optimizing p.  root (nu) = -0.312611 B(nu) = 7.04996e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28336 active examples,  objective_value = 0.547662)
+ CGLS converged in 111 iteration(s) and 0.193333 seconds.
+ LINE_SEARCH delta = 0.999404
+L2_SVM_MFN Iteration# 2 (28339 active examples,  objective_value = 0.547655)
+ CGLS converged in 71 iteration(s) and 0.123791 seconds.
+ LINE_SEARCH delta = 1.00005
+L2_SVM_MFN converged in 2 iterations and 0.324059 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 19  kl = 3.11558e-05  cost = 0.508449 *****
+Optimizing p.  root (nu) = -0.312357 B(nu) = -2.60726e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28339 active examples,  objective_value = 0.547598)
+ CGLS converged in 111 iteration(s) and 0.193708 seconds.
+ LINE_SEARCH delta = 0.999583
+L2_SVM_MFN Iteration# 2 (28341 active examples,  objective_value = 0.547593)
+ CGLS converged in 75 iteration(s) and 0.132349 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.330457 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 20  kl = 2.68847e-05  cost = 0.50842 *****
+Optimizing p.  root (nu) = -0.31214 B(nu) = -4.22676e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28341 active examples,  objective_value = 0.547542)
+ CGLS converged in 109 iteration(s) and 0.192784 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN Iteration# 2 (28339 active examples,  objective_value = 0.547538)
+ CGLS converged in 61 iteration(s) and 0.113698 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.310937 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 21  kl = 2.22881e-05  cost = 0.508399 *****
+Optimizing p.  root (nu) = -0.311932 B(nu) = -3.27328e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28339 active examples,  objective_value = 0.547494)
+ CGLS converged in 109 iteration(s) and 0.194306 seconds.
+ LINE_SEARCH delta = 0.999989
+L2_SVM_MFN Iteration# 2 (28339 active examples,  objective_value = 0.54749)
+ CGLS converged in 63 iteration(s) and 0.111606 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.310401 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 22  kl = 1.92644e-05  cost = 0.508379 *****
+Optimizing p.  root (nu) = -0.311728 B(nu) = -9.7337e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28339 active examples,  objective_value = 0.54745)
+ CGLS converged in 109 iteration(s) and 0.192825 seconds.
+ LINE_SEARCH delta = 0.999841
+L2_SVM_MFN Iteration# 2 (28341 active examples,  objective_value = 0.547446)
+ CGLS converged in 63 iteration(s) and 0.111891 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.309208 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 23  kl = 1.75601e-05  cost = 0.508356 *****
+Optimizing p.  root (nu) = -0.311538 B(nu) = -3.72915e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28341 active examples,  objective_value = 0.54741)
+ CGLS converged in 109 iteration(s) and 0.201029 seconds.
+ LINE_SEARCH delta = 1.00004
+L2_SVM_MFN Iteration# 2 (28340 active examples,  objective_value = 0.547406)
+ CGLS converged in 66 iteration(s) and 0.116394 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.323029 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 24  kl = 1.62512e-05  cost = 0.508337 *****
+Optimizing p.  root (nu) = -0.311371 B(nu) = 2.76038e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28340 active examples,  objective_value = 0.547373)
+ CGLS converged in 108 iteration(s) and 0.191279 seconds.
+ LINE_SEARCH delta = 0.999994
+L2_SVM_MFN Iteration# 2 (28340 active examples,  objective_value = 0.54737)
+ CGLS converged in 54 iteration(s) and 0.096532 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.292297 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 25  kl = 1.44562e-05  cost = 0.508324 *****
+Optimizing p.  root (nu) = -0.311224 B(nu) = -3.6313e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28340 active examples,  objective_value = 0.547341)
+ CGLS converged in 107 iteration(s) and 0.190315 seconds.
+ LINE_SEARCH delta = 0.999951
+L2_SVM_MFN Iteration# 2 (28339 active examples,  objective_value = 0.547339)
+ CGLS converged in 58 iteration(s) and 0.102668 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.297594 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 26  kl = 1.23102e-05  cost = 0.508316 *****
+Optimizing p.  root (nu) = -0.311083 B(nu) = 1.68855e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28339 active examples,  objective_value = 0.547314)
+ CGLS converged in 106 iteration(s) and 0.186754 seconds.
+ LINE_SEARCH delta = 1.00003
+L2_SVM_MFN Iteration# 2 (28337 active examples,  objective_value = 0.547312)
+ CGLS converged in 65 iteration(s) and 0.117651 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.308995 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 27  kl = 1.06901e-05  cost = 0.508311 *****
+Optimizing p.  root (nu) = -0.310935 B(nu) = 6.46486e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28337 active examples,  objective_value = 0.54729)
+ CGLS converged in 107 iteration(s) and 0.212764 seconds.
+ LINE_SEARCH delta = 0.999901
+L2_SVM_MFN Iteration# 2 (28335 active examples,  objective_value = 0.547288)
+ CGLS converged in 61 iteration(s) and 0.112099 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.329577 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 28  kl = 1.00195e-05  cost = 0.508308 *****
+Optimizing p.  root (nu) = -0.310773 B(nu) = -2.44793e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28335 active examples,  objective_value = 0.547267)
+ CGLS converged in 106 iteration(s) and 0.206631 seconds.
+ LINE_SEARCH delta = 0.99936
+L2_SVM_MFN Iteration# 2 (28337 active examples,  objective_value = 0.547265)
+ CGLS converged in 64 iteration(s) and 0.128022 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.339509 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 29  kl = 1.03612e-05  cost = 0.508306 *****
+Optimizing p.  root (nu) = -0.310595 B(nu) = 6.56886e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28337 active examples,  objective_value = 0.547243)
+ CGLS converged in 106 iteration(s) and 0.204799 seconds.
+ LINE_SEARCH delta = 1.00001
+L2_SVM_MFN Iteration# 2 (28336 active examples,  objective_value = 0.54724)
+ CGLS converged in 56 iteration(s) and 0.101321 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.310917 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 30  kl = 1.19282e-05  cost = 0.508298 *****
+Optimizing p.  root (nu) = -0.310406 B(nu) = -8.04168e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28336 active examples,  objective_value = 0.547217)
+ CGLS converged in 110 iteration(s) and 0.192999 seconds.
+ LINE_SEARCH delta = 1.00006
+L2_SVM_MFN Iteration# 2 (28337 active examples,  objective_value = 0.547213)
+ CGLS converged in 60 iteration(s) and 0.108403 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.30587 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 31  kl = 1.45309e-05  cost = 0.508287 *****
+Optimizing p.  root (nu) = -0.310219 B(nu) = -1.77887e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28337 active examples,  objective_value = 0.547187)
+ CGLS converged in 107 iteration(s) and 0.20285 seconds.
+ LINE_SEARCH delta = 0.999828
+L2_SVM_MFN Iteration# 2 (28338 active examples,  objective_value = 0.547183)
+ CGLS converged in 64 iteration(s) and 0.120944 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.328611 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 32  kl = 1.61786e-05  cost = 0.508276 *****
+Optimizing p.  root (nu) = -0.310027 B(nu) = -8.85317e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28338 active examples,  objective_value = 0.547156)
+ CGLS converged in 109 iteration(s) and 0.207455 seconds.
+ LINE_SEARCH delta = 1.00033
+L2_SVM_MFN Iteration# 2 (28337 active examples,  objective_value = 0.547153)
+ CGLS converged in 61 iteration(s) and 0.1166 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.328578 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 33  kl = 1.51655e-05  cost = 0.508264 *****
+Optimizing p.  root (nu) = -0.309815 B(nu) = -6.78669e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28337 active examples,  objective_value = 0.547127)
+ CGLS converged in 109 iteration(s) and 0.192437 seconds.
+ LINE_SEARCH delta = 0.996153
+L2_SVM_MFN Iteration# 2 (28339 active examples,  objective_value = 0.547124)
+ CGLS converged in 75 iteration(s) and 0.141092 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.337992 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 34  kl = 1.34357e-05  cost = 0.508254 *****
+Optimizing p.  root (nu) = -0.309596 B(nu) = -7.90613e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28339 active examples,  objective_value = 0.547099)
+ CGLS converged in 106 iteration(s) and 0.215846 seconds.
+ LINE_SEARCH delta = 0.999743
+L2_SVM_MFN Iteration# 2 (28340 active examples,  objective_value = 0.547097)
+ CGLS converged in 59 iteration(s) and 0.113425 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.334008 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 35  kl = 1.24382e-05  cost = 0.508248 *****
+Optimizing p.  root (nu) = -0.309381 B(nu) = -7.95453e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28340 active examples,  objective_value = 0.547073)
+ CGLS converged in 107 iteration(s) and 0.205043 seconds.
+ LINE_SEARCH delta = 0.999964
+L2_SVM_MFN Iteration# 2 (28340 active examples,  objective_value = 0.54707)
+ CGLS converged in 57 iteration(s) and 0.105045 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.314574 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 36  kl = 1.18861e-05  cost = 0.508242 *****
+Optimizing p.  root (nu) = -0.309167 B(nu) = 2.14884e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28340 active examples,  objective_value = 0.547047)
+ CGLS converged in 109 iteration(s) and 0.196985 seconds.
+ LINE_SEARCH delta = 0.999593
+L2_SVM_MFN Iteration# 2 (28342 active examples,  objective_value = 0.547045)
+ CGLS converged in 65 iteration(s) and 0.116318 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.318059 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 37  kl = 1.16778e-05  cost = 0.508233 *****
+Optimizing p.  root (nu) = -0.30895 B(nu) = -6.95966e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28342 active examples,  objective_value = 0.547021)
+ CGLS converged in 107 iteration(s) and 0.200861 seconds.
+ LINE_SEARCH delta = 1.00003
+L2_SVM_MFN Iteration# 2 (28340 active examples,  objective_value = 0.547019)
+ CGLS converged in 58 iteration(s) and 0.113659 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.319239 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 38  kl = 1.21425e-05  cost = 0.508228 *****
+Optimizing p.  root (nu) = -0.308728 B(nu) = -5.46068e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28340 active examples,  objective_value = 0.546994)
+ CGLS converged in 107 iteration(s) and 0.19388 seconds.
+ LINE_SEARCH delta = 1.00011
+L2_SVM_MFN Iteration# 2 (28339 active examples,  objective_value = 0.546991)
+ CGLS converged in 55 iteration(s) and 0.103082 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.30158 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 39  kl = 1.34774e-05  cost = 0.508219 *****
+Optimizing p.  root (nu) = -0.308507 B(nu) = 2.96388e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28339 active examples,  objective_value = 0.546964)
+ CGLS converged in 108 iteration(s) and 0.194164 seconds.
+ LINE_SEARCH delta = 0.999939
+L2_SVM_MFN Iteration# 2 (28339 active examples,  objective_value = 0.54696)
+ CGLS converged in 56 iteration(s) and 0.1009 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.299588 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 40  kl = 1.58803e-05  cost = 0.508196 *****
+Optimizing p.  root (nu) = -0.308307 B(nu) = 8.91872e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28339 active examples,  objective_value = 0.546929)
+ CGLS converged in 110 iteration(s) and 0.21665 seconds.
+ LINE_SEARCH delta = 0.9998
+L2_SVM_MFN Iteration# 2 (28340 active examples,  objective_value = 0.546924)
+ CGLS converged in 62 iteration(s) and 0.117299 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.338706 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 41  kl = 1.86457e-05  cost = 0.508168 *****
+Optimizing p.  root (nu) = -0.308171 B(nu) = 4.11146e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28340 active examples,  objective_value = 0.546891)
+ CGLS converged in 109 iteration(s) and 0.20639 seconds.
+ LINE_SEARCH delta = 0.999835
+L2_SVM_MFN Iteration# 2 (28341 active examples,  objective_value = 0.546888)
+ CGLS converged in 64 iteration(s) and 0.124181 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.335355 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 42  kl = 1.83466e-05  cost = 0.508147 *****
+Optimizing p.  root (nu) = -0.308107 B(nu) = 5.44876e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28341 active examples,  objective_value = 0.546858)
+ CGLS converged in 105 iteration(s) and 0.206907 seconds.
+ LINE_SEARCH delta = 0.9993
+L2_SVM_MFN Iteration# 2 (28341 active examples,  objective_value = 0.546856)
+ CGLS converged in 65 iteration(s) and 0.12832 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.340214 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 43  kl = 1.42789e-05  cost = 0.508127 *****
+Optimizing p.  root (nu) = -0.308076 B(nu) = 8.30649e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28341 active examples,  objective_value = 0.546832)
+ CGLS converged in 105 iteration(s) and 0.204582 seconds.
+ LINE_SEARCH delta = 1.00002
+L2_SVM_MFN Iteration# 2 (28341 active examples,  objective_value = 0.54683)
+ CGLS converged in 64 iteration(s) and 0.123613 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.333087 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 44  kl = 1.09472e-05  cost = 0.508111 *****
+Optimizing p.  root (nu) = -0.30806 B(nu) = -9.30171e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28341 active examples,  objective_value = 0.546809)
+ CGLS converged in 107 iteration(s) and 0.209709 seconds.
+ LINE_SEARCH delta = 0.999978
+L2_SVM_MFN Iteration# 2 (28343 active examples,  objective_value = 0.546807)
+ CGLS converged in 58 iteration(s) and 0.116761 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.331335 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 45  kl = 9.04916e-06  cost = 0.508095 *****
+Optimizing p.  root (nu) = -0.308056 B(nu) = 3.91058e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28343 active examples,  objective_value = 0.546789)
+ CGLS converged in 105 iteration(s) and 0.210421 seconds.
+ LINE_SEARCH delta = 1.00011
+L2_SVM_MFN Iteration# 2 (28344 active examples,  objective_value = 0.546787)
+ CGLS converged in 56 iteration(s) and 0.111781 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.327098 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 46  kl = 7.75038e-06  cost = 0.50808 *****
+Optimizing p.  root (nu) = -0.308057 B(nu) = -8.11599e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28344 active examples,  objective_value = 0.546771)
+ CGLS converged in 106 iteration(s) and 0.208339 seconds.
+ LINE_SEARCH delta = 0.999953
+L2_SVM_MFN Iteration# 2 (28343 active examples,  objective_value = 0.54677)
+ CGLS converged in 64 iteration(s) and 0.130845 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.344032 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 47  kl = 6.8041e-06  cost = 0.508068 *****
+Optimizing p.  root (nu) = -0.308059 B(nu) = 2.93463e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28343 active examples,  objective_value = 0.546755)
+ CGLS converged in 105 iteration(s) and 0.210629 seconds.
+ LINE_SEARCH delta = 0.999901
+L2_SVM_MFN Iteration# 2 (28345 active examples,  objective_value = 0.546754)
+ CGLS converged in 54 iteration(s) and 0.111487 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.326959 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 48  kl = 6.22388e-06  cost = 0.508058 *****
+Optimizing p.  root (nu) = -0.308057 B(nu) = -4.6835e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28345 active examples,  objective_value = 0.546739)
+ CGLS converged in 106 iteration(s) and 0.21501 seconds.
+ LINE_SEARCH delta = 0.999671
+L2_SVM_MFN Iteration# 2 (28345 active examples,  objective_value = 0.546738)
+ CGLS converged in 60 iteration(s) and 0.124042 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.343883 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 49  kl = 6.04656e-06  cost = 0.50805 *****
+Optimizing p.  root (nu) = -0.30805 B(nu) = -3.96372e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28345 active examples,  objective_value = 0.546724)
+ CGLS converged in 106 iteration(s) and 0.220393 seconds.
+ LINE_SEARCH delta = 0.999788
+L2_SVM_MFN Iteration# 2 (28345 active examples,  objective_value = 0.546723)
+ CGLS converged in 57 iteration(s) and 0.116611 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.342547 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 50  kl = 6.33957e-06  cost = 0.508037 *****
+Optimizing p.  root (nu) = -0.30804 B(nu) = 9.80901e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28345 active examples,  objective_value = 0.546708)
+ CGLS converged in 108 iteration(s) and 0.219778 seconds.
+ LINE_SEARCH delta = 0.999743
+L2_SVM_MFN Iteration# 2 (28346 active examples,  objective_value = 0.546706)
+ CGLS converged in 56 iteration(s) and 0.111801 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.336428 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 51  kl = 6.97169e-06  cost = 0.508023 *****
+Optimizing p.  root (nu) = -0.308038 B(nu) = -7.12397e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28346 active examples,  objective_value = 0.54669)
+ CGLS converged in 106 iteration(s) and 0.215383 seconds.
+ LINE_SEARCH delta = 1.00001
+L2_SVM_MFN Iteration# 2 (28348 active examples,  objective_value = 0.546689)
+ CGLS converged in 44 iteration(s) and 0.087348 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.307745 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 52  kl = 7.10437e-06  cost = 0.508009 *****
+Optimizing p.  root (nu) = -0.308051 B(nu) = -7.36129e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28348 active examples,  objective_value = 0.546674)
+ CGLS converged in 106 iteration(s) and 0.219802 seconds.
+ LINE_SEARCH delta = 0.999853
+L2_SVM_MFN Iteration# 2 (28349 active examples,  objective_value = 0.546673)
+ CGLS converged in 55 iteration(s) and 0.11194 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.336867 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 53  kl = 6.00415e-06  cost = 0.507997 *****
+Optimizing p.  root (nu) = -0.30807 B(nu) = 8.83845e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28349 active examples,  objective_value = 0.546659)
+ CGLS converged in 104 iteration(s) and 0.217956 seconds.
+ LINE_SEARCH delta = 0.99995
+L2_SVM_MFN converged in 1 iterations and 0.222259 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 54  kl = 4.6924e-06  cost = 0.507984 *****
+Optimizing p.  root (nu) = -0.308086 B(nu) = -1.64035e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28349 active examples,  objective_value = 0.546647)
+ CGLS converged in 100 iteration(s) and 0.20694 seconds.
+ LINE_SEARCH delta = 0.999951
+L2_SVM_MFN converged in 1 iterations and 0.21094 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 55  kl = 3.97393e-06  cost = 0.507974 *****
+Optimizing p.  root (nu) = -0.308101 B(nu) = 9.22313e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28350 active examples,  objective_value = 0.546635)
+ CGLS converged in 104 iteration(s) and 0.211866 seconds.
+ LINE_SEARCH delta = 0.99998
+L2_SVM_MFN converged in 1 iterations and 0.216194 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 56  kl = 3.64384e-06  cost = 0.507962 *****
+Optimizing p.  root (nu) = -0.308119 B(nu) = -6.85773e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28350 active examples,  objective_value = 0.546624)
+ CGLS converged in 105 iteration(s) and 0.218957 seconds.
+ LINE_SEARCH delta = 0.999998
+L2_SVM_MFN converged in 1 iterations and 0.223192 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 57  kl = 3.52592e-06  cost = 0.507949 *****
+Optimizing p.  root (nu) = -0.308143 B(nu) = 8.9412e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28350 active examples,  objective_value = 0.546614)
+ CGLS converged in 100 iteration(s) and 0.202333 seconds.
+ LINE_SEARCH delta = 1.00001
+L2_SVM_MFN converged in 1 iterations and 0.206827 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 58  kl = 3.55808e-06  cost = 0.507937 *****
+Optimizing p.  root (nu) = -0.308172 B(nu) = -8.18646e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28351 active examples,  objective_value = 0.546603)
+ CGLS converged in 104 iteration(s) and 0.209296 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 1 iterations and 0.21382 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 59  kl = 3.65564e-06  cost = 0.507923 *****
+Optimizing p.  root (nu) = -0.308206 B(nu) = 7.89578e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28351 active examples,  objective_value = 0.546593)
+ CGLS converged in 103 iteration(s) and 0.204894 seconds.
+ LINE_SEARCH delta = 1.0001
+L2_SVM_MFN converged in 1 iterations and 0.209108 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 60  kl = 3.68347e-06  cost = 0.50791 *****
+Optimizing p.  root (nu) = -0.308245 B(nu) = -3.48964e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28350 active examples,  objective_value = 0.546583)
+ CGLS converged in 101 iteration(s) and 0.191332 seconds.
+ LINE_SEARCH delta = 0.99999
+L2_SVM_MFN converged in 1 iterations and 0.195581 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 61  kl = 3.52347e-06  cost = 0.507896 *****
+Optimizing p.  root (nu) = -0.308286 B(nu) = -8.58886e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28350 active examples,  objective_value = 0.546573)
+ CGLS converged in 101 iteration(s) and 0.203672 seconds.
+ LINE_SEARCH delta = 1.00002
+L2_SVM_MFN converged in 1 iterations and 0.208913 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 62  kl = 3.20173e-06  cost = 0.507883 *****
+Optimizing p.  root (nu) = -0.308328 B(nu) = -1.23572e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28349 active examples,  objective_value = 0.546564)
+ CGLS converged in 101 iteration(s) and 0.182498 seconds.
+ LINE_SEARCH delta = 0.999822
+L2_SVM_MFN converged in 1 iterations and 0.186526 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 63  kl = 2.86135e-06  cost = 0.507872 *****
+Optimizing p.  root (nu) = -0.308368 B(nu) = -6.09292e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28349 active examples,  objective_value = 0.546555)
+ CGLS converged in 100 iteration(s) and 0.186179 seconds.
+ LINE_SEARCH delta = 1.00009
+L2_SVM_MFN converged in 1 iterations and 0.190237 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 64  kl = 2.59223e-06  cost = 0.507863 *****
+Optimizing p.  root (nu) = -0.308402 B(nu) = -1.84952e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28346 active examples,  objective_value = 0.546547)
+ CGLS converged in 100 iteration(s) and 0.190764 seconds.
+ LINE_SEARCH delta = 1.00015
+L2_SVM_MFN converged in 1 iterations and 0.195647 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 65  kl = 2.36708e-06  cost = 0.507855 *****
+Optimizing p.  root (nu) = -0.30843 B(nu) = -3.12893e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28346 active examples,  objective_value = 0.54654)
+ CGLS converged in 101 iteration(s) and 0.192764 seconds.
+ LINE_SEARCH delta = 0.999969
+L2_SVM_MFN converged in 1 iterations and 0.196652 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 66  kl = 2.12238e-06  cost = 0.507848 *****
+Optimizing p.  root (nu) = -0.308451 B(nu) = -1.95138e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28344 active examples,  objective_value = 0.546533)
+ CGLS converged in 100 iteration(s) and 0.189846 seconds.
+ LINE_SEARCH delta = 1.00007
+L2_SVM_MFN converged in 1 iterations and 0.193784 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 67  kl = 1.83714e-06  cost = 0.507842 *****
+Optimizing p.  root (nu) = -0.308464 B(nu) = 9.13684e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28345 active examples,  objective_value = 0.546527)
+ CGLS converged in 97 iteration(s) and 0.172611 seconds.
+ LINE_SEARCH delta = 1.00009
+L2_SVM_MFN converged in 1 iterations and 0.176479 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 68  kl = 1.54829e-06  cost = 0.507837 *****
+Optimizing p.  root (nu) = -0.308473 B(nu) = -3.63343e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28345 active examples,  objective_value = 0.546521)
+ CGLS converged in 95 iteration(s) and 0.170386 seconds.
+ LINE_SEARCH delta = 1.00001
+L2_SVM_MFN converged in 1 iterations and 0.174355 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 69  kl = 1.31147e-06  cost = 0.507833 *****
+Optimizing p.  root (nu) = -0.308476 B(nu) = 6.71364e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28345 active examples,  objective_value = 0.546517)
+ CGLS converged in 98 iteration(s) and 0.178763 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.180166 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 70  kl = 1.15306e-06  cost = 0.50783 *****
+Optimizing p.  root (nu) = -0.308475 B(nu) = 5.75201e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28345 active examples,  objective_value = 0.546512)
+ CGLS converged in 99 iteration(s) and 0.176829 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 1 iterations and 0.180948 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 71  kl = 1.07435e-06  cost = 0.507828 *****
+Optimizing p.  root (nu) = -0.308469 B(nu) = -5.65248e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28346 active examples,  objective_value = 0.546508)
+ CGLS converged in 99 iteration(s) and 0.17532 seconds.
+ LINE_SEARCH delta = 1.00001
+L2_SVM_MFN converged in 1 iterations and 0.179439 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 72  kl = 1.08202e-06  cost = 0.507825 *****
+Optimizing p.  root (nu) = -0.308455 B(nu) = -2.04826e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28346 active examples,  objective_value = 0.546504)
+ CGLS converged in 99 iteration(s) and 0.174619 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.175993 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 73  kl = 1.22234e-06  cost = 0.507824 *****
+Optimizing p.  root (nu) = -0.30843 B(nu) = -7.70148e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28346 active examples,  objective_value = 0.5465)
+ CGLS converged in 98 iteration(s) and 0.171584 seconds.
+ LINE_SEARCH delta = 0.999979
+L2_SVM_MFN converged in 1 iterations and 0.175482 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 74  kl = 1.64455e-06  cost = 0.507823 *****
+Optimizing p.  root (nu) = -0.308385 B(nu) = 6.50917e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28346 active examples,  objective_value = 0.546495)
+ CGLS converged in 99 iteration(s) and 0.175293 seconds.
+ LINE_SEARCH delta = 0.999996
+L2_SVM_MFN converged in 1 iterations and 0.179399 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 75  kl = 2.75185e-06  cost = 0.507822 *****
+Optimizing p.  root (nu) = -0.308317 B(nu) = -3.7593e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28346 active examples,  objective_value = 0.546487)
+ CGLS converged in 104 iteration(s) and 0.183093 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN Iteration# 2 (28346 active examples,  objective_value = 0.546485)
+ CGLS converged in 28 iteration(s) and 0.050029 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.237584 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 76  kl = 5.18163e-06  cost = 0.507813 *****
+Optimizing p.  root (nu) = -0.308248 B(nu) = -3.01066e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28346 active examples,  objective_value = 0.546475)
+ CGLS converged in 103 iteration(s) and 0.186182 seconds.
+ LINE_SEARCH delta = 0.999392
+L2_SVM_MFN Iteration# 2 (28346 active examples,  objective_value = 0.546473)
+ CGLS converged in 60 iteration(s) and 0.111604 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.302481 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 77  kl = 7.40814e-06  cost = 0.507806 *****
+Optimizing p.  root (nu) = -0.308218 B(nu) = 2.18983e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28346 active examples,  objective_value = 0.546464)
+ CGLS converged in 101 iteration(s) and 0.178876 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.180233 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 78  kl = 5.08825e-06  cost = 0.507801 *****
+Optimizing p.  root (nu) = -0.308209 B(nu) = -3.83285e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28346 active examples,  objective_value = 0.546457)
+ CGLS converged in 101 iteration(s) and 0.177443 seconds.
+ LINE_SEARCH delta = 0.99944
+L2_SVM_MFN converged in 1 iterations and 0.181339 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 79  kl = 2.42897e-06  cost = 0.507799 *****
+Optimizing p.  root (nu) = -0.3082 B(nu) = -3.06123e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28347 active examples,  objective_value = 0.546452)
+ CGLS converged in 100 iteration(s) and 0.177806 seconds.
+ LINE_SEARCH delta = 0.998318
+L2_SVM_MFN converged in 1 iterations and 0.181685 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 80  kl = 1.82621e-06  cost = 0.507797 *****
+Optimizing p.  root (nu) = -0.308188 B(nu) = -4.11502e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28345 active examples,  objective_value = 0.546446)
+ CGLS converged in 99 iteration(s) and 0.173947 seconds.
+ LINE_SEARCH delta = 1.00003
+L2_SVM_MFN converged in 1 iterations and 0.177834 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 81  kl = 1.733e-06  cost = 0.507797 *****
+Optimizing p.  root (nu) = -0.308172 B(nu) = -8.11552e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28343 active examples,  objective_value = 0.546441)
+ CGLS converged in 98 iteration(s) and 0.173127 seconds.
+ LINE_SEARCH delta = 1.00004
+L2_SVM_MFN converged in 1 iterations and 0.1771 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 82  kl = 1.75183e-06  cost = 0.507795 *****
+Optimizing p.  root (nu) = -0.30815 B(nu) = 6.38662e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28343 active examples,  objective_value = 0.546435)
+ CGLS converged in 100 iteration(s) and 0.176246 seconds.
+ LINE_SEARCH delta = 0.999971
+L2_SVM_MFN converged in 1 iterations and 0.180172 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 83  kl = 1.8501e-06  cost = 0.507789 *****
+Optimizing p.  root (nu) = -0.308124 B(nu) = -4.68829e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28344 active examples,  objective_value = 0.546429)
+ CGLS converged in 100 iteration(s) and 0.176803 seconds.
+ LINE_SEARCH delta = 0.999962
+L2_SVM_MFN converged in 1 iterations and 0.180653 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 84  kl = 1.95751e-06  cost = 0.507785 *****
+Optimizing p.  root (nu) = -0.308096 B(nu) = -1.97373e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28345 active examples,  objective_value = 0.546422)
+ CGLS converged in 100 iteration(s) and 0.177611 seconds.
+ LINE_SEARCH delta = 0.999856
+L2_SVM_MFN converged in 1 iterations and 0.181598 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 85  kl = 1.94748e-06  cost = 0.507781 *****
+Optimizing p.  root (nu) = -0.308072 B(nu) = 4.22374e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28345 active examples,  objective_value = 0.546416)
+ CGLS converged in 100 iteration(s) and 0.175894 seconds.
+ LINE_SEARCH delta = 0.999993
+L2_SVM_MFN converged in 1 iterations and 0.17989 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 86  kl = 1.76039e-06  cost = 0.507779 *****
+Optimizing p.  root (nu) = -0.308051 B(nu) = -3.23933e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28347 active examples,  objective_value = 0.546409)
+ CGLS converged in 97 iteration(s) and 0.171796 seconds.
+ LINE_SEARCH delta = 0.999895
+L2_SVM_MFN converged in 1 iterations and 0.176028 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 87  kl = 1.48667e-06  cost = 0.507777 *****
+Optimizing p.  root (nu) = -0.308035 B(nu) = 2.6696e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28347 active examples,  objective_value = 0.546404)
+ CGLS converged in 95 iteration(s) and 0.18453 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.186012 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 88  kl = 1.25467e-06  cost = 0.507773 *****
+Optimizing p.  root (nu) = -0.30802 B(nu) = 1.47086e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28347 active examples,  objective_value = 0.546398)
+ CGLS converged in 95 iteration(s) and 0.183173 seconds.
+ LINE_SEARCH delta = 0.99961
+L2_SVM_MFN converged in 1 iterations and 0.187514 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 89  kl = 1.10211e-06  cost = 0.50777 *****
+Optimizing p.  root (nu) = -0.308009 B(nu) = 3.76272e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28348 active examples,  objective_value = 0.546393)
+ CGLS converged in 95 iteration(s) and 0.18596 seconds.
+ LINE_SEARCH delta = 0.999614
+L2_SVM_MFN converged in 1 iterations and 0.190011 seconds. 
+
+***** outer_iter = 8  T = 0.585277  inner_iter = 90  kl = 9.95678e-07  cost = 0.507766 *****
+***** Finished outer_iter = 8 T = 0.585277  Entropy = 0.306481 ***
+Optimizing p.  root (nu) = -0.400707 B(nu) = -8.72723e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28347 active examples,  objective_value = 0.526843)
+ CGLS converged in 131 iteration(s) and 0.250763 seconds.
+ LINE_SEARCH delta = 1.00751
+L2_SVM_MFN Iteration# 2 (28269 active examples,  objective_value = 0.526081)
+ CGLS converged in 105 iteration(s) and 0.203556 seconds.
+ LINE_SEARCH delta = 1.00002
+L2_SVM_MFN Iteration# 3 (28267 active examples,  objective_value = 0.52608)
+ CGLS converged in 32 iteration(s) and 0.05852 seconds.
+L2_SVM_MFN converged in 3 iteration(s) and 0.520896 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 1  kl = 0.0194346  cost = 0.506359 *****
+Optimizing p.  root (nu) = -0.379806 B(nu) = -6.56764e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28267 active examples,  objective_value = 0.523169)
+ CGLS converged in 124 iteration(s) and 0.233027 seconds.
+ LINE_SEARCH delta = 1.00046
+L2_SVM_MFN Iteration# 2 (28260 active examples,  objective_value = 0.523081)
+ CGLS converged in 89 iteration(s) and 0.172122 seconds.
+ LINE_SEARCH delta = 1.00003
+L2_SVM_MFN converged in 2 iterations and 0.41214 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 2  kl = 0.00137767  cost = 0.506059 *****
+Optimizing p.  root (nu) = -0.374579 B(nu) = 4.49419e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.522263)
+ CGLS converged in 118 iteration(s) and 0.226025 seconds.
+ LINE_SEARCH delta = 1.00097
+L2_SVM_MFN Iteration# 2 (28257 active examples,  objective_value = 0.522234)
+ CGLS converged in 81 iteration(s) and 0.154733 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.385238 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 3  kl = 0.000331854  cost = 0.505935 *****
+Optimizing p.  root (nu) = -0.372201 B(nu) = 1.60316e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28257 active examples,  objective_value = 0.521883)
+ CGLS converged in 116 iteration(s) and 0.226188 seconds.
+ LINE_SEARCH delta = 0.99926
+L2_SVM_MFN Iteration# 2 (28253 active examples,  objective_value = 0.521868)
+ CGLS converged in 76 iteration(s) and 0.142904 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.373624 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 4  kl = 0.00014351  cost = 0.505875 *****
+Optimizing p.  root (nu) = -0.370756 B(nu) = 8.81308e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28253 active examples,  objective_value = 0.521677)
+ CGLS converged in 114 iteration(s) and 0.225404 seconds.
+ LINE_SEARCH delta = 0.999773
+L2_SVM_MFN Iteration# 2 (28251 active examples,  objective_value = 0.521668)
+ CGLS converged in 69 iteration(s) and 0.136974 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.36711 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 5  kl = 7.89262e-05  cost = 0.505842 *****
+Optimizing p.  root (nu) = -0.369744 B(nu) = 3.28071e-13
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28251 active examples,  objective_value = 0.521548)
+ CGLS converged in 109 iteration(s) and 0.213244 seconds.
+ LINE_SEARCH delta = 0.999811
+L2_SVM_MFN Iteration# 2 (28250 active examples,  objective_value = 0.521543)
+ CGLS converged in 70 iteration(s) and 0.13325 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.351233 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 6  kl = 4.99982e-05  cost = 0.505824 *****
+Optimizing p.  root (nu) = -0.368966 B(nu) = -2.81324e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28250 active examples,  objective_value = 0.52146)
+ CGLS converged in 109 iteration(s) and 0.199247 seconds.
+ LINE_SEARCH delta = 0.999934
+L2_SVM_MFN Iteration# 2 (28251 active examples,  objective_value = 0.521456)
+ CGLS converged in 61 iteration(s) and 0.108197 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.312056 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 7  kl = 3.55122e-05  cost = 0.505814 *****
+Optimizing p.  root (nu) = -0.368326 B(nu) = -8.98259e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28251 active examples,  objective_value = 0.521394)
+ CGLS converged in 108 iteration(s) and 0.196131 seconds.
+ LINE_SEARCH delta = 0.999849
+L2_SVM_MFN Iteration# 2 (28251 active examples,  objective_value = 0.52139)
+ CGLS converged in 58 iteration(s) and 0.103209 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.303859 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 8  kl = 2.82792e-05  cost = 0.505802 *****
+Optimizing p.  root (nu) = -0.367792 B(nu) = -3.53854e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28251 active examples,  objective_value = 0.521341)
+ CGLS converged in 108 iteration(s) and 0.192648 seconds.
+ LINE_SEARCH delta = 0.999997
+L2_SVM_MFN Iteration# 2 (28253 active examples,  objective_value = 0.521338)
+ CGLS converged in 56 iteration(s) and 0.100358 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.297567 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 9  kl = 2.43926e-05  cost = 0.505797 *****
+Optimizing p.  root (nu) = -0.367353 B(nu) = -1.31082e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28253 active examples,  objective_value = 0.521297)
+ CGLS converged in 109 iteration(s) and 0.194847 seconds.
+ LINE_SEARCH delta = 0.999921
+L2_SVM_MFN Iteration# 2 (28256 active examples,  objective_value = 0.521294)
+ CGLS converged in 61 iteration(s) and 0.116876 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.316193 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 10  kl = 2.13498e-05  cost = 0.505795 *****
+Optimizing p.  root (nu) = -0.366986 B(nu) = 1.68648e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28256 active examples,  objective_value = 0.521259)
+ CGLS converged in 109 iteration(s) and 0.215366 seconds.
+ LINE_SEARCH delta = 0.999976
+L2_SVM_MFN Iteration# 2 (28257 active examples,  objective_value = 0.521256)
+ CGLS converged in 52 iteration(s) and 0.1057 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.325864 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 11  kl = 2.18561e-05  cost = 0.50579 *****
+Optimizing p.  root (nu) = -0.366755 B(nu) = 4.89387e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28257 active examples,  objective_value = 0.521226)
+ CGLS converged in 109 iteration(s) and 0.21498 seconds.
+ LINE_SEARCH delta = 0.999909
+L2_SVM_MFN Iteration# 2 (28256 active examples,  objective_value = 0.521224)
+ CGLS converged in 58 iteration(s) and 0.117511 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.337043 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 12  kl = 1.75948e-05  cost = 0.505785 *****
+Optimizing p.  root (nu) = -0.366605 B(nu) = 6.52871e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28256 active examples,  objective_value = 0.521201)
+ CGLS converged in 103 iteration(s) and 0.206394 seconds.
+ LINE_SEARCH delta = 0.99993
+L2_SVM_MFN Iteration# 2 (28256 active examples,  objective_value = 0.5212)
+ CGLS converged in 52 iteration(s) and 0.098412 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.309682 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 13  kl = 1.08577e-05  cost = 0.505782 *****
+Optimizing p.  root (nu) = -0.366468 B(nu) = 2.91838e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28256 active examples,  objective_value = 0.521182)
+ CGLS converged in 106 iteration(s) and 0.199148 seconds.
+ LINE_SEARCH delta = 0.999786
+L2_SVM_MFN Iteration# 2 (28258 active examples,  objective_value = 0.521181)
+ CGLS converged in 56 iteration(s) and 0.108344 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.312244 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 14  kl = 8.86523e-06  cost = 0.505777 *****
+Optimizing p.  root (nu) = -0.366361 B(nu) = 7.40997e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28258 active examples,  objective_value = 0.521165)
+ CGLS converged in 104 iteration(s) and 0.192469 seconds.
+ LINE_SEARCH delta = 0.999817
+L2_SVM_MFN Iteration# 2 (28260 active examples,  objective_value = 0.521164)
+ CGLS converged in 56 iteration(s) and 0.103534 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.300655 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 15  kl = 7.9856e-06  cost = 0.50577 *****
+Optimizing p.  root (nu) = -0.36629 B(nu) = -7.5038e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.52115)
+ CGLS converged in 102 iteration(s) and 0.199745 seconds.
+ LINE_SEARCH delta = 0.999325
+L2_SVM_MFN converged in 1 iterations and 0.203691 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 16  kl = 6.98286e-06  cost = 0.505764 *****
+Optimizing p.  root (nu) = -0.366249 B(nu) = 8.5781e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.521138)
+ CGLS converged in 101 iteration(s) and 0.189422 seconds.
+ LINE_SEARCH delta = 0.999919
+L2_SVM_MFN converged in 1 iterations and 0.193421 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 17  kl = 5.75389e-06  cost = 0.505758 *****
+Optimizing p.  root (nu) = -0.366222 B(nu) = 8.23368e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.521127)
+ CGLS converged in 101 iteration(s) and 0.190085 seconds.
+ LINE_SEARCH delta = 1.00013
+L2_SVM_MFN converged in 1 iterations and 0.19412 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 18  kl = 4.68529e-06  cost = 0.505755 *****
+Optimizing p.  root (nu) = -0.366194 B(nu) = -4.56757e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.521118)
+ CGLS converged in 102 iteration(s) and 0.180936 seconds.
+ LINE_SEARCH delta = 0.999976
+L2_SVM_MFN converged in 1 iterations and 0.184897 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 19  kl = 4.02269e-06  cost = 0.505752 *****
+Optimizing p.  root (nu) = -0.366159 B(nu) = -1.80654e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.52111)
+ CGLS converged in 101 iteration(s) and 0.178008 seconds.
+ LINE_SEARCH delta = 0.999994
+L2_SVM_MFN converged in 1 iterations and 0.182112 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 20  kl = 3.74919e-06  cost = 0.505751 *****
+Optimizing p.  root (nu) = -0.366117 B(nu) = -9.70465e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28261 active examples,  objective_value = 0.521102)
+ CGLS converged in 101 iteration(s) and 0.178368 seconds.
+ LINE_SEARCH delta = 0.999887
+L2_SVM_MFN converged in 1 iterations and 0.182371 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 21  kl = 3.76374e-06  cost = 0.505749 *****
+Optimizing p.  root (nu) = -0.36607 B(nu) = 6.67634e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28262 active examples,  objective_value = 0.521095)
+ CGLS converged in 101 iteration(s) and 0.179081 seconds.
+ LINE_SEARCH delta = 1.00002
+L2_SVM_MFN converged in 1 iterations and 0.183072 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 22  kl = 3.87418e-06  cost = 0.505747 *****
+Optimizing p.  root (nu) = -0.366025 B(nu) = 1.11449e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28262 active examples,  objective_value = 0.521088)
+ CGLS converged in 102 iteration(s) and 0.179976 seconds.
+ LINE_SEARCH delta = 0.999758
+L2_SVM_MFN converged in 1 iterations and 0.183797 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 23  kl = 3.89782e-06  cost = 0.505745 *****
+Optimizing p.  root (nu) = -0.365985 B(nu) = 2.95924e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28261 active examples,  objective_value = 0.521081)
+ CGLS converged in 101 iteration(s) and 0.177581 seconds.
+ LINE_SEARCH delta = 1.00001
+L2_SVM_MFN converged in 1 iterations and 0.181469 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 24  kl = 3.87782e-06  cost = 0.505742 *****
+Optimizing p.  root (nu) = -0.365945 B(nu) = 7.53148e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28261 active examples,  objective_value = 0.521074)
+ CGLS converged in 101 iteration(s) and 0.188738 seconds.
+ LINE_SEARCH delta = 1.00004
+L2_SVM_MFN converged in 1 iterations and 0.195684 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 25  kl = 4.0318e-06  cost = 0.50574 *****
+Optimizing p.  root (nu) = -0.3659 B(nu) = -3.84462e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28259 active examples,  objective_value = 0.521067)
+ CGLS converged in 101 iteration(s) and 0.179382 seconds.
+ LINE_SEARCH delta = 0.999693
+L2_SVM_MFN converged in 1 iterations and 0.1834 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 26  kl = 4.46961e-06  cost = 0.505739 *****
+Optimizing p.  root (nu) = -0.365846 B(nu) = 4.95115e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.52106)
+ CGLS converged in 105 iteration(s) and 0.203345 seconds.
+ LINE_SEARCH delta = 0.999999
+L2_SVM_MFN converged in 1 iterations and 0.207674 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 27  kl = 5.20991e-06  cost = 0.505737 *****
+Optimizing p.  root (nu) = -0.365781 B(nu) = -9.39919e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.521052)
+ CGLS converged in 101 iteration(s) and 0.194456 seconds.
+ LINE_SEARCH delta = 1.00002
+L2_SVM_MFN Iteration# 2 (28258 active examples,  objective_value = 0.521051)
+ CGLS converged in 48 iteration(s) and 0.090975 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.290256 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 28  kl = 6.43294e-06  cost = 0.505733 *****
+Optimizing p.  root (nu) = -0.365695 B(nu) = 8.54355e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28258 active examples,  objective_value = 0.521042)
+ CGLS converged in 106 iteration(s) and 0.200437 seconds.
+ LINE_SEARCH delta = 0.999842
+L2_SVM_MFN Iteration# 2 (28258 active examples,  objective_value = 0.521041)
+ CGLS converged in 54 iteration(s) and 0.105213 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.310486 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 29  kl = 9.42914e-06  cost = 0.505727 *****
+Optimizing p.  root (nu) = -0.365597 B(nu) = -2.70571e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28258 active examples,  objective_value = 0.521028)
+ CGLS converged in 106 iteration(s) and 0.207641 seconds.
+ LINE_SEARCH delta = 0.99981
+L2_SVM_MFN Iteration# 2 (28257 active examples,  objective_value = 0.521025)
+ CGLS converged in 62 iteration(s) and 0.121377 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.334027 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 30  kl = 1.7147e-05  cost = 0.505713 *****
+Optimizing p.  root (nu) = -0.365635 B(nu) = 4.24918e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28257 active examples,  objective_value = 0.521011)
+ CGLS converged in 106 iteration(s) and 0.20911 seconds.
+ LINE_SEARCH delta = 0.999283
+L2_SVM_MFN Iteration# 2 (28256 active examples,  objective_value = 0.521009)
+ CGLS converged in 62 iteration(s) and 0.121794 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.335769 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 31  kl = 1.45377e-05  cost = 0.505707 *****
+Optimizing p.  root (nu) = -0.365715 B(nu) = 1.1283e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28256 active examples,  objective_value = 0.521003)
+ CGLS converged in 100 iteration(s) and 0.198981 seconds.
+ LINE_SEARCH delta = 0.999877
+L2_SVM_MFN converged in 1 iterations and 0.203139 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 32  kl = 4.63593e-06  cost = 0.505706 *****
+Optimizing p.  root (nu) = -0.365716 B(nu) = -5.73129e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28257 active examples,  objective_value = 0.520997)
+ CGLS converged in 99 iteration(s) and 0.189019 seconds.
+ LINE_SEARCH delta = 0.999872
+L2_SVM_MFN converged in 1 iterations and 0.193313 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 33  kl = 2.83474e-06  cost = 0.505706 *****
+Optimizing p.  root (nu) = -0.365694 B(nu) = -4.9824e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28258 active examples,  objective_value = 0.520992)
+ CGLS converged in 96 iteration(s) and 0.195778 seconds.
+ LINE_SEARCH delta = 1.00004
+L2_SVM_MFN converged in 1 iterations and 0.200199 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 34  kl = 2.3079e-06  cost = 0.505706 *****
+Optimizing p.  root (nu) = -0.365659 B(nu) = 2.07878e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28258 active examples,  objective_value = 0.520988)
+ CGLS converged in 96 iteration(s) and 0.191951 seconds.
+ LINE_SEARCH delta = 1.00004
+L2_SVM_MFN converged in 1 iterations and 0.196178 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 35  kl = 1.98363e-06  cost = 0.505707 *****
+Optimizing p.  root (nu) = -0.365617 B(nu) = 3.2774e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28258 active examples,  objective_value = 0.520984)
+ CGLS converged in 97 iteration(s) and 0.192428 seconds.
+ LINE_SEARCH delta = 0.999996
+L2_SVM_MFN converged in 1 iterations and 0.19672 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 36  kl = 1.76207e-06  cost = 0.505708 *****
+Optimizing p.  root (nu) = -0.365568 B(nu) = -2.33715e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28259 active examples,  objective_value = 0.52098)
+ CGLS converged in 95 iteration(s) and 0.232969 seconds.
+ LINE_SEARCH delta = 1.00004
+L2_SVM_MFN converged in 1 iterations and 0.237311 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 37  kl = 1.59687e-06  cost = 0.505709 *****
+Optimizing p.  root (nu) = -0.365511 B(nu) = -6.36657e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28259 active examples,  objective_value = 0.520976)
+ CGLS converged in 96 iteration(s) and 0.174831 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 1 iterations and 0.178725 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 38  kl = 1.48298e-06  cost = 0.50571 *****
+Optimizing p.  root (nu) = -0.365448 B(nu) = 9.30453e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28258 active examples,  objective_value = 0.520973)
+ CGLS converged in 94 iteration(s) and 0.16944 seconds.
+ LINE_SEARCH delta = 0.999623
+L2_SVM_MFN converged in 1 iterations and 0.17344 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 39  kl = 1.438e-06  cost = 0.50571 *****
+Optimizing p.  root (nu) = -0.365377 B(nu) = -5.34837e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28259 active examples,  objective_value = 0.520969)
+ CGLS converged in 94 iteration(s) and 0.16948 seconds.
+ LINE_SEARCH delta = 0.998316
+L2_SVM_MFN converged in 1 iterations and 0.173601 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 40  kl = 1.48623e-06  cost = 0.505711 *****
+Optimizing p.  root (nu) = -0.365299 B(nu) = -7.44949e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28259 active examples,  objective_value = 0.520966)
+ CGLS converged in 98 iteration(s) and 0.173628 seconds.
+ LINE_SEARCH delta = 0.998987
+L2_SVM_MFN converged in 1 iterations and 0.17762 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 41  kl = 1.64895e-06  cost = 0.505713 *****
+Optimizing p.  root (nu) = -0.365212 B(nu) = 1.73604e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.520962)
+ CGLS converged in 100 iteration(s) and 0.176918 seconds.
+ LINE_SEARCH delta = 0.999991
+L2_SVM_MFN converged in 1 iterations and 0.1808 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 42  kl = 1.9285e-06  cost = 0.505715 *****
+Optimizing p.  root (nu) = -0.365121 B(nu) = 3.5002e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.520958)
+ CGLS converged in 100 iteration(s) and 0.187788 seconds.
+ LINE_SEARCH delta = 1.00006
+L2_SVM_MFN converged in 1 iterations and 0.191845 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 43  kl = 2.25619e-06  cost = 0.505716 *****
+Optimizing p.  root (nu) = -0.36503 B(nu) = 3.43238e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28261 active examples,  objective_value = 0.520953)
+ CGLS converged in 97 iteration(s) and 0.182636 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 1 iterations and 0.186766 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 44  kl = 2.45912e-06  cost = 0.505715 *****
+Optimizing p.  root (nu) = -0.364947 B(nu) = 3.34575e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.520949)
+ CGLS converged in 97 iteration(s) and 0.177007 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.178534 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 45  kl = 2.38872e-06  cost = 0.505715 *****
+Optimizing p.  root (nu) = -0.364873 B(nu) = -4.50373e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.520944)
+ CGLS converged in 97 iteration(s) and 0.21154 seconds.
+ LINE_SEARCH delta = 0.999725
+L2_SVM_MFN converged in 1 iterations and 0.215881 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 46  kl = 2.13142e-06  cost = 0.505716 *****
+Optimizing p.  root (nu) = -0.364808 B(nu) = 8.53808e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.52094)
+ CGLS converged in 96 iteration(s) and 0.188497 seconds.
+ LINE_SEARCH delta = 0.999991
+L2_SVM_MFN converged in 1 iterations and 0.192704 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 47  kl = 1.88557e-06  cost = 0.505715 *****
+Optimizing p.  root (nu) = -0.36475 B(nu) = 6.39847e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.520936)
+ CGLS converged in 94 iteration(s) and 0.186495 seconds.
+ LINE_SEARCH delta = 0.999986
+L2_SVM_MFN converged in 1 iterations and 0.190919 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 48  kl = 1.7085e-06  cost = 0.505714 *****
+Optimizing p.  root (nu) = -0.364696 B(nu) = 6.7696e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.520933)
+ CGLS converged in 94 iteration(s) and 0.184381 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 1 iterations and 0.188741 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 49  kl = 1.56551e-06  cost = 0.505713 *****
+Optimizing p.  root (nu) = -0.364643 B(nu) = 1.40604e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.52093)
+ CGLS converged in 95 iteration(s) and 0.186312 seconds.
+ LINE_SEARCH delta = 0.999995
+L2_SVM_MFN converged in 1 iterations and 0.190647 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 50  kl = 1.48001e-06  cost = 0.505713 *****
+Optimizing p.  root (nu) = -0.364588 B(nu) = -9.39904e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.520927)
+ CGLS converged in 94 iteration(s) and 0.184323 seconds.
+ LINE_SEARCH delta = 0.999968
+L2_SVM_MFN converged in 1 iterations and 0.188523 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 51  kl = 1.53106e-06  cost = 0.505713 *****
+Optimizing p.  root (nu) = -0.364527 B(nu) = 5.49468e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.520923)
+ CGLS converged in 98 iteration(s) and 0.192633 seconds.
+ LINE_SEARCH delta = 0.999993
+L2_SVM_MFN converged in 1 iterations and 0.197054 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 52  kl = 1.77279e-06  cost = 0.505714 *****
+Optimizing p.  root (nu) = -0.364462 B(nu) = -7.44281e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28259 active examples,  objective_value = 0.52092)
+ CGLS converged in 99 iteration(s) and 0.193454 seconds.
+ LINE_SEARCH delta = 0.999886
+L2_SVM_MFN converged in 1 iterations and 0.197623 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 53  kl = 2.1483e-06  cost = 0.505712 *****
+Optimizing p.  root (nu) = -0.364395 B(nu) = 2.92014e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28259 active examples,  objective_value = 0.520916)
+ CGLS converged in 99 iteration(s) and 0.197793 seconds.
+ LINE_SEARCH delta = 0.999956
+L2_SVM_MFN converged in 1 iterations and 0.202597 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 54  kl = 2.49791e-06  cost = 0.505712 *****
+Optimizing p.  root (nu) = -0.364322 B(nu) = -2.01741e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.520912)
+ CGLS converged in 97 iteration(s) and 0.243981 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 1 iterations and 0.249024 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 55  kl = 3.01966e-06  cost = 0.505713 *****
+Optimizing p.  root (nu) = -0.364228 B(nu) = 3.13265e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.520907)
+ CGLS converged in 99 iteration(s) and 0.201641 seconds.
+ LINE_SEARCH delta = 0.998052
+L2_SVM_MFN converged in 1 iterations and 0.206024 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 56  kl = 4.89968e-06  cost = 0.505711 *****
+Optimizing p.  root (nu) = -0.364127 B(nu) = 7.37276e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28262 active examples,  objective_value = 0.5209)
+ CGLS converged in 103 iteration(s) and 0.207918 seconds.
+ LINE_SEARCH delta = 0.999765
+L2_SVM_MFN Iteration# 2 (28262 active examples,  objective_value = 0.520898)
+ CGLS converged in 57 iteration(s) and 0.113858 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.326772 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 57  kl = 8.29729e-06  cost = 0.505704 *****
+Optimizing p.  root (nu) = -0.364092 B(nu) = -8.58068e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28262 active examples,  objective_value = 0.520892)
+ CGLS converged in 101 iteration(s) and 0.197608 seconds.
+ LINE_SEARCH delta = 0.999994
+L2_SVM_MFN converged in 1 iterations and 0.201736 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 58  kl = 6.70077e-06  cost = 0.505701 *****
+Optimizing p.  root (nu) = -0.364105 B(nu) = 4.42896e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28261 active examples,  objective_value = 0.520888)
+ CGLS converged in 97 iteration(s) and 0.183529 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.18502 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 59  kl = 2.18155e-06  cost = 0.5057 *****
+Optimizing p.  root (nu) = -0.364115 B(nu) = 4.85967e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28261 active examples,  objective_value = 0.520886)
+ CGLS converged in 93 iteration(s) and 0.18376 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 1 iterations and 0.188177 seconds. 
+
+***** outer_iter = 9  T = 0.390184  inner_iter = 60  kl = 8.50385e-07  cost = 0.505699 *****
+***** Finished outer_iter = 9 T = 0.390184  Entropy = 0.156221 ***
+Optimizing p.  root (nu) = -0.423602 B(nu) = 8.76786e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28260 active examples,  objective_value = 0.512942)
+ CGLS converged in 127 iteration(s) and 0.241905 seconds.
+ LINE_SEARCH delta = 1.00237
+L2_SVM_MFN Iteration# 2 (28219 active examples,  objective_value = 0.51272)
+ CGLS converged in 96 iteration(s) and 0.181327 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 2 iterations and 0.430301 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 1  kl = 0.011333  cost = 0.505545 *****
+Optimizing p.  root (nu) = -0.411146 B(nu) = -9.4435e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28219 active examples,  objective_value = 0.511878)
+ CGLS converged in 118 iteration(s) and 0.214174 seconds.
+ LINE_SEARCH delta = 1.00004
+L2_SVM_MFN Iteration# 2 (28217 active examples,  objective_value = 0.511852)
+ CGLS converged in 76 iteration(s) and 0.138431 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.357141 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 2  kl = 0.00058894  cost = 0.505552 *****
+Optimizing p.  root (nu) = -0.408084 B(nu) = 5.86919e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28217 active examples,  objective_value = 0.511608)
+ CGLS converged in 114 iteration(s) and 0.210003 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN Iteration# 2 (28217 active examples,  objective_value = 0.511598)
+ CGLS converged in 67 iteration(s) and 0.130245 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 2 iterations and 0.347877 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 3  kl = 0.000154309  cost = 0.505567 *****
+Optimizing p.  root (nu) = -0.406787 B(nu) = -8.97731e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28217 active examples,  objective_value = 0.511488)
+ CGLS converged in 110 iteration(s) and 0.194664 seconds.
+ LINE_SEARCH delta = 1.0002
+L2_SVM_MFN Iteration# 2 (28215 active examples,  objective_value = 0.511484)
+ CGLS converged in 66 iteration(s) and 0.116486 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.315619 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 4  kl = 6.78525e-05  cost = 0.505575 *****
+Optimizing p.  root (nu) = -0.406128 B(nu) = -5.16507e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28215 active examples,  objective_value = 0.511424)
+ CGLS converged in 105 iteration(s) and 0.183518 seconds.
+ LINE_SEARCH delta = 0.999937
+L2_SVM_MFN Iteration# 2 (28215 active examples,  objective_value = 0.511421)
+ CGLS converged in 56 iteration(s) and 0.099373 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.287411 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 5  kl = 3.60821e-05  cost = 0.505582 *****
+Optimizing p.  root (nu) = -0.405774 B(nu) = -3.48832e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28215 active examples,  objective_value = 0.511385)
+ CGLS converged in 105 iteration(s) and 0.185312 seconds.
+ LINE_SEARCH delta = 0.999851
+L2_SVM_MFN Iteration# 2 (28216 active examples,  objective_value = 0.511384)
+ CGLS converged in 57 iteration(s) and 0.100281 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.290118 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 6  kl = 2.04293e-05  cost = 0.505587 *****
+Optimizing p.  root (nu) = -0.405537 B(nu) = -3.34063e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28216 active examples,  objective_value = 0.511361)
+ CGLS converged in 106 iteration(s) and 0.193011 seconds.
+ LINE_SEARCH delta = 0.999938
+L2_SVM_MFN converged in 1 iterations and 0.196912 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 7  kl = 1.23169e-05  cost = 0.505592 *****
+Optimizing p.  root (nu) = -0.405342 B(nu) = 7.51325e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28216 active examples,  objective_value = 0.511346)
+ CGLS converged in 101 iteration(s) and 0.186829 seconds.
+ LINE_SEARCH delta = 1.00003
+L2_SVM_MFN converged in 1 iterations and 0.1907 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 8  kl = 8.31879e-06  cost = 0.505596 *****
+Optimizing p.  root (nu) = -0.405166 B(nu) = -4.56059e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28216 active examples,  objective_value = 0.511334)
+ CGLS converged in 100 iteration(s) and 0.179358 seconds.
+ LINE_SEARCH delta = 1.0002
+L2_SVM_MFN converged in 1 iterations and 0.183362 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 9  kl = 6.58865e-06  cost = 0.5056 *****
+Optimizing p.  root (nu) = -0.405009 B(nu) = 7.92554e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28217 active examples,  objective_value = 0.511325)
+ CGLS converged in 101 iteration(s) and 0.190793 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 1 iterations and 0.194789 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 10  kl = 5.97864e-06  cost = 0.505602 *****
+Optimizing p.  root (nu) = -0.40488 B(nu) = -2.57144e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28217 active examples,  objective_value = 0.511318)
+ CGLS converged in 102 iteration(s) and 0.178895 seconds.
+ LINE_SEARCH delta = 0.999955
+L2_SVM_MFN converged in 1 iterations and 0.182719 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 11  kl = 5.15052e-06  cost = 0.505604 *****
+Optimizing p.  root (nu) = -0.404771 B(nu) = 5.85466e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28217 active examples,  objective_value = 0.511312)
+ CGLS converged in 98 iteration(s) and 0.1722 seconds.
+ LINE_SEARCH delta = 1.00123
+L2_SVM_MFN converged in 1 iterations and 0.176109 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 12  kl = 4.40099e-06  cost = 0.505606 *****
+Optimizing p.  root (nu) = -0.404668 B(nu) = -6.25309e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28216 active examples,  objective_value = 0.511307)
+ CGLS converged in 98 iteration(s) and 0.177988 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 1 iterations and 0.184462 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 13  kl = 4.50439e-06  cost = 0.505607 *****
+Optimizing p.  root (nu) = -0.404586 B(nu) = 6.8172e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28216 active examples,  objective_value = 0.511302)
+ CGLS converged in 100 iteration(s) and 0.177159 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 1 iterations and 0.181224 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 14  kl = 4.27166e-06  cost = 0.505606 *****
+Optimizing p.  root (nu) = -0.404529 B(nu) = -6.44742e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28215 active examples,  objective_value = 0.511299)
+ CGLS converged in 94 iteration(s) and 0.173579 seconds.
+ LINE_SEARCH delta = 0.999378
+L2_SVM_MFN converged in 1 iterations and 0.177739 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 15  kl = 3.12868e-06  cost = 0.505606 *****
+Optimizing p.  root (nu) = -0.404466 B(nu) = 6.54998e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28216 active examples,  objective_value = 0.511296)
+ CGLS converged in 99 iteration(s) and 0.185822 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.187294 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 16  kl = 2.64483e-06  cost = 0.505608 *****
+Optimizing p.  root (nu) = -0.404377 B(nu) = 5.49926e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28216 active examples,  objective_value = 0.511293)
+ CGLS converged in 98 iteration(s) and 0.183464 seconds.
+ LINE_SEARCH delta = 0.999999
+L2_SVM_MFN converged in 1 iterations and 0.187566 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 17  kl = 3.31094e-06  cost = 0.50561 *****
+Optimizing p.  root (nu) = -0.404284 B(nu) = 7.6388e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28217 active examples,  objective_value = 0.51129)
+ CGLS converged in 98 iteration(s) and 0.172687 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.174067 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 18  kl = 4.10622e-06  cost = 0.505609 *****
+Optimizing p.  root (nu) = -0.40422 B(nu) = 4.13576e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28217 active examples,  objective_value = 0.511288)
+ CGLS converged in 95 iteration(s) and 0.170887 seconds.
+ LINE_SEARCH delta = 0.999987
+L2_SVM_MFN converged in 1 iterations and 0.174934 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 19  kl = 3.51903e-06  cost = 0.505609 *****
+Optimizing p.  root (nu) = -0.404177 B(nu) = -1.16206e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28218 active examples,  objective_value = 0.511286)
+ CGLS converged in 93 iteration(s) and 0.171118 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 1 iterations and 0.175193 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 20  kl = 2.26547e-06  cost = 0.50561 *****
+Optimizing p.  root (nu) = -0.404127 B(nu) = 4.45632e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28218 active examples,  objective_value = 0.511284)
+ CGLS converged in 93 iteration(s) and 0.164341 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 1 iterations and 0.168289 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 21  kl = 1.79129e-06  cost = 0.505611 *****
+Optimizing p.  root (nu) = -0.404074 B(nu) = -1.92549e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28217 active examples,  objective_value = 0.511283)
+ CGLS converged in 93 iteration(s) and 0.184608 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 1 iterations and 0.188603 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 22  kl = 1.65034e-06  cost = 0.505613 *****
+Optimizing p.  root (nu) = -0.404031 B(nu) = 1.42144e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28217 active examples,  objective_value = 0.511281)
+ CGLS converged in 93 iteration(s) and 0.165211 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 1 iterations and 0.169188 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 23  kl = 1.25792e-06  cost = 0.505613 *****
+Optimizing p.  root (nu) = -0.404002 B(nu) = 5.75187e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28218 active examples,  objective_value = 0.51128)
+ CGLS converged in 91 iteration(s) and 0.159474 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.160865 seconds. 
+
+***** outer_iter = 10  T = 0.260123  inner_iter = 24  kl = 7.26153e-07  cost = 0.505613 *****
+***** Finished outer_iter = 10 T = 0.260123  Entropy = 0.071754 ***
+Optimizing p.  root (nu) = -0.444844 B(nu) = 1.51158e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28218 active examples,  objective_value = 0.508596)
+ CGLS converged in 123 iteration(s) and 0.222258 seconds.
+ LINE_SEARCH delta = 1.00036
+L2_SVM_MFN Iteration# 2 (28211 active examples,  objective_value = 0.508532)
+ CGLS converged in 80 iteration(s) and 0.156643 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.383333 seconds. 
+
+***** outer_iter = 11  T = 0.173415  inner_iter = 1  kl = 0.0055619  cost = 0.505711 *****
+Optimizing p.  root (nu) = -0.438927 B(nu) = 4.1592e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28211 active examples,  objective_value = 0.50829)
+ CGLS converged in 111 iteration(s) and 0.215574 seconds.
+ LINE_SEARCH delta = 0.99993
+L2_SVM_MFN Iteration# 2 (28206 active examples,  objective_value = 0.508283)
+ CGLS converged in 67 iteration(s) and 0.1301 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.35053 seconds. 
+
+***** outer_iter = 11  T = 0.173415  inner_iter = 2  kl = 0.000249313  cost = 0.505775 *****
+Optimizing p.  root (nu) = -0.43719 B(nu) = -4.12435e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28206 active examples,  objective_value = 0.508213)
+ CGLS converged in 105 iteration(s) and 0.203329 seconds.
+ LINE_SEARCH delta = 0.999974
+L2_SVM_MFN Iteration# 2 (28205 active examples,  objective_value = 0.50821)
+ CGLS converged in 60 iteration(s) and 0.108955 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.317124 seconds. 
+
+***** outer_iter = 11  T = 0.173415  inner_iter = 3  kl = 6.33925e-05  cost = 0.50581 *****
+Optimizing p.  root (nu) = -0.436104 B(nu) = 3.42359e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28205 active examples,  objective_value = 0.508178)
+ CGLS converged in 105 iteration(s) and 0.200868 seconds.
+ LINE_SEARCH delta = 0.999988
+L2_SVM_MFN Iteration# 2 (28202 active examples,  objective_value = 0.508177)
+ CGLS converged in 55 iteration(s) and 0.099413 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.304782 seconds. 
+
+***** outer_iter = 11  T = 0.173415  inner_iter = 4  kl = 2.92733e-05  cost = 0.505834 *****
+Optimizing p.  root (nu) = -0.435245 B(nu) = 8.04865e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28202 active examples,  objective_value = 0.508159)
+ CGLS converged in 101 iteration(s) and 0.184772 seconds.
+ LINE_SEARCH delta = 0.999809
+L2_SVM_MFN converged in 1 iterations and 0.188714 seconds. 
+
+***** outer_iter = 11  T = 0.173415  inner_iter = 5  kl = 1.71581e-05  cost = 0.505851 *****
+Optimizing p.  root (nu) = -0.434481 B(nu) = 1.20095e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28201 active examples,  objective_value = 0.508146)
+ CGLS converged in 100 iteration(s) and 0.175986 seconds.
+ LINE_SEARCH delta = 1.00004
+L2_SVM_MFN converged in 1 iterations and 0.179835 seconds. 
+
+***** outer_iter = 11  T = 0.173415  inner_iter = 6  kl = 1.20009e-05  cost = 0.505864 *****
+Optimizing p.  root (nu) = -0.433779 B(nu) = -5.19063e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28200 active examples,  objective_value = 0.508136)
+ CGLS converged in 101 iteration(s) and 0.177299 seconds.
+ LINE_SEARCH delta = 0.999967
+L2_SVM_MFN converged in 1 iterations and 0.181179 seconds. 
+
+***** outer_iter = 11  T = 0.173415  inner_iter = 7  kl = 9.62694e-06  cost = 0.505876 *****
+Optimizing p.  root (nu) = -0.433137 B(nu) = 1.03966e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28200 active examples,  objective_value = 0.508128)
+ CGLS converged in 102 iteration(s) and 0.190847 seconds.
+ LINE_SEARCH delta = 0.999972
+L2_SVM_MFN converged in 1 iterations and 0.195161 seconds. 
+
+***** outer_iter = 11  T = 0.173415  inner_iter = 8  kl = 8.80167e-06  cost = 0.505886 *****
+Optimizing p.  root (nu) = -0.432594 B(nu) = -3.4841e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28200 active examples,  objective_value = 0.508121)
+ CGLS converged in 101 iteration(s) and 0.191785 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 1 iterations and 0.195673 seconds. 
+
+***** outer_iter = 11  T = 0.173415  inner_iter = 9  kl = 8.44767e-06  cost = 0.505895 *****
+Optimizing p.  root (nu) = -0.432217 B(nu) = 1.47463e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28199 active examples,  objective_value = 0.508116)
+ CGLS converged in 97 iteration(s) and 0.173533 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.174903 seconds. 
+
+***** outer_iter = 11  T = 0.173415  inner_iter = 10  kl = 6.50274e-06  cost = 0.5059 *****
+Optimizing p.  root (nu) = -0.431984 B(nu) = 3.9e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28199 active examples,  objective_value = 0.508112)
+ CGLS converged in 94 iteration(s) and 0.177465 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.179148 seconds. 
+
+***** outer_iter = 11  T = 0.173415  inner_iter = 11  kl = 3.78327e-06  cost = 0.505903 *****
+Optimizing p.  root (nu) = -0.431824 B(nu) = 1.04119e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28199 active examples,  objective_value = 0.508109)
+ CGLS converged in 93 iteration(s) and 0.17271 seconds.
+ LINE_SEARCH delta = 1.00044
+L2_SVM_MFN converged in 1 iterations and 0.176619 seconds. 
+
+***** outer_iter = 11  T = 0.173415  inner_iter = 12  kl = 2.32752e-06  cost = 0.505905 *****
+Optimizing p.  root (nu) = -0.431708 B(nu) = -1.99396e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28198 active examples,  objective_value = 0.508107)
+ CGLS converged in 92 iteration(s) and 0.16285 seconds.
+ LINE_SEARCH delta = 1.00003
+L2_SVM_MFN converged in 1 iterations and 0.166964 seconds. 
+
+***** outer_iter = 11  T = 0.173415  inner_iter = 13  kl = 1.71223e-06  cost = 0.505907 *****
+Optimizing p.  root (nu) = -0.431631 B(nu) = 1.08649e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28198 active examples,  objective_value = 0.508106)
+ CGLS converged in 91 iteration(s) and 0.167986 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.169411 seconds. 
+
+***** outer_iter = 11  T = 0.173415  inner_iter = 14  kl = 1.19573e-06  cost = 0.505908 *****
+Optimizing p.  root (nu) = -0.431585 B(nu) = -5.57687e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28198 active examples,  objective_value = 0.508105)
+ CGLS converged in 87 iteration(s) and 0.155458 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.156851 seconds. 
+
+***** outer_iter = 11  T = 0.173415  inner_iter = 15  kl = 7.22001e-07  cost = 0.50591 *****
+***** Finished outer_iter = 11 T = 0.173415  Entropy = 0.0300124 ***
+Optimizing p.  root (nu) = -0.461466 B(nu) = 5.53015e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28198 active examples,  objective_value = 0.5073)
+ CGLS converged in 119 iteration(s) and 0.235019 seconds.
+ LINE_SEARCH delta = 0.999189
+L2_SVM_MFN Iteration# 2 (28193 active examples,  objective_value = 0.507281)
+ CGLS converged in 76 iteration(s) and 0.145264 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.385072 seconds. 
+
+***** outer_iter = 12  T = 0.11561  inner_iter = 1  kl = 0.00245081  cost = 0.506037 *****
+Optimizing p.  root (nu) = -0.457735 B(nu) = -5.1151e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28193 active examples,  objective_value = 0.507208)
+ CGLS converged in 109 iteration(s) and 0.211196 seconds.
+ LINE_SEARCH delta = 0.999678
+L2_SVM_MFN Iteration# 2 (28193 active examples,  objective_value = 0.507206)
+ CGLS converged in 66 iteration(s) and 0.129901 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.346055 seconds. 
+
+***** outer_iter = 12  T = 0.11561  inner_iter = 2  kl = 0.000118225  cost = 0.506077 *****
+Optimizing p.  root (nu) = -0.455876 B(nu) = 6.2482e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28193 active examples,  objective_value = 0.507184)
+ CGLS converged in 101 iteration(s) and 0.194379 seconds.
+ LINE_SEARCH delta = 1.00011
+L2_SVM_MFN converged in 1 iterations and 0.198383 seconds. 
+
+***** outer_iter = 12  T = 0.11561  inner_iter = 3  kl = 3.30641e-05  cost = 0.506095 *****
+Optimizing p.  root (nu) = -0.454679 B(nu) = 2.02544e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.507172)
+ CGLS converged in 97 iteration(s) and 0.186799 seconds.
+ LINE_SEARCH delta = 0.999998
+L2_SVM_MFN converged in 1 iterations and 0.191027 seconds. 
+
+***** outer_iter = 12  T = 0.11561  inner_iter = 4  kl = 1.35557e-05  cost = 0.506105 *****
+Optimizing p.  root (nu) = -0.453897 B(nu) = 9.09236e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.507167)
+ CGLS converged in 95 iteration(s) and 0.178719 seconds.
+ LINE_SEARCH delta = 0.999997
+L2_SVM_MFN converged in 1 iterations and 0.183073 seconds. 
+
+***** outer_iter = 12  T = 0.11561  inner_iter = 5  kl = 6.34161e-06  cost = 0.506111 *****
+Optimizing p.  root (nu) = -0.453395 B(nu) = -5.82501e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.507163)
+ CGLS converged in 93 iteration(s) and 0.1794 seconds.
+ LINE_SEARCH delta = 0.999977
+L2_SVM_MFN converged in 1 iterations and 0.18428 seconds. 
+
+***** outer_iter = 12  T = 0.11561  inner_iter = 6  kl = 3.75351e-06  cost = 0.506114 *****
+Optimizing p.  root (nu) = -0.45313 B(nu) = 7.61898e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.507161)
+ CGLS converged in 88 iteration(s) and 0.163163 seconds.
+ LINE_SEARCH delta = 0.999838
+L2_SVM_MFN converged in 1 iterations and 0.167222 seconds. 
+
+***** outer_iter = 12  T = 0.11561  inner_iter = 7  kl = 1.95293e-06  cost = 0.506116 *****
+Optimizing p.  root (nu) = -0.453006 B(nu) = 6.27757e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.50716)
+ CGLS converged in 87 iteration(s) and 0.169291 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.17079 seconds. 
+
+***** outer_iter = 12  T = 0.11561  inner_iter = 8  kl = 8.83324e-07  cost = 0.506117 *****
+***** Finished outer_iter = 12 T = 0.11561  Entropy = 0.0114695 ***
+Optimizing p.  root (nu) = -0.478076 B(nu) = -2.14738e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.506945)
+ CGLS converged in 111 iteration(s) and 0.217043 seconds.
+ LINE_SEARCH delta = 0.998288
+L2_SVM_MFN Iteration# 2 (28194 active examples,  objective_value = 0.50694)
+ CGLS converged in 72 iteration(s) and 0.127485 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.349127 seconds. 
+
+***** outer_iter = 13  T = 0.0770735  inner_iter = 1  kl = 0.000962617  cost = 0.506191 *****
+Optimizing p.  root (nu) = -0.473915 B(nu) = 2.70642e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28194 active examples,  objective_value = 0.506921)
+ CGLS converged in 101 iteration(s) and 0.184624 seconds.
+ LINE_SEARCH delta = 1.00002
+L2_SVM_MFN converged in 1 iterations and 0.188667 seconds. 
+
+***** outer_iter = 13  T = 0.0770735  inner_iter = 2  kl = 5.04516e-05  cost = 0.506205 *****
+Optimizing p.  root (nu) = -0.471389 B(nu) = -4.49017e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28194 active examples,  objective_value = 0.506914)
+ CGLS converged in 100 iteration(s) and 0.175472 seconds.
+ LINE_SEARCH delta = 0.999894
+L2_SVM_MFN converged in 1 iterations and 0.179435 seconds. 
+
+***** outer_iter = 13  T = 0.0770735  inner_iter = 3  kl = 1.86592e-05  cost = 0.506211 *****
+Optimizing p.  root (nu) = -0.46987 B(nu) = 2.98902e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28194 active examples,  objective_value = 0.50691)
+ CGLS converged in 95 iteration(s) and 0.167351 seconds.
+ LINE_SEARCH delta = 0.999984
+L2_SVM_MFN converged in 1 iterations and 0.171273 seconds. 
+
+***** outer_iter = 13  T = 0.0770735  inner_iter = 4  kl = 1.22587e-05  cost = 0.506215 *****
+Optimizing p.  root (nu) = -0.469273 B(nu) = 9.22388e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.506907)
+ CGLS converged in 93 iteration(s) and 0.163479 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.164835 seconds. 
+
+***** outer_iter = 13  T = 0.0770735  inner_iter = 5  kl = 7.65459e-06  cost = 0.506218 *****
+Optimizing p.  root (nu) = -0.469275 B(nu) = -9.45367e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.506906)
+ CGLS converged in 89 iteration(s) and 0.156533 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.157937 seconds. 
+
+***** outer_iter = 13  T = 0.0770735  inner_iter = 6  kl = 2.61814e-06  cost = 0.506219 *****
+Optimizing p.  root (nu) = -0.46927 B(nu) = -1.43381e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.506905)
+ CGLS converged in 85 iteration(s) and 0.149092 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.150463 seconds. 
+
+***** outer_iter = 13  T = 0.0770735  inner_iter = 7  kl = 1.46943e-06  cost = 0.506219 *****
+Optimizing p.  root (nu) = -0.46917 B(nu) = 4.47964e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.506905)
+ CGLS converged in 83 iteration(s) and 0.146143 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.147522 seconds. 
+
+***** outer_iter = 13  T = 0.0770735  inner_iter = 8  kl = 1.09141e-06  cost = 0.50622 *****
+Optimizing p.  root (nu) = -0.469018 B(nu) = 5.04119e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.506904)
+ CGLS converged in 85 iteration(s) and 0.148966 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.150326 seconds. 
+
+***** outer_iter = 13  T = 0.0770735  inner_iter = 9  kl = 8.11305e-07  cost = 0.50622 *****
+***** Finished outer_iter = 13 T = 0.0770735  Entropy = 0.00399148 ***
+Optimizing p.  root (nu) = -0.487971 B(nu) = 3.17383e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.506852)
+ CGLS converged in 104 iteration(s) and 0.183221 seconds.
+ LINE_SEARCH delta = 1.00005
+L2_SVM_MFN Iteration# 2 (28196 active examples,  objective_value = 0.506851)
+ CGLS converged in 56 iteration(s) and 0.099347 seconds.
+L2_SVM_MFN converged in 2 iteration(s) and 0.287044 seconds. 
+
+***** outer_iter = 14  T = 0.0513823  inner_iter = 1  kl = 0.000345416  cost = 0.506247 *****
+Optimizing p.  root (nu) = -0.482274 B(nu) = 8.73879e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28196 active examples,  objective_value = 0.506845)
+ CGLS converged in 98 iteration(s) and 0.172502 seconds.
+ LINE_SEARCH delta = 0.999992
+L2_SVM_MFN converged in 1 iterations and 0.176469 seconds. 
+
+***** outer_iter = 14  T = 0.0513823  inner_iter = 2  kl = 2.84486e-05  cost = 0.506253 *****
+Optimizing p.  root (nu) = -0.481089 B(nu) = -9.21359e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28196 active examples,  objective_value = 0.506843)
+ CGLS converged in 93 iteration(s) and 0.168328 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.169712 seconds. 
+
+***** outer_iter = 14  T = 0.0513823  inner_iter = 3  kl = 1.09769e-05  cost = 0.506255 *****
+Optimizing p.  root (nu) = -0.481566 B(nu) = -1.91732e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28196 active examples,  objective_value = 0.506842)
+ CGLS converged in 90 iteration(s) and 0.159576 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 1 iterations and 0.163485 seconds. 
+
+***** outer_iter = 14  T = 0.0513823  inner_iter = 4  kl = 4.30447e-06  cost = 0.506256 *****
+Optimizing p.  root (nu) = -0.482279 B(nu) = 7.56187e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.506841)
+ CGLS converged in 88 iteration(s) and 0.15634 seconds.
+ LINE_SEARCH delta = 0.999999
+L2_SVM_MFN converged in 1 iterations and 0.160502 seconds. 
+
+***** outer_iter = 14  T = 0.0513823  inner_iter = 5  kl = 1.94462e-06  cost = 0.506256 *****
+Optimizing p.  root (nu) = -0.482927 B(nu) = -8.59194e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.506841)
+ CGLS converged in 86 iteration(s) and 0.156132 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.157597 seconds. 
+
+***** outer_iter = 14  T = 0.0513823  inner_iter = 6  kl = 1.32162e-06  cost = 0.506257 *****
+Optimizing p.  root (nu) = -0.483386 B(nu) = 1.65542e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.506841)
+ CGLS converged in 83 iteration(s) and 0.146069 seconds.
+ LINE_SEARCH delta = 1.00001
+L2_SVM_MFN converged in 1 iterations and 0.149973 seconds. 
+
+***** outer_iter = 14  T = 0.0513823  inner_iter = 7  kl = 9.40847e-07  cost = 0.506257 *****
+***** Finished outer_iter = 14 T = 0.0513823  Entropy = 0.0012208 ***
+Optimizing p.  root (nu) = -0.503588 B(nu) = -6.88414e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.506829)
+ CGLS converged in 100 iteration(s) and 0.176691 seconds.
+ LINE_SEARCH delta = 0.999496
+L2_SVM_MFN converged in 1 iterations and 0.180533 seconds. 
+
+***** outer_iter = 15  T = 0.0342549  inner_iter = 1  kl = 0.000109765  cost = 0.506264 *****
+Optimizing p.  root (nu) = -0.500986 B(nu) = -1.56812e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.506828)
+ CGLS converged in 87 iteration(s) and 0.153338 seconds.
+ LINE_SEARCH delta = 1.00001
+L2_SVM_MFN converged in 1 iterations and 0.157364 seconds. 
+
+***** outer_iter = 15  T = 0.0342549  inner_iter = 2  kl = 5.96275e-06  cost = 0.506264 *****
+Optimizing p.  root (nu) = -0.499881 B(nu) = 1.47108e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.506828)
+ CGLS converged in 79 iteration(s) and 0.140267 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.141629 seconds. 
+
+***** outer_iter = 15  T = 0.0342549  inner_iter = 3  kl = 1.05365e-06  cost = 0.506264 *****
+Optimizing p.  root (nu) = -0.499587 B(nu) = 2.81798e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.506828)
+ CGLS converged in 67 iteration(s) and 0.119692 seconds.
+ LINE_SEARCH delta = 1
+L2_SVM_MFN converged in 1 iterations and 0.123714 seconds. 
+
+***** outer_iter = 15  T = 0.0342549  inner_iter = 4  kl = 1.46151e-07  cost = 0.506264 *****
+***** Finished outer_iter = 15 T = 0.0342549  Entropy = 0.00037939 ***
+Optimizing p.  root (nu) = -0.51429 B(nu) = -6.25376e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.506825)
+ CGLS converged in 87 iteration(s) and 0.153619 seconds.
+ LINE_SEARCH delta = 0.999997
+L2_SVM_MFN converged in 1 iterations and 0.157563 seconds. 
+
+***** outer_iter = 16  T = 0.0228366  inner_iter = 1  kl = 3.26695e-05  cost = 0.506266 *****
+Optimizing p.  root (nu) = -0.512179 B(nu) = -2.01505e-13
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.506825)
+ CGLS converged in 68 iteration(s) and 0.120436 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.121823 seconds. 
+
+***** outer_iter = 16  T = 0.0228366  inner_iter = 2  kl = 7.34795e-07  cost = 0.506266 *****
+***** Finished outer_iter = 16 T = 0.0228366  Entropy = 0.00014116 ***
+Optimizing p.  root (nu) = -0.519402 B(nu) = -3.70846e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28195 active examples,  objective_value = 0.506825)
+ CGLS converged in 79 iteration(s) and 0.141368 seconds.
+ LINE_SEARCH delta = 0.999946
+L2_SVM_MFN converged in 1 iterations and 0.145449 seconds. 
+
+***** outer_iter = 17  T = 0.0152244  inner_iter = 1  kl = 9.82578e-06  cost = 0.506266 *****
+Optimizing p.  root (nu) = -0.516174 B(nu) = -1.61808e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28194 active examples,  objective_value = 0.506825)
+ CGLS converged in 62 iteration(s) and 0.112351 seconds.
+ LINE_SEARCH delta = 0.999859
+L2_SVM_MFN converged in 1 iterations and 0.116576 seconds. 
+
+***** outer_iter = 17  T = 0.0152244  inner_iter = 2  kl = 2.71752e-07  cost = 0.506266 *****
+***** Finished outer_iter = 17 T = 0.0152244  Entropy = 7.12994e-05 ***
+Optimizing p.  root (nu) = -0.517399 B(nu) = 4.97085e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28193 active examples,  objective_value = 0.506825)
+ CGLS converged in 69 iteration(s) and 0.131144 seconds.
+ LINE_SEARCH delta = 1.00002
+L2_SVM_MFN converged in 1 iterations and 0.135547 seconds. 
+
+***** outer_iter = 18  T = 0.0101496  inner_iter = 1  kl = 2.21226e-06  cost = 0.506266 *****
+Optimizing p.  root (nu) = -0.516033 B(nu) = -2.54359e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28193 active examples,  objective_value = 0.506825)
+ CGLS converged in 39 iteration(s) and 0.078018 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.079754 seconds. 
+
+***** outer_iter = 18  T = 0.0101496  inner_iter = 2  kl = 1.03138e-08  cost = 0.506266 *****
+***** Finished outer_iter = 18 T = 0.0101496  Entropy = 5.5296e-05 ***
+Optimizing p.  root (nu) = -0.516735 B(nu) = -4.9013e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28193 active examples,  objective_value = 0.506825)
+ CGLS converged in 50 iteration(s) and 0.092705 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.094168 seconds. 
+
+***** outer_iter = 19  T = 0.00676639  inner_iter = 1  kl = 2.62065e-07  cost = 0.506266 *****
+***** Finished outer_iter = 19 T = 0.00676639  Entropy = 5.31081e-05 ***
+Optimizing p.  root (nu) = -0.517028 B(nu) = -3.70762e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28193 active examples,  objective_value = 0.506825)
+ CGLS converged in 21 iteration(s) and 0.043701 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.045101 seconds. 
+
+***** outer_iter = 20  T = 0.00451093  inner_iter = 1  kl = 1.48793e-08  cost = 0.506266 *****
+***** Finished outer_iter = 20 T = 0.00451093  Entropy = 5.2959e-05 ***
+Optimizing p.  root (nu) = -0.517319 B(nu) = -6.56138e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28193 active examples,  objective_value = 0.506825)
+ CGLS converged in 1 iteration(s) and 0.003228 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.004697 seconds. 
+
+***** outer_iter = 21  T = 0.00300729  inner_iter = 1  kl = 3.20139e-10  cost = 0.506266 *****
+***** Finished outer_iter = 21 T = 0.00300729  Entropy = 5.29565e-05 ***
+Optimizing p.  root (nu) = -0.517521 B(nu) = -4.22117e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28193 active examples,  objective_value = 0.506825)
+ CGLS converged in 2 iteration(s) and 0.004656 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.006087 seconds. 
+
+***** outer_iter = 22  T = 0.00200486  inner_iter = 1  kl = 1.72596e-11  cost = 0.506266 *****
+***** Finished outer_iter = 22 T = 0.00200486  Entropy = 5.29565e-05 ***
+Optimizing p.  root (nu) = -0.517655 B(nu) = 5.06561e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28193 active examples,  objective_value = 0.506825)
+ CGLS converged in 1 iteration(s) and 0.002773 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.004153 seconds. 
+
+***** outer_iter = 23  T = 0.00133657  inner_iter = 1  kl = 7.37846e-12  cost = 0.506266 *****
+***** Finished outer_iter = 23 T = 0.00133657  Entropy = 5.29564e-05 ***
+Optimizing p.  root (nu) = -0.517744 B(nu) = -1.36662e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28193 active examples,  objective_value = 0.506825)
+ CGLS converged in 1 iteration(s) and 0.002795 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.004229 seconds. 
+
+***** outer_iter = 24  T = 0.000891048  inner_iter = 1  kl = 0  cost = 0.506266 *****
+***** Finished outer_iter = 24 T = 0.000891048  Entropy = 5.29564e-05 ***
+Optimizing p.  root (nu) = -0.517804 B(nu) = 9.39104e-12
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28193 active examples,  objective_value = 0.506825)
+ CGLS converged in 1 iteration(s) and 0.002759 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.004167 seconds. 
+
+***** outer_iter = 25  T = 0.000594032  inner_iter = 1  kl = 0  cost = 0.506266 *****
+***** Finished outer_iter = 25 T = 0.000594032  Entropy = 5.29564e-05 ***
+Optimizing p.  root (nu) = -0.517843 B(nu) = -2.37753e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28193 active examples,  objective_value = 0.506825)
+ CGLS converged in 1 iteration(s) and 0.002771 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.004134 seconds. 
+
+***** outer_iter = 26  T = 0.000396021  inner_iter = 1  kl = 6.01062e-17  cost = 0.506266 *****
+***** Finished outer_iter = 26 T = 0.000396021  Entropy = 5.29565e-05 ***
+Optimizing p.  root (nu) = -0.51787 B(nu) = 6.18916e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28193 active examples,  objective_value = 0.506825)
+ CGLS converged in 1 iteration(s) and 0.002841 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.004223 seconds. 
+
+***** outer_iter = 27  T = 0.000264014  inner_iter = 1  kl = 4.00983e-16  cost = 0.506266 *****
+***** Finished outer_iter = 27 T = 0.000264014  Entropy = 5.29564e-05 ***
+Optimizing p.  root (nu) = -0.517888 B(nu) = -2.46445e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28193 active examples,  objective_value = 0.506825)
+ CGLS converged in 1 iteration(s) and 0.004462 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.006437 seconds. 
+
+***** outer_iter = 28  T = 0.000176009  inner_iter = 1  kl = 4.09159e-16  cost = 0.506266 *****
+***** Finished outer_iter = 28 T = 0.000176009  Entropy = 5.29565e-05 ***
+Optimizing p.  root (nu) = -0.517899 B(nu) = 8.95202e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28193 active examples,  objective_value = 0.506825)
+ CGLS converged in 1 iteration(s) and 0.003556 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.005389 seconds. 
+
+***** outer_iter = 29  T = 0.00011734  inner_iter = 1  kl = 7.12137e-16  cost = 0.506266 *****
+***** Finished outer_iter = 29 T = 0.00011734  Entropy = 5.29564e-05 ***
+Optimizing p.  root (nu) = -0.517907 B(nu) = 8.79641e-11
+Optimizing weights
+L2_SVM_MFN Iteration# 1 (28193 active examples,  objective_value = 0.506825)
+ CGLS converged in 1 iteration(s) and 0.00312 seconds.
+L2_SVM_MFN converged in 1 iteration(s) and 0.004632 seconds. 
+
+***** outer_iter = 30  T = 7.82264e-05  inner_iter = 1  kl = 0  cost = 0.506266 *****
+***** Finished outer_iter = 30 T = 7.82264e-05  Entropy = 5.29564e-05 ***
+
+(min) Objective Value = 0.505545
+DA-SVM took 83.0798 seconds.
+
+Writing Weights to file: title_train.txt.weights
+Writing Outputs to file: title_train.txt.outputs

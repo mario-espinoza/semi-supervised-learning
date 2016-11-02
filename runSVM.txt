@@ -1,0 +1,138 @@
+
+ svmlin (v1.0)   
+
+Reading file: labels_train.txt
+  Label Vector Statistics:
+      Labeled = 10425 (Positive = 6428  Negative = 3997)
+      Unlabeled = 0
+Reading file: title_train.txt
+  Input Data Matrix Statistics:
+      Examples: 10425
+      Features: 33470 (including bias feature)
+      Non-zeros:  126907 (including bias features)
+      Average sparsity: 12.1733 non-zero features per example.
+Reading took 0.569983 secs. 
+
+Modified Finite Newton L2-SVM (L2-SVM-MFN)
+
+L2_SVM_MFN Iteration# 1 (10425 active examples,  objective_value = 5212.5)
+ CGLS converged in 10 iteration(s) and 0.007517 seconds.
+ LINE_SEARCH delta = 1.27246
+L2_SVM_MFN Iteration# 2 (8637 active examples,  objective_value = 3212.56)
+ CGLS converged in 2563 iteration(s) and 1.4946 seconds.
+ LINE_SEARCH delta = 0.303852
+L2_SVM_MFN Iteration# 3 (9298 active examples,  objective_value = 2145.58)
+ CGLS converged in 2610 iteration(s) and 1.58987 seconds.
+ LINE_SEARCH delta = 0.841026
+L2_SVM_MFN Iteration# 4 (9275 active examples,  objective_value = 364.075)
+ CGLS converged in 2776 iteration(s) and 1.69613 seconds.
+ LINE_SEARCH delta = 0.518477
+L2_SVM_MFN Iteration# 5 (9256 active examples,  objective_value = 181.937)
+ CGLS converged in 2689 iteration(s) and 1.66833 seconds.
+ LINE_SEARCH delta = 0.513749
+L2_SVM_MFN Iteration# 6 (9147 active examples,  objective_value = 103.313)
+ CGLS converged in 2513 iteration(s) and 1.52406 seconds.
+ LINE_SEARCH delta = 0.400445
+L2_SVM_MFN Iteration# 7 (9029 active examples,  objective_value = 75.3524)
+ CGLS converged in 2484 iteration(s) and 1.48907 seconds.
+ LINE_SEARCH delta = 0.405313
+L2_SVM_MFN Iteration# 8 (8845 active examples,  objective_value = 59.4058)
+ CGLS converged in 2304 iteration(s) and 1.36421 seconds.
+ LINE_SEARCH delta = 0.290384
+L2_SVM_MFN Iteration# 9 (8676 active examples,  objective_value = 52.5717)
+ CGLS converged in 2346 iteration(s) and 1.36064 seconds.
+ LINE_SEARCH delta = 0.528066
+L2_SVM_MFN Iteration# 10 (8215 active examples,  objective_value = 43.3813)
+ CGLS converged in 2097 iteration(s) and 1.17015 seconds.
+ LINE_SEARCH delta = 0.336399
+L2_SVM_MFN Iteration# 11 (7936 active examples,  objective_value = 40.2872)
+ CGLS converged in 1933 iteration(s) and 1.06021 seconds.
+ LINE_SEARCH delta = 0.291193
+L2_SVM_MFN Iteration# 12 (7670 active examples,  objective_value = 38.4908)
+ CGLS converged in 1876 iteration(s) and 1.00409 seconds.
+ LINE_SEARCH delta = 0.250432
+L2_SVM_MFN Iteration# 13 (7465 active examples,  objective_value = 37.3098)
+ CGLS converged in 1731 iteration(s) and 0.91309 seconds.
+ LINE_SEARCH delta = 0.272839
+L2_SVM_MFN Iteration# 14 (7221 active examples,  objective_value = 36.2592)
+ CGLS converged in 1665 iteration(s) and 0.885406 seconds.
+ LINE_SEARCH delta = 0.335432
+L2_SVM_MFN Iteration# 15 (6980 active examples,  objective_value = 35.2784)
+ CGLS converged in 1501 iteration(s) and 0.751198 seconds.
+ LINE_SEARCH delta = 0.23829
+L2_SVM_MFN Iteration# 16 (6839 active examples,  objective_value = 34.8032)
+ CGLS converged in 1441 iteration(s) and 0.728218 seconds.
+ LINE_SEARCH delta = 0.340774
+L2_SVM_MFN Iteration# 17 (6646 active examples,  objective_value = 34.2806)
+ CGLS converged in 1195 iteration(s) and 0.620122 seconds.
+ LINE_SEARCH delta = 0.443758
+L2_SVM_MFN Iteration# 18 (6374 active examples,  objective_value = 33.8419)
+ CGLS converged in 1066 iteration(s) and 0.533846 seconds.
+ LINE_SEARCH delta = 0.178172
+L2_SVM_MFN Iteration# 19 (6348 active examples,  objective_value = 33.7563)
+ CGLS converged in 1028 iteration(s) and 0.532471 seconds.
+ LINE_SEARCH delta = 0.349307
+L2_SVM_MFN Iteration# 20 (6237 active examples,  objective_value = 33.5777)
+ CGLS converged in 920 iteration(s) and 0.451622 seconds.
+ LINE_SEARCH delta = 0.173858
+L2_SVM_MFN Iteration# 21 (6223 active examples,  objective_value = 33.5243)
+ CGLS converged in 880 iteration(s) and 0.451865 seconds.
+ LINE_SEARCH delta = 0.377114
+L2_SVM_MFN Iteration# 22 (6136 active examples,  objective_value = 33.4231)
+ CGLS converged in 718 iteration(s) and 0.348138 seconds.
+ LINE_SEARCH delta = 0.0946163
+L2_SVM_MFN Iteration# 23 (6146 active examples,  objective_value = 33.4063)
+ CGLS converged in 688 iteration(s) and 0.34705 seconds.
+ LINE_SEARCH delta = 0.360995
+L2_SVM_MFN Iteration# 24 (6072 active examples,  objective_value = 33.3364)
+ CGLS converged in 612 iteration(s) and 0.304912 seconds.
+ LINE_SEARCH delta = 0.0863053
+L2_SVM_MFN Iteration# 25 (6092 active examples,  objective_value = 33.3249)
+ CGLS converged in 598 iteration(s) and 0.286084 seconds.
+ LINE_SEARCH delta = 0.29135
+L2_SVM_MFN Iteration# 26 (6051 active examples,  objective_value = 33.2826)
+ CGLS converged in 555 iteration(s) and 0.280842 seconds.
+ LINE_SEARCH delta = 0.0583938
+L2_SVM_MFN Iteration# 27 (6069 active examples,  objective_value = 33.277)
+ CGLS converged in 545 iteration(s) and 0.266547 seconds.
+ LINE_SEARCH delta = 0.516856
+L2_SVM_MFN Iteration# 28 (5979 active examples,  objective_value = 33.2215)
+ CGLS converged in 93 iteration(s) and 0.042098 seconds.
+  epsilon = 0.01 case converged (speedup heuristic 2). Continuing with epsilon=1e-06
+L2_SVM_MFN Iteration# 29 (5979 active examples,  objective_value = 33.2215)
+ CGLS converged in 4706 iteration(s) and 2.25988 seconds.
+ LINE_SEARCH delta = 0.00919192
+L2_SVM_MFN Iteration# 30 (6027 active examples,  objective_value = 33.221)
+ CGLS converged in 4731 iteration(s) and 2.18984 seconds.
+ LINE_SEARCH delta = 0.443399
+L2_SVM_MFN Iteration# 31 (6012 active examples,  objective_value = 33.1927)
+ CGLS converged in 4470 iteration(s) and 2.12368 seconds.
+ LINE_SEARCH delta = 0.375095
+L2_SVM_MFN Iteration# 32 (5992 active examples,  objective_value = 33.1813)
+ CGLS converged in 4175 iteration(s) and 2.04647 seconds.
+ LINE_SEARCH delta = 0.361505
+L2_SVM_MFN Iteration# 33 (5976 active examples,  objective_value = 33.1719)
+ CGLS converged in 4118 iteration(s) and 2.0094 seconds.
+ LINE_SEARCH delta = 0.478839
+L2_SVM_MFN Iteration# 34 (5964 active examples,  objective_value = 33.1656)
+ CGLS converged in 3886 iteration(s) and 1.87662 seconds.
+ LINE_SEARCH delta = 0.334359
+L2_SVM_MFN Iteration# 35 (5955 active examples,  objective_value = 33.1633)
+ CGLS converged in 4001 iteration(s) and 1.90751 seconds.
+ LINE_SEARCH delta = 0.552662
+L2_SVM_MFN Iteration# 36 (5939 active examples,  objective_value = 33.1607)
+ CGLS converged in 3852 iteration(s) and 1.75706 seconds.
+ LINE_SEARCH delta = 0.871256
+L2_SVM_MFN Iteration# 37 (5912 active examples,  objective_value = 33.1593)
+ CGLS converged in 3262 iteration(s) and 1.59167 seconds.
+ LINE_SEARCH delta = 0.318969
+L2_SVM_MFN Iteration# 38 (5910 active examples,  objective_value = 33.1592)
+ CGLS converged in 3266 iteration(s) and 1.58897 seconds.
+ LINE_SEARCH delta = 1.00006
+L2_SVM_MFN Iteration# 39 (5905 active examples,  objective_value = 33.1591)
+ CGLS converged in 2432 iteration(s) and 1.17297 seconds.
+L2_SVM_MFN converged (optimality) in 39 iteration(s) and 43.7338 seconds. 
+
+
+Writing Weights to file: title_train.txt.weights
+Writing Outputs to file: title_train.txt.outputs
