@@ -75,9 +75,9 @@ print count
 
 for attrib in attributes:
     data = DATA[attrib];
-    with open('{}.txt'.format(attrib), 'w+') as outfile:
+    with open(outputFolder+'{}.txt'.format(attrib), 'w+') as outfile:
         json.dump(data, outfile, ensure_ascii=False);
-    with open('{}Vector.txt'.format(attrib), 'w+') as outfile:
+    with open(outputFolder+'{}Vector.txt'.format(attrib), 'w+') as outfile:
         for d in data.keys():
             outfile.write(str(data[d])+'\n');
 
