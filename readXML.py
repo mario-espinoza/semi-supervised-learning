@@ -1,12 +1,15 @@
 from lxml import etree
-import glob, json
+import glob, json, os
 
 folder='./data/'
 outputFolder='./output/'
 regex='*.raw.xml'
 
+if not os.path.exists(outputFolder):
+    os.makedirs(outputFolder)
+
 filenames = glob.glob(folder+regex)
-attributes = ['title','body','titleBody','avatars','names']
+attributes = ['title','body','titleBody','names']#,'avatars'
 
 Q={}
 DATA={}
@@ -20,13 +23,13 @@ def getLabels(imageDiv,id):
         return;
     image=imageDiv[0][0];
 
-    url = image.get('src')
+    # url = image.get('src')
     name = image.get('alt')
 
-    if url in L.keys():
-        DATA['avatars'][url]=L[url]+1;
-    else:
-        DATA['avatars'][url]=1;
+    # if url in DATA['avatars'].keys():
+    #     DATA['avatars'][url]+=1;
+    # else:
+    #     DATA['avatars'][url]=1;
 
     if len(name):
         DATA['names'][id]=name.lower().encode('utf-8');
@@ -75,9 +78,9 @@ print count
 
 for attrib in attributes:
     data = DATA[attrib];
+    # with open(outputFolder+'{}JSON.txt'.format(attrib), 'w+') as outfile:
+    #     json.dump(data, outfile, ensure_ascii=False);
     with open(outputFolder+'{}.txt'.format(attrib), 'w+') as outfile:
-        json.dump(data, outfile, ensure_ascii=False);
-    with open(outputFolder+'{}Vector.txt'.format(attrib), 'w+') as outfile:
         for d in data.keys():
             outfile.write(str(data[d])+'\n');
 
