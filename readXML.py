@@ -1,41 +1,42 @@
 from lxml import etree
-import glob
-import json
+import glob, json
 
 folder='./data/'
+outputFolder='./output/'
 regex='*.raw.xml'
 
 filenames = glob.glob(folder+regex)
+attributes = ['title','body','titleBody','avatars','names']
 
 Q={}
-L={}
-T={}
-B={}
-N={}
-A={}
-TB={}
+DATA={}
+
+for attrib in attributes:
+    DATA[attrib]={}
 
 def getLabels(imageDiv,id):
-    # print etree.tostring(image).strip()
     if not len(imageDiv) or not len(imageDiv[0]):
+        DATA['names'][id]='_';
         return;
-    imageA=imageDiv[0];
-    image=imageA[0];
+    image=imageDiv[0][0];
+
     url = image.get('src')
     name = image.get('alt')
 
     if url in L.keys():
-        L[url]=L[url]+1;
+        DATA['avatars'][url]=L[url]+1;
     else:
-        L[url]=1;
+        DATA['avatars'][url]=1;
 
     if len(name):
-        N[id]=name;
+        DATA['names'][id]=name.lower().encode('utf-8');
+    else:
+        DATA['names'][id]='_';
+        print '_';
     return;
 
 def joinText(fullText):
     body = '';
-    c=1;
     if not fullText or len(fullText) == 0:
         return body;
 
@@ -44,44 +45,39 @@ def joinText(fullText):
             span=div[len(div)-1]
             text = span.text
             if text is not None:
-                body+=' '+text.strip()
-        c=c+1;
-    # print body
+                body+=' '+' '.join(text.lower().split())
     return body;
 
-
-
+count = 0
 for filename in filenames:
     questionID = filename.replace(folder,'').replace(regex[1:],'').split('.')[0];
+
     if questionID in Q.keys():
         continue;
-    # print questionID;
-    parser = etree.XMLParser(recover=True);
+
+    parser = etree.XMLParser(encoding='utf-8',recover=True);
     root = etree.parse(filename,parser);
     questionInfo = root.xpath('//div[@data-ya-question-id="'+questionID+'" and @role="main"]');
 
     for e in questionInfo:
         imageDiv = e.xpath('//div[@id="yq-question-detail-profile-img"]')[0];
         title = e.xpath('//h1[@itemprop="name"]')[0];
-        titleText=title.text.strip();
-        T[questionID]=titleText;
+        titleText=' '.join(title.text.lower().split()).encode('utf-8');
+        DATA['title'][questionID]=titleText;
         getLabels(imageDiv,questionID);
-
         texts = e.xpath('//div[@class="Fz-13 Fw-n Mb-10" and span[@class="ya-q-text" or @class="ya-q-full-text"]]');
-        body = joinText(texts);
-        B[questionID]=body;
-        TB[questionID]=titleText+' '+body;
+        body = joinText(texts).encode('utf-8').strip();
+        DATA['body'][questionID]=body;
+        DATA['titleBody'][questionID]=titleText+' '+body;
     Q[questionID] = True;
+    count+=1
+print count
 
-with open('labelCount.txt', 'w+') as outfile:
-    json.dump(L, outfile)
-with open('title.txt', 'w+') as outfile:
-    json.dump(T, outfile)
-with open('body.txt', 'w+') as outfile:
-    json.dump(B, outfile)
-with open('titleBody.txt', 'w+') as outfile:
-    json.dump(TB, outfile)
-with open('avatars.txt', 'w+') as outfile:
-    json.dump(A, outfile)
-with open('names.txt', 'w+') as outfile:
-    json.dump(N, outfile)
+for attrib in attributes:
+    data = DATA[attrib];
+    with open('{}.txt'.format(attrib), 'w+') as outfile:
+        json.dump(data, outfile, ensure_ascii=False);
+    with open('{}Vector.txt'.format(attrib), 'w+') as outfile:
+        for d in data.keys():
+            outfile.write(str(data[d])+'\n');
+
